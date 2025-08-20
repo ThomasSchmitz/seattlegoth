@@ -117,6 +117,72 @@ class SpotifyImageDemo {
     }
     
     /**
+     * Process all bands
+     */
+    public function processAllBands() {
+        $html_files = glob($this->acts_dir . '/*.html');
+        $processed = 0;
+        $total = 0;
+        
+        foreach ($html_files as $file) {
+            $filename = basename($file);
+            
+            // Skip index.html and TEMPLATE.html
+            if ($filename === 'index.html' || $filename === 'TEMPLATE.html') {
+                continue;
+            }
+            
+            // Check if file has placeholder text
+            $content = file_get_contents($file);
+            if (strpos($content, '[Band Image - To be added to images/ directory]') === false) {
+                continue;
+            }
+            
+            $total++;
+            echo "\n--- Processing: $filename ---\n";
+            
+            // Extract band name
+            $band_name = $this->extractBandName($file);
+            if (!$band_name) {
+                echo "⚠ Could not extract band name from $filename\n";
+                continue;
+            }
+            
+            echo "Band name: $band_name\n";
+            
+            // Generate filename
+            $image_filename = strtolower(str_replace([' ', '&', '(', ')', '.', '/'], ['-', 'and', '', '', '', '-'], $band_name)) . '.jpg';
+            $image_filename = preg_replace('/[^a-z0-9\-\.]/', '', $image_filename);
+            $image_filename = preg_replace('/-+/', '-', $image_filename); // Remove multiple dashes
+            
+            echo "Image filename: $image_filename\n";
+            
+            // Create sample image
+            if ($this->createSampleImage($band_name, $image_filename)) {
+                echo "✓ Created sample image: $image_filename\n";
+                
+                // Update HTML file
+                if ($this->updateHtmlFile($file, $image_filename, $band_name)) {
+                    echo "✓ Updated HTML file\n";
+                    $processed++;
+                } else {
+                    echo "⚠ Failed to update HTML file\n";
+                }
+            } else {
+                echo "⚠ Failed to create sample image\n";
+            }
+        }
+        
+        echo "\n=== Final Summary ===\n";
+        echo "Total bands processed: $processed / $total\n";
+        echo "Sample images created in: {$this->images_dir}\n";
+        echo "\nTo use real Spotify images:\n";
+        echo "1. Run get_spotify_images.php with internet access\n";
+        echo "2. The script will fetch actual band images from Spotify\n";
+        echo "3. Replace sample images with real ones\n";
+    }
+    
+    /**
      * Process specific bands for demo
      */
     public function processDemoBands($limit = 5) {
@@ -232,6 +298,9 @@ $demo = new SpotifyImageDemo();
 switch ($action) {
     case 'list':
         $demo->listBandsNeedingImages();
+        break;
+    case 'all':
+        $demo->processAllBands();
         break;
     case 'demo':
     default:
