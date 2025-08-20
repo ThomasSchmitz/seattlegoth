@@ -23,3 +23,6 @@ Thumbs.db
 
 # PHP temporary files
 *.cache
+
+# Backup files from band page updates
+acts/*.backup
