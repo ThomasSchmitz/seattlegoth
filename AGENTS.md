@@ -1,0 +1,1 @@
+- Read all files in https://github.com/ThomasSchmitz/seattlegoth/tree/main/AGENTS
