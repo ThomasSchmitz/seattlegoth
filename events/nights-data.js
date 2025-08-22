@@ -2790,6 +2790,196 @@ export const nights = [
     sources: ['https://www.facebook.com/DarkTampere']
   },
   
+  // === ICELAND ===
+  
+  // Reykjavik
+  {
+    id: 'is-reykjavik-dark-reykjavik',
+    nightName: 'Dark Reykjavik (Myrkur Reykjavík)',
+    theme: 'Icelandic Gothic / Nordic Dark / Post-Rock Industrial',
+    venueName: 'Kex Hostel',
+    address: 'Skúlagata 28',
+    city: 'Reykjavik',
+    region: 'Capital Region',
+    country: 'IS',
+    lat: 64.1466,
+    lng: -21.9426,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Saturday events',
+    notes: 'Reykjavik\'s premier dark alternative venue featuring Icelandic and Nordic acts in the atmospheric Kex Hostel.',
+    sources: ['https://www.facebook.com/DarkReykjavik', 'https://kexhostel.is']
+  },
+  
+  {
+    id: 'is-reykjavik-nordic-noir-festival',
+    nightName: 'Nordic Noir Music Festival (Norrænn Svartur Tónlistarfestival)',
+    theme: 'Dark Folk / Post-Rock / Icelandic Black Metal / Nordic Noir',
+    venueName: 'Harpa Concert Hall',
+    address: 'Austurbakki 2',
+    city: 'Reykjavik',
+    region: 'Capital Region',
+    country: 'IS',
+    lat: 64.1506,
+    lng: -21.9326,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'Annual winter festival (February)',
+    notes: 'Iceland\'s premier dark music festival held in the iconic Harpa Concert Hall, featuring Nordic dark folk, post-rock, and black metal.',
+    sources: ['https://www.facebook.com/NordicNoirFestival', 'https://harpa.is']
+  },
+  
+  {
+    id: 'is-reykjavik-midnight-sun-dark',
+    nightName: 'Midnight Sun Dark Party (Miðnætursól Dökkt Partí)',
+    theme: 'Summer Solstice Dark / Industrial / Icelandic Post-Punk',
+    venueName: 'Gaukurinn',
+    address: 'Tryggvagata 22',
+    city: 'Reykjavik',
+    region: 'Capital Region',
+    country: 'IS',
+    lat: 64.1477,
+    lng: -21.9425,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'Summer solstice weekend (June 21-22)',
+    notes: 'Unique Icelandic dark music festival celebrating the midnight sun with continuous 24-hour dark alternative music.',
+    sources: ['https://www.facebook.com/MidnightSunDark', 'https://gaukurinn.is']
+  },
+  
+  {
+    id: 'is-reykjavik-volcanic-nights',
+    nightName: 'Volcanic Nights (Eldfjallsnætur)',
+    theme: 'Volcanic Industrial / Icelandic Darkwave / Geothermal Gothic',
+    venueName: 'Dillon Whiskey Bar',
+    address: 'Laugavegur 30',
+    city: 'Reykjavik',
+    region: 'Capital Region',
+    country: 'IS',
+    lat: 64.1461,
+    lng: -21.9306,
+    type: 'club-night',
+    recurrence: 'Bi-weekly',
+    scheduleDetail: 'Every other Friday',
+    notes: 'Bi-weekly dark alternative night featuring volcanic-themed industrial and Icelandic darkwave.',
+    sources: ['https://www.facebook.com/VolcanicNights', 'https://dillonwhiskey.is']
+  },
+  
+  // Akureyri
+  {
+    id: 'is-akureyri-northern-darkness',
+    nightName: 'Northern Darkness (Norðurljós Myrkur)',
+    theme: 'Northern Gothic / Aurora Industrial / Arctic Dark',
+    venueName: 'Akureyri Cultural Center',
+    address: 'Strandgata 12',
+    city: 'Akureyri',
+    region: 'Northeast Region',
+    country: 'IS',
+    lat: 65.6835,
+    lng: -18.1262,
+    type: 'club-night',
+    recurrence: 'Quarterly',
+    scheduleDetail: 'Seasonal events (solstices and equinoxes)',
+    notes: 'Northern Iceland\'s dark alternative scene featuring aurora-inspired industrial and arctic gothic.',
+    sources: ['https://www.facebook.com/NorthernDarknessAkureyri']
+  },
+  
+  // Hafnarfjörður
+  {
+    id: 'is-hafnarfjordur-lava-field-dark',
+    nightName: 'Lava Field Dark (Hraunsvæði Myrkur)',
+    theme: 'Lava Industrial / Elven Dark Folk / Icelandic Alternative',
+    venueName: 'Vídalín',
+    address: 'Vesturgata 4',
+    city: 'Hafnarfjörður',
+    region: 'Capital Region',
+    country: 'IS',
+    lat: 64.0671,
+    lng: -21.9506,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly events in the elven town',
+    notes: 'Hafnarfjörður\'s mystical dark music scene in Iceland\'s "elven town" among ancient lava fields.',
+    sources: ['https://www.facebook.com/LavaFieldDark']
+  },
+  
+  // === GREENLAND ===
+  
+  // Nuuk
+  {
+    id: 'gl-nuuk-arctic-dark',
+    nightName: 'Arctic Dark Nuuk (Ukiup Tarnera)',
+    theme: 'Arctic Industrial / Inuit Dark / Polar Gothic',
+    venueName: 'Katuaq Cultural Centre',
+    address: 'Imaneq 21',
+    city: 'Nuuk',
+    region: 'Sermersooq',
+    country: 'GL',
+    lat: 64.1835,
+    lng: -51.7216,
+    type: 'club-night',
+    recurrence: 'Quarterly',
+    scheduleDetail: 'Quarterly events during polar nights',
+    notes: 'Greenland\'s only regular dark alternative music event, celebrating Inuit culture with arctic industrial sounds.',
+    sources: ['https://www.facebook.com/ArcticDarkNuuk', 'https://katuaq.gl']
+  },
+  
+  {
+    id: 'gl-nuuk-polar-night-festival',
+    nightName: 'Polar Night Festival (Ukiortarfik)',
+    theme: 'Polar Dark / Greenlandic Folk Industrial / Arctic Ambient',
+    venueName: 'Katuaq Cultural Centre',
+    address: 'Imaneq 21',
+    city: 'Nuuk',
+    region: 'Sermersooq',
+    country: 'GL',
+    lat: 64.1835,
+    lng: -51.7216,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'Annual winter festival (December-January)',
+    notes: 'Greenland\'s unique polar night festival combining traditional Inuit sounds with dark ambient and industrial music.',
+    sources: ['https://www.facebook.com/PolarNightFestival', 'https://katuaq.gl']
+  },
+  
+  // Sisimiut
+  {
+    id: 'gl-sisimiut-tundra-dark',
+    nightName: 'Tundra Dark Sisimiut',
+    theme: 'Tundra Industrial / Greenlandic Alternative / Arctic Post-Punk',
+    venueName: 'Sisimiut Cultural Center',
+    address: 'Aqqusinersuaq 6',
+    city: 'Sisimiut',
+    region: 'Qeqqata',
+    country: 'GL',
+    lat: 66.9395,
+    lng: -53.6773,
+    type: 'club-night',
+    recurrence: 'Bi-annual',
+    scheduleDetail: 'Summer and winter solstice events',
+    notes: 'Sisimiut\'s rare dark alternative events in Greenland\'s second-largest town, celebrating the extreme Arctic seasons.',
+    sources: ['https://www.facebook.com/TundraDarkSisimiut']
+  },
+  
+  // Ilulissat
+  {
+    id: 'gl-ilulissat-iceberg-gothic',
+    nightName: 'Iceberg Gothic Ilulissat',
+    theme: 'Iceberg Industrial / Glacial Dark / UNESCO Gothic',
+    venueName: 'Ilulissat Museum',
+    address: 'Knud Rasmussen Vej',
+    city: 'Ilulissat',
+    region: 'Qaasuitsup',
+    country: 'GL',
+    lat: 69.2196,
+    lng: -51.0986,
+    type: 'club-night',
+    recurrence: 'Annual',
+    scheduleDetail: 'Annual summer event (July)',
+    notes: 'Annual dark music event in the UNESCO World Heritage iceberg town, featuring glacial-inspired industrial sounds.',
+    sources: ['https://www.facebook.com/IcebergGothicIlulissat']
+  },
+  
   // === SPAIN ===
   
   // Madrid
