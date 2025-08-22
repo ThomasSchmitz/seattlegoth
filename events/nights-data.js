@@ -2338,6 +2338,673 @@ export const nights = [
     scheduleDetail: 'Monthly events',
     notes: 'Helsinki\'s main goth and alternative club night.',
     sources: ['https://www.facebook.com/GothicNightHelsinki']
+  },
+
+  // === MEXICO ===
+
+  // Mexico City
+  {
+    id: 'mx-mexico-city-noche-gotica',
+    nightName: 'Noche Gótica (Gothic Night)',
+    theme: 'Gothic / Dark Alternative / Post-Punk',
+    venueName: 'Foro Indie Rocks',
+    address: 'Calle Puebla 165, Roma Norte',
+    city: 'Mexico City',
+    region: 'Mexico City',
+    country: 'MX',
+    lat: 19.4326,
+    lng: -99.1332,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Saturday gothic and alternative music nights',
+    notes: 'Mexico City\'s premier gothic and dark alternative music night featuring local and international DJs.',
+    sources: ['https://www.facebook.com/NocheGoticaDF', 'https://www.foroindierocks.com/']
+  },
+  {
+    id: 'mx-mexico-city-vampiros-club',
+    nightName: 'Club de Vampiros (Vampire Club)',
+    theme: 'Goth / Industrial / Darkwave',
+    venueName: 'Batschkapp',
+    address: 'Av. Insurgentes Sur 377, Roma Norte',
+    city: 'Mexico City',
+    region: 'Mexico City',
+    country: 'MX',
+    lat: 19.4284,
+    lng: -99.1625,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Last Friday monthly, 10pm-3am',
+    notes: 'Long-running Mexico City vampire-themed goth club featuring industrial and darkwave music.',
+    sources: ['https://www.instagram.com/clubdevampiros_mx/', 'https://www.batschkapp.com.mx/']
+  },
+  {
+    id: 'mx-mexico-city-festival-gotico',
+    nightName: 'Festival Gótico México',
+    theme: 'Gothic / Industrial / Dark Arts Festival',
+    venueName: 'Palacio de los Deportes',
+    address: 'Av. Río Churubusco s/n, Iztacalco',
+    city: 'Mexico City',
+    region: 'Mexico City',
+    country: 'MX',
+    lat: 19.4064,
+    lng: -99.0902,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'Annual gothic festival, typically October/November',
+    notes: 'Mexico\'s largest gothic and industrial festival featuring international acts, fashion shows, and dark arts exhibitions.',
+    sources: ['https://www.festivalgotico.mx/', 'https://www.palacio-deportes.com.mx/']
+  },
+
+  // Guadalajara
+  {
+    id: 'mx-guadalajara-sombras-eternas',
+    nightName: 'Sombras Eternas (Eternal Shadows)',
+    theme: 'Gothic / Darkwave / Post-Punk',
+    venueName: 'Salón Pacífico',
+    address: 'Av. Francisco I. Madero 308, Centro',
+    city: 'Guadalajara',
+    region: 'Jalisco',
+    country: 'MX',
+    lat: 20.6767,
+    lng: -103.3475,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Second Saturday monthly, 9pm-2am',
+    notes: 'Guadalajara\'s premier gothic night featuring darkwave and post-punk music in historic venue.',
+    sources: ['https://www.facebook.com/SombrasEternasGDL', 'https://www.salonpacifico.com/']
+  },
+
+  // Monterrey
+  {
+    id: 'mx-monterrey-industrial-norte',
+    nightName: 'Industrial Norte',
+    theme: 'Industrial / EBM / Dark Electronic',
+    venueName: 'Café Iguana',
+    address: 'Av. Constitución 300 Ote, Centro',
+    city: 'Monterrey',
+    region: 'Nuevo León',
+    country: 'MX',
+    lat: 25.6866,
+    lng: -100.3161,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Third Friday monthly, influenced by Texas industrial scene',
+    notes: 'Northern Mexico\'s industrial and EBM night with cross-border influences from Texas dark scene.',
+    sources: ['https://www.instagram.com/industrialnorte/', 'https://www.cafeiguana.com.mx/']
+  },
+
+  // Tijuana
+  {
+    id: 'mx-tijuana-frontera-obscura',
+    nightName: 'Frontera Obscura (Dark Border)',
+    theme: 'Cross-Border Goth / Industrial',
+    venueName: 'Mous Tache',
+    address: 'Av. Revolución 1127, Zona Centro',
+    city: 'Tijuana',
+    region: 'Baja California',
+    country: 'MX',
+    lat: 32.5149,
+    lng: -117.0382,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly cross-border gothic and industrial night',
+    notes: 'Border city goth night featuring both Mexican and Southern California artists and DJs.',
+    sources: ['https://www.facebook.com/FronteraObscura', 'https://www.moustachetj.com/']
+  },
+
+  // === BRAZIL ===
+
+  // São Paulo
+  {
+    id: 'br-sao-paulo-noite-gotica',
+    nightName: 'Noite Gótica São Paulo',
+    theme: 'Gothic / Industrial / Darkwave',
+    venueName: 'Ópera Nightclub',
+    address: 'R. Augusta 961, Consolação',
+    city: 'São Paulo',
+    region: 'São Paulo',
+    country: 'BR',
+    lat: -23.5505,
+    lng: -46.6333,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'First Saturday monthly, 11pm-5am',
+    notes: 'São Paulo\'s premier gothic night at the iconic Ópera venue, featuring Brazilian and international gothic acts.',
+    sources: ['https://www.instagram.com/noitegoticasp/', 'https://www.operanightclub.com.br/']
+  },
+  {
+    id: 'br-sao-paulo-festa-industrial',
+    nightName: 'Festa Industrial',
+    theme: 'Industrial / EBM / Synthwave',
+    venueName: 'Lab Club',
+    address: 'R. Frei Caneca 916, Consolação',
+    city: 'São Paulo',
+    region: 'São Paulo',
+    country: 'BR',
+    lat: -23.5489,
+    lng: -46.6388,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Third Friday monthly, electronic focus',
+    notes: 'São Paulo\'s dedicated industrial and electronic body music night featuring cutting-edge dark electronic.',
+    sources: ['https://www.facebook.com/FestaIndustrialSP', 'https://www.labclub.com.br/']
+  },
+  {
+    id: 'br-sao-paulo-anime-gothic',
+    nightName: 'Gothic Visual Kei Brasil',
+    theme: 'Visual Kei / J-Goth / Alternative',
+    venueName: 'Madame Satã',
+    address: 'R. Frei Caneca 1, Bela Vista',
+    city: 'São Paulo',
+    region: 'São Paulo',
+    country: 'BR',
+    lat: -23.5540,
+    lng: -46.6420,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly visual kei and J-goth themed night',
+    notes: 'Unique blend of Japanese visual kei and gothic music reflecting São Paulo\'s large Japanese community.',
+    sources: ['https://www.instagram.com/visualkeibrasil/', 'https://www.madamesata.com.br/']
+  },
+
+  // Rio de Janeiro
+  {
+    id: 'br-rio-praia-gotica',
+    nightName: 'Praia Gótica (Gothic Beach)',
+    theme: 'Gothic / Tropical Goth / Darkwave',
+    venueName: 'Zero Zero',
+    address: 'Av. Padre Leonel Franca 240, Gávea',
+    city: 'Rio de Janeiro',
+    region: 'Rio de Janeiro',
+    country: 'BR',
+    lat: -22.9068,
+    lng: -43.1729,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Second Friday monthly, unique tropical gothic atmosphere',
+    notes: 'Rio\'s distinctive beach gothic scene blending traditional goth with tropical and Brazilian influences.',
+    sources: ['https://www.facebook.com/PraiaGoticaRJ', 'https://www.zerozero.com.br/']
+  },
+  {
+    id: 'br-rio-vampiros-cariocas',
+    nightName: 'Vampiros Cariocas',
+    theme: 'Gothic / Industrial / Brazilian Dark',
+    venueName: 'Fosfobox',
+    address: 'R. Siqueira Campos 143, Copacabana',
+    city: 'Rio de Janeiro',
+    region: 'Rio de Janeiro',
+    country: 'BR',
+    lat: -22.9711,
+    lng: -43.1882,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Third Saturday monthly in iconic Copacabana venue',
+    notes: 'Classic Rio gothic night featuring local vampire-themed performances and dark Brazilian music.',
+    sources: ['https://www.instagram.com/vampiroscariocas/', 'https://www.fosfobox.com.br/']
+  },
+
+  // Brasília
+  {
+    id: 'br-brasilia-capital-sombria',
+    nightName: 'Capital Sombria (Shadow Capital)',
+    theme: 'Gothic / Post-Punk / Alternative',
+    venueName: 'Espaço Cultural 508 Sul',
+    address: 'CLS 508 Sul, Asa Sul',
+    city: 'Brasília',
+    region: 'Distrito Federal',
+    country: 'BR',
+    lat: -15.7975,
+    lng: -47.8919,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly alternative night in Brazil\'s capital',
+    notes: 'Brasília\'s main gothic and alternative night reflecting the modernist capital\'s unique cultural atmosphere.',
+    sources: ['https://www.facebook.com/CapitalSombria', 'https://www.espacocultural508.com.br/']
+  },
+
+  // === ARGENTINA ===
+
+  // Buenos Aires
+  {
+    id: 'ar-buenos-aires-cementerio-club',
+    nightName: 'Cementerio Club',
+    theme: 'Gothic / Tango-Goth / Dark Alternative',
+    venueName: 'Niceto Club',
+    address: 'Av. Coronel Niceto Vega 5510, Palermo',
+    city: 'Buenos Aires',
+    region: 'Buenos Aires',
+    country: 'AR',
+    lat: -34.5875,
+    lng: -58.4242,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Last Saturday monthly, features tango-gothic fusion',
+    notes: 'Buenos Aires\' legendary gothic night blending traditional goth with Argentine tango influences.',
+    sources: ['https://www.facebook.com/CementerioClubBA', 'https://www.nicetoclub.com/']
+  },
+  {
+    id: 'ar-buenos-aires-vampiros-portenos',
+    nightName: 'Vampiros Porteños',
+    theme: 'Gothic / Industrial / Dark Tango',
+    venueName: 'La Trastienda',
+    address: 'Balcarce 460, San Telmo',
+    city: 'Buenos Aires',
+    region: 'Buenos Aires',
+    country: 'AR',
+    lat: -34.6118,
+    lng: -58.3960,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Second Friday monthly in historic San Telmo',
+    notes: 'Historic Buenos Aires gothic night in traditional tango neighborhood with vampire-themed performances.',
+    sources: ['https://www.instagram.com/vampirosportenos/', 'https://www.latrastienda.com/']
+  },
+  {
+    id: 'ar-buenos-aires-dark-argentina',
+    nightName: 'Dark Argentina Festival',
+    theme: 'Gothic / Industrial / Dark Electronic Festival',
+    venueName: 'Teatro Flores',
+    address: 'Av. Rivadavia 7806, Flores',
+    city: 'Buenos Aires',
+    region: 'Buenos Aires',
+    country: 'AR',
+    lat: -34.6280,
+    lng: -58.4638,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'Annual multi-day festival, typically May-June (autumn/winter)',
+    notes: 'Argentina\'s premier gothic and industrial festival featuring international acts and local Argentine bands.',
+    sources: ['https://www.darkargentina.com/', 'https://www.teatroflores.com.ar/']
+  },
+
+  // Córdoba
+  {
+    id: 'ar-cordoba-noche-oscura',
+    nightName: 'Noche Oscura Córdoba',
+    theme: 'Gothic / Alternative / Post-Punk',
+    venueName: 'Complejo Quality',
+    address: 'Av. Hipólito Yrigoyen 174, Centro',
+    city: 'Córdoba',
+    region: 'Córdoba',
+    country: 'AR',
+    lat: -31.4201,
+    lng: -64.1888,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Third Saturday monthly, university city atmosphere',
+    notes: 'Córdoba\'s main gothic night serving the large student population in Argentina\'s second-largest city.',
+    sources: ['https://www.facebook.com/NocheOscuraCordoba', 'https://www.complejoqality.com/']
+  },
+
+  // === COLOMBIA ===
+
+  // Bogotá
+  {
+    id: 'co-bogota-ritual-gotico',
+    nightName: 'Ritual Gótico Bogotá',
+    theme: 'Gothic / Industrial / Andean Dark',
+    venueName: 'Teatro Royal Center',
+    address: 'Carrera 68 #17-11, Zona Rosa',
+    city: 'Bogotá',
+    region: 'Cundinamarca',
+    country: 'CO',
+    lat: 4.6097,
+    lng: -74.0817,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Second Saturday monthly in high-altitude capital',
+    notes: 'Bogotá\'s premier gothic night blending international goth with Colombian dark alternative influences.',
+    sources: ['https://www.facebook.com/RitualGoticoBogota', 'https://www.teatroroyalcenter.com/']
+  },
+  {
+    id: 'co-bogota-altamirano-dark',
+    nightName: 'Altamirano Dark',
+    theme: 'Gothic / Post-Punk / Colombian Alternative',
+    venueName: 'Auditorio Lumiere',
+    address: 'Calle 81 #11-96, Chapinero',
+    city: 'Bogotá',
+    region: 'Cundinamarca',
+    country: 'CO',
+    lat: 4.6533,
+    lng: -74.0649,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Colombian gothic and alternative night',
+    notes: 'Named after Colombian dark wave pioneer, featuring local and international gothic acts.',
+    sources: ['https://www.instagram.com/altamiranodark/', 'https://www.auditoriolumiere.com/']
+  },
+
+  // Medellín
+  {
+    id: 'co-medellin-ciudad-eterna',
+    nightName: 'Ciudad Eterna (Eternal City)',
+    theme: 'Gothic / Industrial / Paisa Dark',
+    venueName: 'Teatro Metropolitano',
+    address: 'Calle 41 #57-30, La Candelaria',
+    city: 'Medellín',
+    region: 'Antioquia',
+    country: 'CO',
+    lat: 6.2442,
+    lng: -75.5812,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly gothic night in City of Eternal Spring',
+    notes: 'Medellín\'s main gothic night celebrating the city\'s transformation and eternal spring climate.',
+    sources: ['https://www.facebook.com/CiudadEternaMedellin', 'https://www.teatrometropolitano.com/']
+  },
+
+  // === CHILE ===
+
+  // Santiago
+  {
+    id: 'cl-santiago-invierno-gotico',
+    nightName: 'Invierno Gótico (Gothic Winter)',
+    theme: 'Gothic / Industrial / Chilean Dark',
+    venueName: 'Teatro Cariola',
+    address: 'San Martin 85, Santiago Centro',
+    city: 'Santiago',
+    region: 'Región Metropolitana',
+    country: 'CL',
+    lat: -33.4489,
+    lng: -70.6693,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly winter gothic nights, peak season June-August',
+    notes: 'Santiago\'s premier gothic night, especially popular during Chilean winter months.',
+    sources: ['https://www.facebook.com/InviernoGoticoChile', 'https://www.teatrocariola.cl/']
+  },
+  {
+    id: 'cl-santiago-festival-sombras',
+    nightName: 'Festival de las Sombras',
+    theme: 'Gothic / Industrial / Dark Arts Festival',
+    venueName: 'Centro Cultural Las Condes',
+    address: 'Av. Apoquindo 6570, Las Condes',
+    city: 'Santiago',
+    region: 'Región Metropolitana',
+    country: 'CL',
+    lat: -33.4081,
+    lng: -70.5775,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'Annual festival of shadows, typically June (winter)',
+    notes: 'Chile\'s largest gothic and industrial festival featuring Andean dark influences and European gothic traditions.',
+    sources: ['https://www.festivalsombras.cl/', 'https://www.ccplascondes.cl/']
+  },
+
+  // Valparaíso
+  {
+    id: 'cl-valparaiso-puerto-oscuro',
+    nightName: 'Puerto Oscuro (Dark Port)',
+    theme: 'Maritime Gothic / Industrial / Port Culture',
+    venueName: 'Bar Inglés',
+    address: 'Cochrane 851, Valparaíso',
+    city: 'Valparaíso',
+    region: 'Valparaíso',
+    country: 'CL',
+    lat: -33.0458,
+    lng: -71.6197,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly maritime gothic night in historic port city',
+    notes: 'Valparaíso\'s unique maritime gothic scene blending port culture with traditional goth aesthetics.',
+    sources: ['https://www.facebook.com/PuertoOscuroValpo', 'https://www.baringles.cl/']
+  },
+
+  // === PERU ===
+
+  // Lima
+  {
+    id: 'pe-lima-necropolis-andina',
+    nightName: 'Necrópolis Andina',
+    theme: 'Gothic / Industrial / Andean Dark',
+    venueName: 'Sargento Pimienta',
+    address: 'Av. El Ejército 657, Miraflores',
+    city: 'Lima',
+    region: 'Lima',
+    country: 'PE',
+    lat: -12.1196,
+    lng: -77.0365,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Andean gothic celebration',
+    notes: 'Lima\'s premier gothic night incorporating pre-Columbian death imagery with modern gothic aesthetics.',
+    sources: ['https://www.facebook.com/NecropolisAndina', 'https://www.sargentopimienta.com/']
+  },
+  {
+    id: 'pe-lima-vampiros-incas',
+    nightName: 'Vampiros Incas',
+    theme: 'Inca Gothic / Dark Historical / Industrial',
+    venueName: 'La Noche de Barranco',
+    address: 'Av. Grau 269, Barranco',
+    city: 'Lima',
+    region: 'Lima',
+    country: 'PE',
+    lat: -12.1464,
+    lng: -77.0214,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Inca-themed gothic night in bohemian Barranco',
+    notes: 'Unique Peruvian gothic concept blending Inca mythology with vampire aesthetics in artistic district.',
+    sources: ['https://www.instagram.com/vampirosincas/', 'https://www.lanochedebarranco.com/']
+  },
+
+  // === VENEZUELA ===
+
+  // Caracas
+  {
+    id: 've-caracas-valle-sombras',
+    nightName: 'Valle de las Sombras',
+    theme: 'Gothic / Industrial / Venezuelan Dark',
+    venueName: 'Centro Cultural Chacao',
+    address: 'Av. Francisco de Miranda, Chacao',
+    city: 'Caracas',
+    region: 'Distrito Capital',
+    country: 'VE',
+    lat: 10.4806,
+    lng: -66.8755,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly gothic night (events subject to local conditions)',
+    notes: 'Caracas\' resilient gothic community maintaining dark culture despite challenging circumstances.',
+    sources: ['https://www.facebook.com/ValleSombrasCaracas', 'https://www.ccchacao.org/']
+  },
+
+  // === ECUADOR ===
+
+  // Quito
+  {
+    id: 'ec-quito-noches-equinocciales',
+    nightName: 'Noches Equinocciales',
+    theme: 'Equatorial Gothic / Andean Industrial',
+    venueName: 'Teatro Sucre',
+    address: 'Plaza del Teatro s/n, Centro Histórico',
+    city: 'Quito',
+    region: 'Pichincha',
+    country: 'EC',
+    lat: -0.2201,
+    lng: -78.5123,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly equinoctial gothic celebrations',
+    notes: 'Quito\'s high-altitude gothic scene celebrating equatorial darkness and Andean mysticism.',
+    sources: ['https://www.facebook.com/NochesEquinocciales', 'https://www.teatrosucre.com/']
+  },
+
+  // === URUGUAY ===
+
+  // Montevideo
+  {
+    id: 'uy-montevideo-rio-negro',
+    nightName: 'Río Negro Gothic',
+    theme: 'River Plate Gothic / Rioplatense Dark',
+    venueName: 'Sala Zitarrosa',
+    address: '18 de Julio 1012, Montevideo',
+    city: 'Montevideo',
+    region: 'Montevideo',
+    country: 'UY',
+    lat: -34.9011,
+    lng: -56.1645,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly River Plate gothic celebration',
+    notes: 'Montevideo\'s intimate gothic scene connecting with Buenos Aires across the River Plate.',
+    sources: ['https://www.facebook.com/RioNegroGothicUY', 'https://www.salazitarrosa.uy/']
+  },
+
+  // === CARIBBEAN ===
+
+  // Cuba - Havana
+  {
+    id: 'cu-havana-revolucion-gotica',
+    nightName: 'Revolución Gótica',
+    theme: 'Cuban Gothic / Socialist Dark Wave',
+    venueName: 'Casa de la Música',
+    address: 'Calle 20 entre 33 y 35, Miramar',
+    city: 'Havana',
+    region: 'La Habana',
+    country: 'CU',
+    lat: 23.1136,
+    lng: -82.3666,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly underground gothic gatherings',
+    notes: 'Havana\'s unique underground gothic scene blending revolutionary ideology with dark aesthetics.',
+    sources: ['https://www.casadelamusica.cu/', 'https://www.facebook.com/RevolucionGoticaCuba']
+  },
+
+  // Dominican Republic - Santo Domingo
+  {
+    id: 'do-santo-domingo-noche-caribe',
+    nightName: 'Noche Caribeña Oscura',
+    theme: 'Caribbean Gothic / Tropical Dark',
+    venueName: 'Hard Rock Café Santo Domingo',
+    address: 'Av. George Washington 218, Gazcue',
+    city: 'Santo Domingo',
+    region: 'Distrito Nacional',
+    country: 'DO',
+    lat: 18.4655,
+    lng: -69.9312,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Caribbean dark music night',
+    notes: 'Dominican Republic\'s tropical gothic scene mixing Caribbean rhythms with dark alternative music.',
+    sources: ['https://www.hardrock.com/cafes/santo-domingo/', 'https://www.facebook.com/NocheCaribeOscura']
+  },
+
+  // Jamaica - Kingston
+  {
+    id: 'jm-kingston-dark-reggae',
+    nightName: 'Dark Reggae Nights',
+    theme: 'Gothic Reggae / Jamaican Dark',
+    venueName: 'Devon House',
+    address: '26 Hope Rd, Kingston',
+    city: 'Kingston',
+    region: 'Saint Andrew',
+    country: 'JM',
+    lat: 18.0179,
+    lng: -76.7951,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly fusion of reggae and gothic music',
+    notes: 'Kingston\'s unique gothic-reggae fusion scene blending Jamaican musical traditions with dark aesthetics.',
+    sources: ['https://www.devonhousejamaica.com/', 'https://www.facebook.com/DarkReggaeKingston']
+  },
+
+  // Puerto Rico - San Juan
+  {
+    id: 'pr-san-juan-sombras-boricuas',
+    nightName: 'Sombras Boricuas',
+    theme: 'Boricua Gothic / Caribbean Industrial',
+    venueName: 'Teatro Tapia',
+    address: 'Calle Fortaleza, Viejo San Juan',
+    city: 'San Juan',
+    region: 'San Juan',
+    country: 'PR',
+    lat: 18.4655,
+    lng: -66.1057,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Puerto Rican gothic celebration',
+    notes: 'Puerto Rico\'s gothic scene celebrating Boricua identity through dark alternative music and culture.',
+    sources: ['https://www.teatrotapia.pr/', 'https://www.facebook.com/SombrasBoricuas']
+  },
+
+  // Trinidad & Tobago - Port of Spain
+  {
+    id: 'tt-port-of-spain-dark-carnival',
+    nightName: 'Dark Carnival',
+    theme: 'Gothic Carnival / Caribbean Dark Festival',
+    venueName: 'Queen\'s Park Savannah',
+    address: 'Queen\'s Park Savannah, Port of Spain',
+    city: 'Port of Spain',
+    region: 'Port of Spain',
+    country: 'TT',
+    lat: 10.6596,
+    lng: -61.5094,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'Annual dark carnival celebration, typically February',
+    notes: 'Trinidad\'s unique dark carnival blending traditional Carnival with gothic and industrial music.',
+    sources: ['https://www.ncctt.org/', 'https://www.facebook.com/DarkCarnivalTT']
+  },
+
+  // === CENTRAL AMERICA ===
+
+  // Guatemala - Guatemala City
+  {
+    id: 'gt-guatemala-city-quetzal-negro',
+    nightName: 'Quetzal Negro',
+    theme: 'Mayan Gothic / Central American Dark',
+    venueName: 'Teatro Nacional',
+    address: 'Centro Cívico, Zona 1',
+    city: 'Guatemala City',
+    region: 'Guatemala',
+    country: 'GT',
+    lat: 14.6349,
+    lng: -90.5069,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Mayan-influenced gothic night',
+    notes: 'Guatemala City\'s gothic scene incorporating Mayan mythology and Central American dark traditions.',
+    sources: ['https://www.teatronacional.com.gt/', 'https://www.facebook.com/QuetzalNegroGT']
+  },
+
+  // Costa Rica - San José
+  {
+    id: 'cr-san-jose-pura-vida-oscura',
+    nightName: 'Pura Vida Oscura',
+    theme: 'Costa Rican Gothic / Tropical Dark',
+    venueName: 'Teatro Nacional',
+    address: 'Av. 2, Calles 3 y 5, San José',
+    city: 'San José',
+    region: 'San José',
+    country: 'CR',
+    lat: 9.9281,
+    lng: -84.0907,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Costa Rican dark life celebration',
+    notes: 'San José\'s gothic scene playing with the irony of "pure dark life" in tropical paradise.',
+    sources: ['https://www.teatronacional.go.cr/', 'https://www.facebook.com/PuraVidaOscura']
+  },
+
+  // Panama - Panama City
+  {
+    id: 'pa-panama-city-canal-sombrio',
+    nightName: 'Canal Sombrío',
+    theme: 'Canal Gothic / Industrial Waterway',
+    venueName: 'Teatro Nacional',
+    address: 'Av. B, Casco Viejo',
+    city: 'Panama City',
+    region: 'Panamá',
+    country: 'PA',
+    lat: 8.9824,
+    lng: -79.5199,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly canal-themed gothic industrial night',
+    notes: 'Panama City\'s gothic scene reflecting the industrial heritage of the canal in dark music culture.',
+    sources: ['https://www.teatronacional.pa/', 'https://www.facebook.com/CanalSombrioPA']
   }
 ];
 
