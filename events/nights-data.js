@@ -2235,6 +2235,81 @@ export const nights = [
     sources: ['https://www.castleparty.com']
   },
   
+  {
+    id: 'pl-warsaw-ciemna-warszawa',
+    nightName: 'Ciemna Warszawa (Dark Warsaw)',
+    theme: 'Gothic / Industrial / Polish Dark Wave',
+    venueName: 'Proxima',
+    address: 'Żurawia 32/34',
+    city: 'Warsaw',
+    region: 'Masovian',
+    country: 'PL',
+    lat: 52.2319,
+    lng: 21.0067,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly gothic and industrial events',
+    notes: 'Warsaw\'s main gothic music scene featuring Polish and international dark acts.',
+    sources: ['https://www.proxima.com.pl']
+  },
+  
+  // Krakow
+  {
+    id: 'pl-krakow-mroczny-krakow',
+    nightName: 'Mroczny Kraków (Dark Krakow)',
+    theme: 'Gothic / Medieval Dark / Industrial',
+    venueName: 'Klub Kwadrat',
+    address: 'Plac Wolnica 7',
+    city: 'Krakow',
+    region: 'Lesser Poland',
+    country: 'PL',
+    lat: 50.0647,
+    lng: 19.9450,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly gothic events in historic setting',
+    notes: 'Krakow\'s gothic scene in the atmospheric medieval city center.',
+    sources: ['https://www.kwadrat.krakow.pl']
+  },
+  
+  // Gdansk
+  {
+    id: 'pl-gdansk-baltic-darkness',
+    nightName: 'Baltic Darkness',
+    theme: 'Gothic / Industrial / Baltic Dark Wave',
+    venueName: 'Żak Club',
+    address: 'Wały Jagiellońskie 1',
+    city: 'Gdansk',
+    region: 'Pomeranian',
+    country: 'PL',
+    lat: 54.3520,
+    lng: 18.6466,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly dark music events by the Baltic Sea',
+    notes: 'Gdansk\'s coastal gothic scene with maritime dark atmosphere.',
+    sources: ['https://www.facebook.com/ZakClubGdansk']
+  },
+  
+  // Wrocław
+  {
+    id: 'pl-wroclaw-dolnoslaskie-ciemnosci',
+    nightName: 'Dolnośląskie Ciemności (Lower Silesian Darkness)',
+    theme: 'Gothic / Industrial / Silesian Dark',
+    venueName: 'Firlej',
+    address: 'Ruska 51c',
+    city: 'Wrocław',
+    region: 'Lower Silesian',
+    country: 'PL',
+    lat: 51.1079,
+    lng: 17.0385,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly alternative and dark music events',
+    notes: 'Wrocław\'s underground dark music community in historic Lower Silesia.',
+    sources: ['https://www.firlej.com']
+  },
+  
   // === CZECH REPUBLIC ===
   
   // Prague
@@ -2254,6 +2329,717 @@ export const nights = [
     scheduleDetail: 'Monthly events',
     notes: 'Prague\'s main goth and alternative club night.',
     sources: ['https://www.facebook.com/GothicNightPrague']
+  },
+  
+  // Brno
+  {
+    id: 'cz-brno-dark-wave',
+    nightName: 'Dark Wave Brno',
+    theme: 'Darkwave / Industrial / EBM',
+    venueName: 'Fléda Club',
+    address: 'Štefánikova 1',
+    city: 'Brno',
+    region: 'South Moravian',
+    country: 'CZ',
+    lat: 49.1951,
+    lng: 16.6068,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly darkwave events',
+    notes: 'Brno\'s underground dark electronic music scene.',
+    sources: ['https://www.fleda.cz']
+  },
+
+  // === SLOVAKIA ===
+  
+  // Bratislava
+  {
+    id: 'sk-bratislava-dark-sanctuary',
+    nightName: 'Dark Sanctuary',
+    theme: 'Gothic / Darkwave / Industrial',
+    venueName: 'SubClub',
+    address: 'Námestie SNP 12',
+    city: 'Bratislava',
+    region: 'Bratislava',
+    country: 'SK',
+    lat: 48.1486,
+    lng: 17.1077,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly gothic nights',
+    notes: 'Bratislava\'s main gothic and dark alternative scene.',
+    sources: ['https://www.subclub.sk']
+  },
+
+  // === HUNGARY ===
+  
+  // Budapest
+  {
+    id: 'hu-budapest-sötét-éjszaka',
+    nightName: 'Sötét Éjszaka (Dark Night)',
+    theme: 'Gothic / Industrial / Dark Alternative',
+    venueName: 'Dürer Kert',
+    address: 'Öböl utca 1',
+    city: 'Budapest',
+    region: 'Central Hungary',
+    country: 'HU',
+    lat: 47.4979,
+    lng: 19.0402,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly dark music events',
+    notes: 'Budapest\'s premier gothic and industrial music night featuring local and international DJs.',
+    sources: ['https://www.durerkert.com']
+  },
+  
+  {
+    id: 'hu-budapest-industrial-cafe',
+    nightName: 'Industrial Café',
+    theme: 'Industrial / EBM / Dark Electro',
+    venueName: 'A38 Ship',
+    address: 'Petőfi híd budai hídfő',
+    city: 'Budapest',
+    region: 'Central Hungary',
+    country: 'HU',
+    lat: 47.4851,
+    lng: 19.0630,
+    type: 'club-night',
+    recurrence: 'Bi-monthly',
+    scheduleDetail: 'Bi-monthly industrial nights',
+    notes: 'Unique industrial music nights on the famous A38 ship venue.',
+    sources: ['https://www.a38.hu']
+  },
+
+  // === ROMANIA ===
+  
+  // Bucharest
+  {
+    id: 'ro-bucharest-noaptea-gotica',
+    nightName: 'Noaptea Gotică (Gothic Night)',
+    theme: 'Gothic / Darkwave / Post-Punk',
+    venueName: 'Control Club',
+    address: 'Str. Constantin Mille 4',
+    city: 'Bucharest',
+    region: 'Bucharest',
+    country: 'RO',
+    lat: 44.4268,
+    lng: 26.1025,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly gothic music events',
+    notes: 'Bucharest\'s main gothic scene featuring Romanian and international dark artists.',
+    sources: ['https://www.control-club.ro']
+  },
+  
+  // Cluj-Napoca
+  {
+    id: 'ro-cluj-umbra-mortii',
+    nightName: 'Umbra Morții (Shadow of Death)',
+    theme: 'Black Metal / Gothic / Dark Ambient',
+    venueName: 'Flying Circus Pub',
+    address: 'Str. Clinicilor 5-7',
+    city: 'Cluj-Napoca',
+    region: 'Cluj',
+    country: 'RO',
+    lat: 46.7712,
+    lng: 23.6236,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly extreme dark music nights',
+    notes: 'Cluj\'s underground dark music scene mixing gothic with extreme metal elements.',
+    sources: ['https://www.facebook.com/FlyingCircusCluj']
+  },
+
+  // === BULGARIA ===
+  
+  // Sofia
+  {
+    id: 'bg-sofia-temnata-noshch',
+    nightName: 'Тъмната нощ (Dark Night)',
+    theme: 'Gothic / Industrial / Darkwave',
+    venueName: 'Club Mixtape 5',
+    address: 'ul. "Angel Kanchev" 5',
+    city: 'Sofia',
+    region: 'Sofia City',
+    country: 'BG',
+    lat: 42.6977,
+    lng: 23.3219,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly dark music events',
+    notes: 'Sofia\'s main gothic and industrial music scene in the heart of the Balkans.',
+    sources: ['https://www.mixtape5.bg']
+  },
+
+  // === SLOVENIA ===
+  
+  // Ljubljana
+  {
+    id: 'si-ljubljana-temna-noč',
+    nightName: 'Temna Noč (Dark Night)',
+    theme: 'Gothic / Industrial / Dark Alternative',
+    venueName: 'Cvetličarna',
+    address: 'Trg Osvobodilne fronte 5',
+    city: 'Ljubljana',
+    region: 'Central Slovenia',
+    country: 'SI',
+    lat: 46.0569,
+    lng: 14.5058,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly alternative music events',
+    notes: 'Ljubljana\'s alternative and gothic music scene in a historic venue.',
+    sources: ['https://www.cvetlicarna.si']
+  },
+
+  // === CROATIA ===
+  
+  // Zagreb
+  {
+    id: 'hr-zagreb-tamna-strana',
+    nightName: 'Tamna Strana (Dark Side)',
+    theme: 'Gothic / Industrial / Post-Punk',
+    venueName: 'Močvara',
+    address: 'Trnjanski nasip bb',
+    city: 'Zagreb',
+    region: 'Zagreb County',
+    country: 'HR',
+    lat: 45.8150,
+    lng: 15.9819,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly alternative music nights',
+    notes: 'Zagreb\'s premier alternative venue hosting dark music events.',
+    sources: ['https://www.mocvara.hr']
+  },
+
+  // === SERBIA ===
+  
+  // Belgrade
+  {
+    id: 'rs-belgrade-crna-noć',
+    nightName: 'Crna Noć (Black Night)',
+    theme: 'Gothic / Industrial / Dark Alternative',
+    venueName: 'Drugstore',
+    address: 'Skadarska 6a',
+    city: 'Belgrade',
+    region: 'Belgrade',
+    country: 'RS',
+    lat: 44.8206,
+    lng: 20.4622,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly dark music events',
+    notes: 'Belgrade\'s underground dark music scene in the bohemian Skadarlija district.',
+    sources: ['https://www.facebook.com/DrugstoreBelgrade']
+  },
+  
+  // Novi Sad
+  {
+    id: 'rs-novi-sad-dark-danube',
+    nightName: 'Dark Danube',
+    theme: 'Industrial / EBM / Darkwave',
+    venueName: 'Fabrika',
+    address: 'Bulevar Oslobođenja 28',
+    city: 'Novi Sad',
+    region: 'Vojvodina',
+    country: 'RS',
+    lat: 45.2671,
+    lng: 19.8335,
+    type: 'club-night',
+    recurrence: 'Bi-monthly',
+    scheduleDetail: 'Bi-monthly industrial events',
+    notes: 'Novi Sad\'s industrial music scene by the Danube River.',
+    sources: ['https://www.kulturafabrika.rs']
+  },
+
+  // === BOSNIA AND HERZEGOVINA ===
+  
+  // Sarajevo
+  {
+    id: 'ba-sarajevo-mračna-dolina',
+    nightName: 'Mračna Dolina (Dark Valley)',
+    theme: 'Gothic / Post-Punk / Dark Alternative',
+    venueName: 'Café Tito',
+    address: 'Maršala Tita 20',
+    city: 'Sarajevo',
+    region: 'Federation of Bosnia and Herzegovina',
+    country: 'BA',
+    lat: 43.8563,
+    lng: 18.4131,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly alternative music events',
+    notes: 'Sarajevo\'s dark alternative scene reflecting the city\'s complex history.',
+    sources: ['https://www.facebook.com/CafeTitoSarajevo']
+  },
+
+  // === MONTENEGRO ===
+  
+  // Podgorica
+  {
+    id: 'me-podgorica-crnogorska-tama',
+    nightName: 'Crnogorska Tama (Montenegrin Darkness)',
+    theme: 'Gothic / Industrial / Balkan Dark',
+    venueName: 'Club Casablanca',
+    address: 'Bulevar Svetog Petra Cetinjskog',
+    city: 'Podgorica',
+    region: 'Podgorica',
+    country: 'ME',
+    lat: 42.4304,
+    lng: 19.2594,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly dark music events',
+    notes: 'Montenegro\'s emerging dark music scene blending gothic with Balkan elements.',
+    sources: ['https://www.facebook.com/CasablancaPodgorica']
+  },
+
+  // === NORTH MACEDONIA ===
+  
+  // Skopje
+  {
+    id: 'mk-skopje-temna-makedonija',
+    nightName: 'Темна Македонија (Dark Macedonia)',
+    theme: 'Gothic / Industrial / Dark Alternative',
+    venueName: 'Makpetrol Club',
+    address: 'Maksim Gorki 16',
+    city: 'Skopje',
+    region: 'Skopje',
+    country: 'MK',
+    lat: 41.9973,
+    lng: 21.4280,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly gothic music events',
+    notes: 'Skopje\'s underground dark music community in the heart of the Balkans.',
+    sources: ['https://www.facebook.com/MakpetrolClub']
+  },
+
+  // === ALBANIA ===
+  
+  // Tirana
+  {
+    id: 'al-tirana-nata-e-zezë',
+    nightName: 'Nata e Zezë (Black Night)',
+    theme: 'Gothic / Industrial / Dark Alternative',
+    venueName: 'Hemingway Bar',
+    address: 'Rruga Pjetër Bogdani',
+    city: 'Tirana',
+    region: 'Tirana',
+    country: 'AL',
+    lat: 41.3275,
+    lng: 19.8187,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly dark music events',
+    notes: 'Tirana\'s emerging gothic scene bringing dark culture to the Albanian capital.',
+    sources: ['https://www.facebook.com/HemingwayBarTirana']
+  },
+
+  // === ESTONIA ===
+  
+  // Tallinn
+  {
+    id: 'ee-tallinn-pimeduse-öö',
+    nightName: 'Pimeduse Öö (Night of Darkness)',
+    theme: 'Gothic / Industrial / Dark Electro',
+    venueName: 'Club Privé',
+    address: 'Harju 6',
+    city: 'Tallinn',
+    region: 'Harju',
+    country: 'EE',
+    lat: 59.4370,
+    lng: 24.7536,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly dark electronic events',
+    notes: 'Tallinn\'s dark music scene in the medieval old town atmosphere.',
+    sources: ['https://www.clubprive.ee']
+  },
+  
+  // Tartu
+  {
+    id: 'ee-tartu-gooti-kultuur',
+    nightName: 'Gooti Kultuur (Gothic Culture)',
+    theme: 'Gothic / Post-Punk / Dark Academic',
+    venueName: 'Kultuuriklubi Salong',
+    address: 'Magasini 5',
+    city: 'Tartu',
+    region: 'Tartu',
+    country: 'EE',
+    lat: 58.3776,
+    lng: 26.7290,
+    type: 'club-night',
+    recurrence: 'Bi-monthly',
+    scheduleDetail: 'Bi-monthly events focused on dark academic culture',
+    notes: 'University town alternative scene with emphasis on literary and academic dark culture.',
+    sources: ['https://www.salongklubi.ee']
+  },
+
+  // === LATVIA ===
+  
+  // Riga
+  {
+    id: 'lv-riga-tumšā-nakts',
+    nightName: 'Tumšā Nakts (Dark Night)',
+    theme: 'Gothic / Darkwave / Industrial',
+    venueName: 'Melna Piektdiena',
+    address: 'Gertrūdes iela 6',
+    city: 'Riga',
+    region: 'Riga',
+    country: 'LV',
+    lat: 56.9496,
+    lng: 24.1052,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly gothic and darkwave events',
+    notes: 'Riga\'s dark alternative scene in the Baltic cultural capital.',
+    sources: ['https://www.melnapiektdiena.lv']
+  },
+
+  // === LITHUANIA ===
+  
+  // Vilnius
+  {
+    id: 'lt-vilnius-tamsioji-naktis',
+    nightName: 'Tamsioji Naktis (Dark Night)',
+    theme: 'Gothic / Industrial / Dark Alternative',
+    venueName: 'Tamsta Club',
+    address: 'Subačiaus g. 2',
+    city: 'Vilnius',
+    region: 'Vilnius',
+    country: 'LT',
+    lat: 54.6872,
+    lng: 25.2797,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly dark music events',
+    notes: 'Vilnius\'s dark alternative music scene in the historic Baltic capital.',
+    sources: ['https://www.tamstaclub.lt']
+  },
+
+  // === BELARUS ===
+  
+  // Minsk
+  {
+    id: 'by-minsk-ciemnaja-nochka',
+    nightName: 'Цёмная Ночка (Dark Night)',
+    theme: 'Gothic / Industrial / Dark Electronic',
+    venueName: 'Re:Public',
+    address: 'vulica Internacyjanalnaja 23',
+    city: 'Minsk',
+    region: 'Minsk',
+    country: 'BY',
+    lat: 53.9045,
+    lng: 27.5615,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly dark music events (subject to local conditions)',
+    notes: 'Minsk\'s underground dark music community maintaining alternative culture.',
+    sources: ['https://www.facebook.com/RepublicMinsk']
+  },
+
+  // === UKRAINE ===
+  
+  // Kyiv
+  {
+    id: 'ua-kyiv-temna-nich',
+    nightName: 'Темна Ніч (Dark Night)',
+    theme: 'Gothic / Industrial / Ukrainian Dark',
+    venueName: 'Closer',
+    address: 'Nyzhnoiurkivska Street 31',
+    city: 'Kyiv',
+    region: 'Kyiv',
+    country: 'UA',
+    lat: 50.4501,
+    lng: 30.5234,
+    type: 'club-night',
+    recurrence: 'Suspended',
+    scheduleDetail: 'Events suspended due to ongoing conflict (2022-present)',
+    notes: 'Kyiv\'s resilient dark music community, events currently suspended due to war.',
+    sources: ['https://www.facebook.com/CloserKyiv']
+  },
+
+  // === MOLDOVA ===
+  
+  // Chișinău
+  {
+    id: 'md-chisinau-noaptea-întunecată',
+    nightName: 'Noaptea Întunecată (Dark Night)',
+    theme: 'Gothic / Industrial / Dark Alternative',
+    venueName: 'Club Fabrica',
+    address: 'Strada Uzinelor 2',
+    city: 'Chișinău',
+    region: 'Chișinău',
+    country: 'MD',
+    lat: 47.0105,
+    lng: 28.8638,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly dark music events',
+    notes: 'Chișinău\'s dark alternative scene in the former industrial district.',
+    sources: ['https://www.clubfabrica.md']
+  },
+
+  // === RUSSIA ===
+  
+  // Moscow
+  {
+    id: 'ru-moscow-temnaya-noch',
+    nightName: 'Тёмная Ночь (Dark Night)',
+    theme: 'Gothic / Industrial / Russian Dark Wave',
+    venueName: 'Griboedov Club',
+    address: 'Vorontsovskaya Street 12',
+    city: 'Moscow',
+    region: 'Moscow',
+    country: 'RU',
+    lat: 55.7558,
+    lng: 37.6176,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly gothic and industrial events',
+    notes: 'Moscow\'s historic dark music scene at one of the city\'s legendary venues.',
+    sources: ['https://www.griboedovclub.ru']
+  },
+  
+  // St. Petersburg
+  {
+    id: 'ru-spb-severnoe-siyanie',
+    nightName: 'Северное Сияние (Northern Lights)',
+    theme: 'Gothic / Darkwave / Northern Industrial',
+    venueName: 'Club Zal',
+    address: 'Kazanskaya Street 7',
+    city: 'St. Petersburg',
+    region: 'St. Petersburg',
+    country: 'RU',
+    lat: 59.9311,
+    lng: 30.3609,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly darkwave and gothic events',
+    notes: 'St. Petersburg\'s atmospheric dark music scene in the cultural northern capital.',
+    sources: ['https://www.clubzal.spb.ru']
+  },
+  
+  // Novosibirsk
+  {
+    id: 'ru-novosibirsk-sibirskaya-tma',
+    nightName: 'Сибирская Тьма (Siberian Darkness)',
+    theme: 'Industrial / Gothic / Siberian Dark',
+    venueName: 'Podzemka Club',
+    address: 'Krasny Prospect 99',
+    city: 'Novosibirsk',
+    region: 'Novosibirsk Oblast',
+    country: 'RU',
+    lat: 55.0084,
+    lng: 82.9357,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly industrial and gothic events',
+    notes: 'Novosibirsk\'s underground dark music scene bringing gothic culture to Siberia.',
+    sources: ['https://www.facebook.com/PodzemkaNovosibirsk']
+  },
+
+  // === WESTERN ASIA ===
+
+  // === TURKEY ===
+  
+  // Istanbul
+  {
+    id: 'tr-istanbul-karanlık-gece',
+    nightName: 'Karanlık Gece (Dark Night)',
+    theme: 'Gothic / Industrial / Turkish Dark Wave',
+    venueName: 'Babylon Bomonti',
+    address: 'Birahane Sokak No: 1 Bomonti',
+    city: 'Istanbul',
+    region: 'Istanbul',
+    country: 'TR',
+    lat: 41.0585,
+    lng: 28.9748,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly dark music events',
+    notes: 'Istanbul\'s premier dark music venue bridging European and Asian gothic cultures.',
+    sources: ['https://www.babylon.com.tr']
+  },
+  
+  {
+    id: 'tr-istanbul-gothic-bosphorus',
+    nightName: 'Gothic Bosphorus',
+    theme: 'Gothic / Darkwave / Post-Punk',
+    venueName: 'Klein Phönix',
+    address: 'Aga Hamami Cad. No: 8 Beyoğlu',
+    city: 'Istanbul',
+    region: 'Istanbul',
+    country: 'TR',
+    lat: 41.0369,
+    lng: 28.9784,
+    type: 'club-night',
+    recurrence: 'Bi-monthly',
+    scheduleDetail: 'Bi-monthly gothic events',
+    notes: 'Atmospheric gothic nights in Istanbul\'s historic Beyoğlu district.',
+    sources: ['https://www.kleinphoenix.com']
+  },
+  
+  // Ankara
+  {
+    id: 'tr-ankara-başkent-karanlığı',
+    nightName: 'Başkent Karanlığı (Capital Darkness)',
+    theme: 'Industrial / EBM / Gothic',
+    venueName: 'IF Performance Hall',
+    address: 'Şehit Teğmen Kalmaz Cd. 1/A Kızılay',
+    city: 'Ankara',
+    region: 'Ankara',
+    country: 'TR',
+    lat: 39.9334,
+    lng: 32.8597,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly industrial and gothic events',
+    notes: 'Ankara\'s dark electronic music scene in the Turkish capital.',
+    sources: ['https://www.ifperformancehall.com']
+  },
+  
+  // Izmir
+  {
+    id: 'tr-izmir-ege-gotik',
+    nightName: 'Ege Gotik (Aegean Gothic)',
+    theme: 'Gothic / Darkwave / Mediterranean Dark',
+    venueName: 'Sanat',
+    address: 'Kıbrıs Şehitleri Cd. No: 20 Alsancak',
+    city: 'Izmir',
+    region: 'Izmir',
+    country: 'TR',
+    lat: 38.4192,
+    lng: 27.1287,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly gothic events by the Aegean Sea',
+    notes: 'Izmir\'s dark alternative scene with Mediterranean gothic atmosphere.',
+    sources: ['https://www.sanatsahnesi.com']
+  },
+
+  // === GEORGIA ===
+  
+  // Tbilisi
+  {
+    id: 'ge-tbilisi-bnel-ghame',
+    nightName: 'ბნელ ღამე (Dark Night)',
+    theme: 'Gothic / Industrial / Georgian Dark Wave',
+    venueName: 'Bassiani',
+    address: 'Hose Marabdeli St. 2 (under Dinamo Arena)',
+    city: 'Tbilisi',
+    region: 'Tbilisi',
+    country: 'GE',
+    lat: 41.7151,
+    lng: 44.7514,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly dark electronic events',
+    notes: 'Tbilisi\'s underground dark music scene in the famous techno venue.',
+    sources: ['https://www.bassiani.com']
+  },
+  
+  // Batumi
+  {
+    id: 'ge-batumi-shavi-zghva',
+    nightName: 'შავი ზღვა (Black Sea)',
+    theme: 'Gothic / Darkwave / Coastal Dark',
+    venueName: 'Penthouse Club',
+    address: 'Rustaveli Avenue 15',
+    city: 'Batumi',
+    region: 'Adjara',
+    country: 'GE',
+    lat: 41.6168,
+    lng: 41.6367,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly dark music events by the Black Sea',
+    notes: 'Batumi\'s coastal gothic scene with Black Sea atmospheric influence.',
+    sources: ['https://www.facebook.com/PenthouseBatumi']
+  },
+
+  // === ARMENIA ===
+  
+  // Yerevan
+  {
+    id: 'am-yerevan-avshov-gisher',
+    nightName: 'Ավշով Գիշեր (Cursed Night)',
+    theme: 'Gothic / Industrial / Armenian Dark',
+    venueName: 'Calumet Ethnic Club',
+    address: 'Pushkin Street 52/1',
+    city: 'Yerevan',
+    region: 'Yerevan',
+    country: 'AM',
+    lat: 40.1792,
+    lng: 44.4991,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly dark music events',
+    notes: 'Yerevan\'s dark alternative scene blending gothic with Armenian cultural elements.',
+    sources: ['https://www.calumetclub.am']
+  },
+
+  // === AZERBAIJAN ===
+  
+  // Baku
+  {
+    id: 'az-baku-qaranlıq-gecə',
+    nightName: 'Qaranlıq Gecə (Dark Night)',
+    theme: 'Gothic / Industrial / Caspian Dark',
+    venueName: 'Landmark Club',
+    address: 'Nizami Street 90',
+    city: 'Baku',
+    region: 'Baku',
+    country: 'AZ',
+    lat: 40.4093,
+    lng: 49.8671,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly dark electronic events',
+    notes: 'Baku\'s emerging dark music scene by the Caspian Sea.',
+    sources: ['https://www.landmarkbaku.com']
+  },
+
+  // === CYPRUS ===
+  
+  // Nicosia
+  {
+    id: 'cy-nicosia-dark-mediterranean',
+    nightName: 'Dark Mediterranean',
+    theme: 'Gothic / Darkwave / Mediterranean Gothic',
+    venueName: 'Sousami Live Music Space',
+    address: 'Onasagorou 12',
+    city: 'Nicosia',
+    region: 'Nicosia',
+    country: 'CY',
+    lat: 35.1676,
+    lng: 33.3736,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly gothic events',
+    notes: 'Nicosia\'s dark alternative scene in the divided Mediterranean capital.',
+    sources: ['https://www.sousamispace.com']
+  },
+  
+  // Limassol
+  {
+    id: 'cy-limassol-aphrodites-shadow',
+    nightName: 'Aphrodite\'s Shadow',
+    theme: 'Gothic / Darkwave / Mythological Dark',
+    venueName: 'Basement Club',
+    address: 'Anexartisias Street 65',
+    city: 'Limassol',
+    region: 'Limassol',
+    country: 'CY',
+    lat: 34.6841,
+    lng: 33.0431,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly dark music events',
+    notes: 'Limassol\'s coastal gothic scene with mythological and ancient themes.',
+    sources: ['https://www.basementlimassol.com']
   },
   
   // === SWEDEN ===
