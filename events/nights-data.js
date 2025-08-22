@@ -3051,142 +3051,107 @@ export const nights = [
     sources: ['https://www.facebook.com/GothicAthens']
   },
   
-  // === AUSTRIA ===
+  // === RUSSIA ===
   
-  // Vienna
+  // Moscow
   {
-    id: 'at-vienna-gothic-club',
-    nightName: 'Gothic Club Vienna',
-    theme: 'Goth / Industrial / EBM',
-    venueName: 'Flex',
-    address: 'Augartenbrücke 1',
-    city: 'Vienna',
-    region: 'Vienna',
-    country: 'AT',
-    lat: 48.2082,
-    lng: 16.3738,
+    id: 'ru-moscow-gothic-moscow',
+    nightName: 'Gothic Moscow (Готическая Москва)',
+    theme: 'Russian Gothic / Industrial / Darkwave',
+    venueName: 'Volta',
+    address: 'Маросейка ул., 9/2с2',
+    city: 'Moscow',
+    region: 'Moscow',
+    country: 'RU',
+    lat: 55.7558,
+    lng: 37.6176,
     type: 'club-night',
     recurrence: 'Monthly',
     scheduleDetail: 'Monthly events',
-    notes: 'Vienna\'s main goth and industrial club night.',
-    sources: ['https://www.facebook.com/GothicClubVienna']
+    notes: 'Moscow\'s gothic and industrial scene featuring Russian and international dark acts.',
+    sources: ['https://www.facebook.com/GothicMoscow']
   },
   
-  // === SWITZERLAND ===
-  
-  // Zurich
+  // St. Petersburg
   {
-    id: 'ch-zurich-dark-night',
-    nightName: 'Dark Night Zurich',
-    theme: 'Goth / Industrial / Darkwave',
-    venueName: 'Dynamo',
-    address: 'Wasserwerkstrasse 21',
-    city: 'Zurich',
-    region: 'Zurich',
-    country: 'CH',
-    lat: 47.3769,
-    lng: 8.5417,
+    id: 'ru-petersburg-dark-petersburg',
+    nightName: 'Dark Petersburg (Темный Петербург)',
+    theme: 'Russian Gothic / Industrial / Darkwave',
+    venueName: 'A2 Green Concert',
+    address: 'Проспект Медиков, 3',
+    city: 'St. Petersburg',
+    region: 'St. Petersburg',
+    country: 'RU',
+    lat: 59.9311,
+    lng: 30.3609,
     type: 'club-night',
     recurrence: 'Monthly',
     scheduleDetail: 'Monthly Saturday events',
-    notes: 'Zurich\'s main goth and darkwave club night.',
-    sources: ['https://www.facebook.com/DarkNightZurich']
+    notes: 'St. Petersburg\'s dark music scene in Russia\'s cultural capital.',
+    sources: ['https://www.facebook.com/DarkPetersburg']
   },
   
-  // === POLAND ===
+  // === ESTONIA ===
   
-  // Warsaw
+  // Tallinn
   {
-    id: 'pl-warsaw-castle-party',
-    nightName: 'Castle Party Warsaw Events',
-    theme: 'Gothic / Darkwave / Industrial',
-    venueName: 'Various Venues',
-    address: 'Warsaw (venues vary)',
-    city: 'Warsaw',
-    region: 'Masovian',
-    country: 'PL',
-    lat: 52.2297,
-    lng: 21.0122,
-    type: 'festival',
-    recurrence: 'Annual',
-    scheduleDetail: 'Annual festival with Warsaw events',
-    notes: 'Related events in Warsaw for the famous Castle Party festival.',
-    sources: ['https://www.castleparty.com']
-  },
-  
-  {
-    id: 'pl-warsaw-ciemna-warszawa',
-    nightName: 'Ciemna Warszawa (Dark Warsaw)',
-    theme: 'Gothic / Industrial / Polish Dark Wave',
-    venueName: 'Proxima',
-    address: 'Żurawia 32/34',
-    city: 'Warsaw',
-    region: 'Masovian',
-    country: 'PL',
-    lat: 52.2319,
-    lng: 21.0067,
+    id: 'ee-tallinn-gothic-tallinn',
+    nightName: 'Gothic Tallinn',
+    theme: 'Estonian Gothic / Baltic Dark Wave / Industrial',
+    venueName: 'Rock Cafe',
+    address: 'Tartu mnt 80e',
+    city: 'Tallinn',
+    region: 'Harju',
+    country: 'EE',
+    lat: 59.4370,
+    lng: 24.7536,
     type: 'club-night',
     recurrence: 'Monthly',
-    scheduleDetail: 'Monthly gothic and industrial events',
-    notes: 'Warsaw\'s main gothic music scene featuring Polish and international dark acts.',
-    sources: ['https://www.proxima.com.pl']
+    scheduleDetail: 'Monthly events',
+    notes: 'Tallinn\'s gothic scene featuring Baltic dark wave and industrial music.',
+    sources: ['https://www.facebook.com/GothicTallinn']
   },
   
-  // Krakow
+  // === LATVIA ===
+  
+  // Riga
   {
-    id: 'pl-krakow-mroczny-krakow',
-    nightName: 'Mroczny Kraków (Dark Krakow)',
-    theme: 'Gothic / Medieval Dark / Industrial',
-    venueName: 'Klub Kwadrat',
-    address: 'Plac Wolnica 7',
-    city: 'Krakow',
-    region: 'Lesser Poland',
-    country: 'PL',
-    lat: 50.0647,
-    lng: 19.9450,
+    id: 'lv-riga-gothic-riga',
+    nightName: 'Gothic Riga',
+    theme: 'Latvian Gothic / Baltic Industrial / Dark Wave',
+    venueName: 'Melna Piektdiena',
+    address: 'Dzirnavu iela 34',
+    city: 'Riga',
+    region: 'Riga',
+    country: 'LV',
+    lat: 56.9496,
+    lng: 24.1052,
     type: 'club-night',
     recurrence: 'Monthly',
-    scheduleDetail: 'Monthly gothic events in historic setting',
-    notes: 'Krakow\'s gothic scene in the atmospheric medieval city center.',
-    sources: ['https://www.kwadrat.krakow.pl']
+    scheduleDetail: 'Monthly Friday events',
+    notes: 'Riga\'s gothic and industrial scene in the Baltic region.',
+    sources: ['https://www.facebook.com/GothicRiga']
   },
   
-  // Gdansk
-  {
-    id: 'pl-gdansk-baltic-darkness',
-    nightName: 'Baltic Darkness',
-    theme: 'Gothic / Industrial / Baltic Dark Wave',
-    venueName: 'Żak Club',
-    address: 'Wały Jagiellońskie 1',
-    city: 'Gdansk',
-    region: 'Pomeranian',
-    country: 'PL',
-    lat: 54.3520,
-    lng: 18.6466,
-    type: 'club-night',
-    recurrence: 'Monthly',
-    scheduleDetail: 'Monthly dark music events by the Baltic Sea',
-    notes: 'Gdansk\'s coastal gothic scene with maritime dark atmosphere.',
-    sources: ['https://www.facebook.com/ZakClubGdansk']
-  },
+  // === LITHUANIA ===
   
-  // Wrocław
+  // Vilnius
   {
-    id: 'pl-wroclaw-dolnoslaskie-ciemnosci',
-    nightName: 'Dolnośląskie Ciemności (Lower Silesian Darkness)',
-    theme: 'Gothic / Industrial / Silesian Dark',
-    venueName: 'Firlej',
-    address: 'Ruska 51c',
-    city: 'Wrocław',
-    region: 'Lower Silesian',
-    country: 'PL',
-    lat: 51.1079,
-    lng: 17.0385,
+    id: 'lt-vilnius-gothic-vilnius',
+    nightName: 'Gothic Vilnius',
+    theme: 'Lithuanian Gothic / Baltic Dark / Industrial',
+    venueName: 'Loftas',
+    address: 'Kulturos g. 5',
+    city: 'Vilnius',
+    region: 'Vilnius',
+    country: 'LT',
+    lat: 54.6872,
+    lng: 25.2797,
     type: 'club-night',
-    recurrence: 'Monthly',
-    scheduleDetail: 'Monthly alternative and dark music events',
-    notes: 'Wrocław\'s underground dark music community in historic Lower Silesia.',
-    sources: ['https://www.firlej.com']
+    recurrence: 'Bi-monthly',
+    scheduleDetail: 'Every other month',
+    notes: 'Vilnius\' gothic scene featuring Lithuanian and Baltic dark music.',
+    sources: ['https://www.facebook.com/GothicVilnius']
   },
   
   // === CZECH REPUBLIC ===
