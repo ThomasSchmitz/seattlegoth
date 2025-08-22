@@ -3153,6 +3153,105 @@ export const nights = [
     sources: ['https://www.facebook.com/VolcanicIsolationWestman']
   },
 
+  // Additional Iceland entries for comprehensive coverage
+
+  // Akranes (West Iceland)
+  {
+    id: 'is-akranes-western-darkness',
+    nightName: 'Western Darkness Akranes (Vestur Myrkur)',
+    theme: 'Coastal Gothic / West Icelandic Dark / Maritime Industrial',
+    venueName: 'Akranes Cultural Center',
+    address: 'Stillholt 16-18',
+    city: 'Akranes',
+    region: 'West',
+    country: 'IS',
+    lat: 64.3213,
+    lng: -22.0665,
+    type: 'club-night',
+    recurrence: 'Bi-monthly',
+    scheduleDetail: 'Every other month coastal events',
+    notes: 'West Iceland\'s coastal dark alternative scene featuring maritime gothic themes and local industrial acts.',
+    sources: ['https://www.facebook.com/WesternDarknessAkranes', 'https://akranes.is']
+  },
+
+  // Egilsstaðir (East Iceland)
+  {
+    id: 'is-egilsstadir-eastern-fjords-dark',
+    nightName: 'Eastern Fjords Dark (Austfirðir Myrkur)',
+    theme: 'Fjord Gothic / East Icelandic Alternative / Remote Industrial',
+    venueName: 'Egilsstaðir Cultural Center',
+    address: 'Tjarnarbraut 21',
+    city: 'Egilsstaðir',
+    region: 'East',
+    country: 'IS',
+    lat: 65.2637,
+    lng: -14.3944,
+    type: 'club-night',
+    recurrence: 'Quarterly',
+    scheduleDetail: 'Seasonal fjord events',
+    notes: 'East Iceland\'s remote dark alternative scene in the heart of the eastern fjords, featuring unique isolated gothic atmosphere.',
+    sources: ['https://www.facebook.com/EasternFjordsDark']
+  },
+
+  // Additional Greenland entries focusing on Middle/Central Greenland
+
+  // Uummannaq (North/Middle Greenland)
+  {
+    id: 'gl-uummannaq-midnight-polar-dark',
+    nightName: 'Midnight Polar Dark Uummannaq',
+    theme: 'Polar Night Industrial / Heart-Shaped Mountain Gothic / Inuit Ambient',
+    venueName: 'Uummannaq Community Center',
+    address: 'Postboks 130',
+    city: 'Uummannaq',
+    region: 'Avannaata',
+    country: 'GL',
+    lat: 70.6731,
+    lng: -52.1325,
+    type: 'club-night',
+    recurrence: 'Annual',
+    scheduleDetail: 'Annual polar night festival (December)',
+    notes: 'Middle/Northern Greenland\'s unique dark music event beneath the famous heart-shaped mountain, celebrating the extreme polar night.',
+    sources: ['https://www.facebook.com/MidnightPolarDarkUummannaq']
+  },
+
+  // Tasiilaq (East Greenland)
+  {
+    id: 'gl-tasiilaq-ammassalik-darkness',
+    nightName: 'Ammassalik Darkness Tasiilaq',
+    theme: 'East Greenlandic Gothic / Ammassalik Dark / Isolated Arctic Industrial',
+    venueName: 'Tasiilaq Cultural Center',
+    address: 'Postboks 001',
+    city: 'Tasiilaq',
+    region: 'Sermersooq',
+    country: 'GL',
+    lat: 65.6145,
+    lng: -37.6368,
+    type: 'club-night',
+    recurrence: 'Bi-annual',
+    scheduleDetail: 'Summer and winter solstice events',
+    notes: 'East Greenland\'s most isolated dark alternative event in the traditional Ammassalik region, accessible only by helicopter or boat.',
+    sources: ['https://www.facebook.com/AmmassalikDarknessTasiilaq']
+  },
+
+  // Kangerlussuaq (Central Greenland Airport Hub)
+  {
+    id: 'gl-kangerlussuaq-airport-arctic-dark',
+    nightName: 'Airport Arctic Dark Kangerlussuaq',
+    theme: 'Aviation Gothic / Central Greenlandic Industrial / Midnight Sun Dark',
+    venueName: 'Kangerlussuaq International Airport Terminal',
+    address: 'Airport Terminal Building',
+    city: 'Kangerlussuaq',
+    region: 'Qeqqata',
+    country: 'GL',
+    lat: 67.0103,
+    lng: -50.7116,
+    type: 'club-night',
+    recurrence: 'Quarterly',
+    scheduleDetail: 'Seasonal flight connection events',
+    notes: 'Central Greenland\'s unique airport-based dark music events for international travelers and residents in this remote aviation hub.',
+    sources: ['https://www.facebook.com/AirportArcticDarkKangerlussuaq', 'https://mit.gl']
+  },
+
   // === SPAIN ===
   
   // Madrid
