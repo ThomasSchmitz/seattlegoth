@@ -7,29 +7,30 @@
   <meta name="description" content="Interactive map of goth, industrial, and dark alternative club nights across North America." />
   <style>
     :root { color-scheme: dark light; }
-    body { font-family: system-ui, Arial, sans-serif; margin:0; background:#111; color:#ddd; line-height:1.4; }
-  header { padding:1rem 1.25rem; background:#181818; border-bottom:1px solid #333; }
-    h1 { margin:0 0 .25rem; font-size:1.6rem; }
-  .controls { margin-top:.75rem; display:flex; gap:.5rem; flex-wrap:wrap; align-items:center; }
-  .controls input[type="search"] { padding:.4rem .6rem; border:1px solid #333; border-radius:4px; background:#222; color:#eee; min-width:250px; }
-  .controls small { font-size:.65rem; opacity:.7; }
-  #map { width:100%; height:60vh; }
-  .legend { background:#1d1d1d; padding:.5rem .75rem; border:1px solid #333; border-radius:6px; font-size:.7rem; line-height:1.2; }
-  .legend span.swatch { display:inline-block; width:10px; height:10px; border-radius:50%; margin-right:4px; vertical-align:middle; }
+  body { font-family: system-ui, Arial, sans-serif; margin:0; background:#101015; color:#e0e0e0; line-height:1.6; }
+  header { padding:2rem 1.5rem 1.2rem 1.5rem; background:#191922; border-bottom:1px solid #333; box-shadow:0 2px 12px #0003; }
+  h1 { margin:0 0 .5rem; font-size:2.1rem; font-weight:700; letter-spacing:-1px; color:#e6e6ff; }
+  #stats-blade { margin-bottom:1.5rem; }
+  .controls { margin-top:1.2rem; display:flex; gap:1rem; flex-wrap:wrap; align-items:center; }
+  .controls input[type="search"] { padding:.5rem .8rem; border:1px solid #444; border-radius:6px; background:#222233; color:#eee; min-width:260px; font-size:1rem; }
+  .controls small { font-size:.7rem; opacity:.7; }
+  #map { width:100%; height:60vh; margin-bottom:2.5rem; border-radius:12px; box-shadow:0 4px 24px #0005; border:1px solid #222; background:#181825; }
+  .legend { background:#181825; padding:.7rem 1rem; border:1px solid #333; border-radius:8px; font-size:.8rem; line-height:1.3; box-shadow:0 2px 8px #0002; }
+  .legend span.swatch { display:inline-block; width:12px; height:12px; border-radius:50%; margin-right:6px; vertical-align:middle; }
   .leaflet-marker-icon.club-night-marker { filter:hue-rotate(190deg) saturate(1.4); }
   .leaflet-marker-icon.festival-marker { filter:hue-rotate(300deg) saturate(1.6); }
-  .filters-inline { display:flex; gap:.75rem; align-items:center; flex-wrap:wrap; }
-    main { padding:1rem 1.25rem 3rem; }
-    section.list { margin-top:1.5rem; }
-    .group { margin-bottom:1.5rem; }
-    .night { padding:.5rem .75rem; border:1px solid #333; border-radius:6px; margin:.5rem 0; background:#1d1d1d; }
-    .night h3 { margin:.1rem 0 .3rem; font-size:1.05rem; }
-    a { color:#80c6ff; }
-    a:hover { color:#c3e6ff; }
-    .tags { font-size:.8rem; opacity:.85; }
-    footer { padding:1rem 1.25rem; font-size:.75rem; background:#181818; color:#999; }
-    .disclaimer { font-size:.75rem; margin-top:.75rem; color:#aaa; max-width:900px; }
-    @media (min-width: 900px) { #map { height:65vh; } }
+  .filters-inline { display:flex; gap:1.1rem; align-items:center; flex-wrap:wrap; }
+  main { padding:2rem 1.5rem 3.5rem; max-width:900px; margin:0 auto; }
+  section.list { margin-top:2.2rem; }
+  .group { margin-bottom:2.2rem; background:#181825; border-radius:10px; box-shadow:0 2px 8px #0002; padding:1.2rem 1.2rem .7rem 1.2rem; border:1px solid #222; }
+  .night { padding:.7rem 1.1rem; border:1px solid #333; border-radius:8px; margin:.7rem 0; background:#222233; box-shadow:0 1px 4px #0002; }
+  .night h3 { margin:.1rem 0 .4rem; font-size:1.15rem; font-weight:600; color:#e6e6ff; }
+  a { color:#80c6ff; text-decoration:underline; }
+  a:hover { color:#c3e6ff; text-decoration:none; }
+  .tags { font-size:.9rem; opacity:.85; color:#b6b6ff; margin-bottom:.3rem; }
+  footer { padding:2rem 1.5rem; font-size:.85rem; background:#191922; color:#aaa; border-top:1px solid #333; }
+  .disclaimer { font-size:.85rem; margin-top:1.1rem; color:#bbb; max-width:900px; }
+  @media (min-width: 900px) { #map { height:65vh; } main { padding:2.5rem 2.5rem 4rem; } }
   </style>
   <!-- Leaflet 2.0.0-alpha.1 global build -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@2.0.0-alpha.1/dist/leaflet.css" />
@@ -94,9 +95,17 @@
       const container = document.getElementById('nights-list');
       container.innerHTML = '';
       const f = filter.trim().toLowerCase();
+      const types = activeTypes();
+      // Flatten all nights for stats
+      const filteredNights = nights.filter(n => {
+        if (types.size && !types.has(n.type)) return false;
+        if (!f) return true;
+        return [n.nightName, n.theme, n.venueName, n.city, n.region, n.country].some(v => v.toLowerCase().includes(f));
+      });
+      renderStats(filteredNights);
+      // Group for display
       const groups = groupByLocation();
       let total = 0;
-      const types = activeTypes();
       groups.forEach(g => {
         const filtered = g.nights.filter(n => {
           if (types.size && !types.has(n.type)) return false;
@@ -143,6 +152,21 @@
       });
     }
 
+    function renderStats(filteredNights) {
+      const countEl = document.getElementById('stats-count');
+      const regionsEl = document.getElementById('stats-regions');
+      if (!countEl || !regionsEl) return;
+      const total = filteredNights.length;
+      // Unique region-country combos
+      const regionSet = new Set();
+      filteredNights.forEach(n => {
+        regionSet.add(`${n.region},${n.country}`);
+      });
+      const regionCount = regionSet.size;
+      countEl.textContent = `${total} night${total === 1 ? '' : 's'} or festival${total === 1 ? '' : 's'}`;
+      regionsEl.textContent = `in ${regionCount} state${regionCount === 1 ? '' : 's'}/province${regionCount === 1 ? '' : 's'}/territor${regionCount === 1 ? 'y' : 'ies'}`;
+    }
+
     window.addEventListener('DOMContentLoaded', () => {
       renderList();
       const check = () => {
@@ -160,6 +184,11 @@
 <body>
   <header>
     <h1>North American Goth / Industrial / Dark Alternative Nights</h1>
+    <div id="stats-blade" style="margin-bottom:1.2rem; padding:.75rem 1.25rem; background:#222; border-radius:8px; border:1px solid #333; box-shadow:0 2px 8px #0002; display:flex; gap:2.5rem; align-items:center; flex-wrap:wrap; font-size:1.05rem;">
+      <span id="stats-count" style="font-weight:600; color:#4aa3ff;"></span>
+      <span id="stats-regions" style="font-weight:500; color:#d164ff;"></span>
+      <span id="stats-note" style="font-size:.85rem; color:#aaa;">Live stats update as you filter!</span>
+    </div>
     <p style="margin:0;font-size:.9rem;max-width:900px;">Interactive map and directory of recurring and special-event nights featuring goth, industrial, darkwave, post-punk, EBM, and related alternative subculture music across the U.S. & Canada. This is an evolving community-maintained seed list (Aug 2025 initial version).</p>
     <p class="disclaimer">Always verify event dates & recurrence via linked sources before traveling. Some nights are monthly, seasonal, or festival-based rather than weekly.</p>
     <div class="controls">

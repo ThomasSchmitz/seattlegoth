@@ -7,6 +7,179 @@
 
 // --- Top 50 US Cities Batch 41–50 ---
 export const nights = [
+  {
+    id: 'us-black-celebration',
+    nightName: 'A Black Celebration',
+    theme: 'Industrial/Goth/80s/Wax Trax',
+    venueName: 'Various',
+    address: '',
+    city: '',
+    region: 'US',
+    country: 'US',
+    lat: null,
+    lng: null,
+    type: 'club-night',
+    recurrence: 'recurring',
+    scheduleDetail: 'Check social media for schedule',
+    notes: 'Combo of gloomy 80s and Wax Trax. Highly recommended by Reddit users.',
+    sources: [
+      'https://www.reddit.com/r/industrialmusic/comments/1kqr59x/iso_the_best_gothindustrial_scenes_in_the_us/'
+    ]
+  },
+  {
+    id: 'il-chicago-innjoy-darkwave',
+    nightName: 'Dark Wave/Goth Night',
+    theme: 'Darkwave/Goth',
+    venueName: 'Innjoy',
+    address: '2051 W Division St, Chicago, IL 60622',
+    city: 'Chicago',
+    region: 'IL',
+    country: 'US',
+    lat: 41.9036,
+    lng: -87.6782,
+    type: 'club-night',
+    recurrence: 'weekly',
+    scheduleDetail: 'Every Saturday',
+    notes: 'Popular darkwave/goth night in Chicago.',
+    sources: [
+      'https://www.reddit.com/r/goth/comments/1jbml1r/us_cities_with_goth_scene/'
+    ]
+  },
+  {
+    id: 'il-chicago-point-sinister-sundays',
+    nightName: 'Sinister Sundays',
+    theme: 'Goth/Industrial',
+    venueName: 'The Point',
+    address: '1565 N Milwaukee Ave, Chicago, IL 60622',
+    city: 'Chicago',
+    region: 'IL',
+    country: 'US',
+    lat: 41.9102,
+    lng: -87.6777,
+    type: 'club-night',
+    recurrence: 'weekly',
+    scheduleDetail: 'Every Sunday',
+    notes: 'Sinister Sundays goth/industrial night.',
+    sources: [
+      'https://www.reddit.com/r/goth/comments/1jbml1r/us_cities_with_goth_scene/'
+    ]
+  },
+  {
+    id: 'il-chicago-liars-night-shade',
+    nightName: 'Night Shade',
+    theme: 'Goth/Industrial',
+    venueName: 'Liars Club',
+    address: '1665 W Fullerton Ave, Chicago, IL 60614',
+    city: 'Chicago',
+    region: 'IL',
+    country: 'US',
+    lat: 41.9242,
+    lng: -87.6712,
+    type: 'club-night',
+    recurrence: 'monthly',
+    scheduleDetail: 'Monthly',
+    notes: 'Monthly goth/industrial night.',
+    sources: [
+      'https://www.reddit.com/r/goth/comments/1jbml1r/us_cities_with_goth_scene/'
+    ]
+  },
+  {
+    id: 'nj-parsippany-dark-force-fest',
+    nightName: 'Dark Force Fest',
+    theme: 'Industrial/Goth/Dark Alternative',
+    venueName: 'Sheraton Parsippany',
+    address: '199 Smith Rd, Parsippany, NJ 07054',
+    city: 'Parsippany',
+    region: 'NJ',
+    country: 'US',
+    lat: 40.8554,
+    lng: -74.4066,
+    type: 'festival',
+    recurrence: 'annual',
+    scheduleDetail: 'May 1–3, 2026',
+    notes: '3-Day Industrial/Goth/Dark Alternative Music Festival. Hosted by @vampirefreaks.',
+    sources: [
+      'https://www.instagram.com/darkforcefest/',
+      'https://darkforcefest.com/'
+    ]
+  },
+  {
+    id: 'fl-tampa-absolution-fest',
+    nightName: 'Absolution Fest',
+    theme: 'Goth/Industrial/Darkwave/Post Punk/Synth',
+    venueName: 'Crowbar',
+    address: '1812 N 17th St, Tampa, FL 33605',
+    city: 'Tampa',
+    region: 'FL',
+    country: 'US',
+    lat: 27.9617,
+    lng: -82.4396,
+    type: 'festival',
+    recurrence: 'annual',
+    scheduleDetail: 'Oct 2–4, 2025',
+    notes: '3 nights of goth/industrial/darkwave/post punk/synth.',
+    sources: [
+      'https://www.instagram.com/communion_after_dark/',
+      'https://absolutionfest.com/'
+    ]
+  },
+  {
+    id: 'ca-globe-dark-nation',
+    nightName: 'Dark Nation',
+    theme: 'Goth/EBM/Industrial/Post Punk',
+    venueName: 'The Globe',
+    address: 'Railway Street, Globe, Canada',
+    city: 'Globe',
+    region: '',
+    country: 'CA',
+    lat: null,
+    lng: null,
+    type: 'club-night',
+    recurrence: 'monthly',
+    scheduleDetail: 'Monthly, check Facebook for dates',
+    notes: 'Monthly goth/EBM/industrial/post punk night.',
+    sources: [
+      'https://www.reddit.com/r/goth/comments/2rmje8/list_of_operational_goth_clubs_by_city/'
+    ]
+  },
+  {
+    id: 'ca-shock-therapy',
+    nightName: 'Shock Therapy',
+    theme: 'Goth/Industrial',
+    venueName: 'Various',
+    address: '',
+    city: '',
+    region: '',
+    country: 'CA',
+    lat: null,
+    lng: null,
+    type: 'club-night',
+    recurrence: 'monthly',
+    scheduleDetail: 'Monthly, check social media',
+    notes: 'Monthly goth/industrial night in Canada.',
+    sources: [
+      'https://www.reddit.com/r/goth/comments/2rmje8/list_of_operational_goth_clubs_by_city/'
+    ]
+  },
+  {
+    id: 'us-halo-annual',
+    nightName: 'Halo',
+    theme: 'Dark EDM/Industrial/Goth Classics',
+    venueName: 'Various',
+    address: '',
+    city: '',
+    region: 'US',
+    country: 'US',
+    lat: null,
+    lng: null,
+    type: 'club-night',
+    recurrence: 'annual',
+    scheduleDetail: 'Annual night',
+    notes: 'Annual night featuring dark EDM, industrial, and goth classics.',
+    sources: [
+      'https://www.reddit.com/r/goth/comments/17vmcht/tell_me_about_your_goth_club/'
+    ]
+  },
   // ...existing entries...
   {
     id: 'va-virginia-beach-witching-hour',
