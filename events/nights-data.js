@@ -2657,6 +2657,25 @@ export const nights = [
     notes: 'Tallinn\'s dark music scene in the medieval old town atmosphere.',
     sources: ['https://www.clubprive.ee']
   },
+  
+  // Tartu
+  {
+    id: 'ee-tartu-gooti-kultuur',
+    nightName: 'Gooti Kultuur (Gothic Culture)',
+    theme: 'Gothic / Post-Punk / Dark Academic',
+    venueName: 'Kultuuriklubi Salong',
+    address: 'Magasini 5',
+    city: 'Tartu',
+    region: 'Tartu',
+    country: 'EE',
+    lat: 58.3776,
+    lng: 26.7290,
+    type: 'club-night',
+    recurrence: 'Bi-monthly',
+    scheduleDetail: 'Bi-monthly events focused on dark academic culture',
+    notes: 'University town alternative scene with emphasis on literary and academic dark culture.',
+    sources: ['https://www.salongklubi.ee']
+  },
 
   // === LATVIA ===
   
