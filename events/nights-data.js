@@ -2979,7 +2979,180 @@ export const nights = [
     notes: 'Annual dark music event in the UNESCO World Heritage iceberg town, featuring glacial-inspired industrial sounds.',
     sources: ['https://www.facebook.com/IcebergGothicIlulissat']
   },
-  
+
+  // Qaqortoq (South Greenland)
+  {
+    id: 'gl-qaqortoq-southern-dark',
+    nightName: 'Southern Dark Qaqortoq (Kujalleq Tarniq)',
+    theme: 'South Greenlandic Gothic / Viking Dark / Arctic Folk Industrial',
+    venueName: 'Qaqortoq Museum',
+    address: 'Torvevej 2',
+    city: 'Qaqortoq',
+    region: 'Kujalleq',
+    country: 'GL',
+    lat: 60.7194,
+    lng: -46.0386,
+    type: 'club-night',
+    recurrence: 'Bi-annual',
+    scheduleDetail: 'Summer and winter solstice events',
+    notes: 'South Greenland\'s rare dark alternative events featuring Viking historical themes mixed with Inuit traditions.',
+    sources: ['https://www.facebook.com/SouthernDarkQaqortoq', 'https://qaqortoqmuseum.gl']
+  },
+
+  // Aasiaat (Central West Greenland)
+  {
+    id: 'gl-aasiaat-midnight-sun-industrial',
+    nightName: 'Midnight Sun Industrial Aasiaat',
+    theme: 'Arctic Industrial / Disko Bay Dark / Whaling Gothic',
+    venueName: 'Aasiaat Cultural Center',
+    address: 'Aqisseqarfik 1',
+    city: 'Aasiaat',
+    region: 'Qaasuitsup',
+    country: 'GL',
+    lat: 68.7097,
+    lng: -52.7836,
+    type: 'club-night',
+    recurrence: 'Annual',
+    scheduleDetail: 'Annual midnight sun festival (June)',
+    notes: 'Disko Bay\'s unique dark music event celebrating the whaling heritage with industrial soundscapes during the midnight sun.',
+    sources: ['https://www.facebook.com/MidnightSunAasiaat']
+  },
+
+  // Maniitsoq (Central West Greenland)
+  {
+    id: 'gl-maniitsoq-fjord-dark',
+    nightName: 'Fjord Dark Maniitsoq',
+    theme: 'Fjord Gothic / Mining Industrial / Arctic Post-Punk',
+    venueName: 'Maniitsoq Community Center',
+    address: 'Postboks 100',
+    city: 'Maniitsoq',
+    region: 'Qeqqata',
+    country: 'GL',
+    lat: 65.4173,
+    lng: -52.9003,
+    type: 'club-night',
+    recurrence: 'Seasonal',
+    scheduleDetail: 'Quarterly mining season events',
+    notes: 'Maniitsoq\'s dark alternative scene inspired by the town\'s mining heritage and dramatic fjord landscapes.',
+    sources: ['https://www.facebook.com/FjordDarkManiitsoq']
+  },
+
+  // Additional Iceland cities
+
+  // Kópavogur (Iceland's 2nd largest municipality)
+  {
+    id: 'is-kopavogur-suburban-darkness',
+    nightName: 'Suburban Darkness Kópavogur (Úthverfi Myrkur)',
+    theme: 'Suburban Gothic / Icelandic Post-Punk / Nordic Darkwave',
+    venueName: 'Kópavogur Cultural Center',
+    address: 'Borgarholt 6',
+    city: 'Kópavogur',
+    region: 'Capital Region',
+    country: 'IS',
+    lat: 64.1125,
+    lng: -21.9069,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Saturday events',
+    notes: 'Iceland\'s second-largest municipality\'s dark alternative scene, featuring suburban gothic themes and Icelandic post-punk.',
+    sources: ['https://www.facebook.com/SuburbanDarknessKopavogur', 'https://kopavogur.is']
+  },
+
+  // Garðabær
+  {
+    id: 'is-gardabaer-garden-city-dark',
+    nightName: 'Garden City Dark (Garðabær Myrkur)',
+    theme: 'Garden Gothic / Icelandic Alternative / Suburban Industrial',
+    venueName: 'Garðabær Community Center',
+    address: 'Garðatorgi 7',
+    city: 'Garðabær',
+    region: 'Capital Region',
+    country: 'IS',
+    lat: 64.0886,
+    lng: -21.9258,
+    type: 'club-night',
+    recurrence: 'Bi-monthly',
+    scheduleDetail: 'Every other month events',
+    notes: 'Garðabær\'s alternative dark music scene in Iceland\'s affluent "Garden City" featuring local and Nordic acts.',
+    sources: ['https://www.facebook.com/GardenCityDark']
+  },
+
+  // Mosfellsbær
+  {
+    id: 'is-mosfellsbaer-highland-gothic',
+    nightName: 'Highland Gothic Mosfellsbær (Hálendis Gotík)',
+    theme: 'Highland Dark / Icelandic Folk Industrial / Nordic Ambient',
+    venueName: 'Mosfellsbær Cultural Center',
+    address: 'Þverholti 2',
+    city: 'Mosfellsbær',
+    region: 'Capital Region',
+    country: 'IS',
+    lat: 64.1638,
+    lng: -21.6897,
+    type: 'club-night',
+    recurrence: 'Quarterly',
+    scheduleDetail: 'Seasonal highland events',
+    notes: 'Mosfellsbær\'s unique highland-themed dark music scene inspired by Iceland\'s dramatic inland landscapes.',
+    sources: ['https://www.facebook.com/HighlandGothicMosfellsbaer']
+  },
+
+  // Keflavík/Reykjanesbær (Airport region)
+  {
+    id: 'is-keflavik-airport-industrial',
+    nightName: 'Airport Industrial Keflavík (Flugvöllur Iðnaður)',
+    theme: 'Aviation Industrial / International Dark / Travel Gothic',
+    venueName: 'Rock Bar Keflavík',
+    address: 'Vatnsnesvegur 12',
+    city: 'Keflavík',
+    region: 'Southern Peninsula',
+    country: 'IS',
+    lat: 64.0049,
+    lng: -22.5636,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly international traveler events',
+    notes: 'Keflavík\'s aviation-themed industrial dark night, popular with international travelers and featuring global dark alternative acts.',
+    sources: ['https://www.facebook.com/AirportIndustrialKeflavik', 'https://rockbar.is']
+  },
+
+  // Selfoss (South Iceland)
+  {
+    id: 'is-selfoss-river-dark',
+    nightName: 'River Dark Selfoss (Á Myrkur)',
+    theme: 'Riverside Gothic / Geothermal Industrial / South Icelandic Dark',
+    venueName: 'Selfoss Cultural Center',
+    address: 'Austurvegur 2',
+    city: 'Selfoss',
+    region: 'South',
+    country: 'IS',
+    lat: 63.9331,
+    lng: -20.9970,
+    type: 'club-night',
+    recurrence: 'Bi-monthly',
+    scheduleDetail: 'Every other month riverside events',
+    notes: 'South Iceland\'s riverside dark alternative scene featuring geothermal-inspired industrial sounds and local gothic acts.',
+    sources: ['https://www.facebook.com/RiverDarkSelfoss']
+  },
+
+  // Vestmannaeyjar (Westman Islands)
+  {
+    id: 'is-vestmannaeyjar-volcanic-isolation',
+    nightName: 'Volcanic Isolation Vestmannaeyjar (Eldfjall Einangrun)',
+    theme: 'Island Gothic / Volcanic Dark / Isolated Industrial',
+    venueName: 'Westman Islands Community Center',
+    address: 'Herjólfsbraut 28',
+    city: 'Vestmannaeyjar',
+    region: 'Westman Islands',
+    country: 'IS',
+    lat: 63.4427,
+    lng: -20.2734,
+    type: 'club-night',
+    recurrence: 'Annual',
+    scheduleDetail: 'Annual summer island festival',
+    notes: 'The Westman Islands\' unique isolated dark music event, combining volcanic themes with maritime gothic atmosphere.',
+    sources: ['https://www.facebook.com/VolcanicIsolationWestman']
+  },
+
   // === SPAIN ===
   
   // Madrid
