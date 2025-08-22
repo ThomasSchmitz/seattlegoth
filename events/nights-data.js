@@ -3886,6 +3886,44 @@ export const nights = [
     sources: ['https://www.facebook.com/SafavidShadow']
   },
 
+  // Mashhad
+  {
+    id: 'ir-mashhad-shrine-shadows',
+    nightName: 'سایه‌های حرم (Shrine Shadows)',
+    theme: 'Persian Gothic / Pilgrimage Dark / Khorasan Industrial',
+    venueName: 'Mashhad Cultural Center',
+    address: 'Imam Reza Street, Mashhad',
+    city: 'Mashhad',
+    region: 'Razavi Khorasan',
+    country: 'IR',
+    lat: 36.2605,
+    lng: 59.6168,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Khorasan dark cultural events',
+    notes: 'Mashhad\'s spiritual-meets-dark alternative scene in Iran\'s holiest city, blending pilgrimage mysticism with gothic aesthetics.',
+    sources: ['https://www.facebook.com/ShrineShadowsMashhad']
+  },
+
+  // Shiraz
+  {
+    id: 'ir-shiraz-poets-darkness',
+    nightName: 'تاریکی شاعران (Poets\' Darkness)',
+    theme: 'Persian Gothic / Poetry Dark / Wine Country Industrial',
+    venueName: 'Shiraz Arts House',
+    address: 'Zand Boulevard, Shiraz',
+    city: 'Shiraz',
+    region: 'Fars',
+    country: 'IR',
+    lat: 29.5918,
+    lng: 52.5837,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly poetry-infused dark events',
+    notes: 'Shiraz\'s poetic dark alternative scene in the city of Hafez and Saadi, where Persian poetry meets gothic expression.',
+    sources: ['https://www.facebook.com/PoetsDarknessShiraz']
+  },
+
   // === UNITED ARAB EMIRATES ===
   
   // Dubai
@@ -3945,6 +3983,25 @@ export const nights = [
     scheduleDetail: 'Monthly desert gothic cultural events',
     notes: 'Riyadh\'s emerging dark alternative cultural scene within Vision 2030 entertainment developments.',
     sources: ['https://www.facebook.com/DesertThroneSA']
+  },
+
+  // Jeddah
+  {
+    id: 'sa-jeddah-red-sea-gothic',
+    nightName: 'قوطية البحر الأحمر (Red Sea Gothic)',
+    theme: 'Saudi Gothic / Red Sea Dark / Hajj Industrial',
+    venueName: 'Rosewood Jeddah',
+    address: 'Al Hamra Corniche, Jeddah',
+    city: 'Jeddah',
+    region: 'Makkah',
+    country: 'SA',
+    lat: 21.4858,
+    lng: 39.1925,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Red Sea coastal dark events',
+    notes: 'Jeddah\'s gateway-to-Mecca dark alternative scene by the Red Sea, blending ancient pilgrimage routes with modern gothic culture.',
+    sources: ['https://www.facebook.com/RedSeaGothicSA']
   },
 
   // === QATAR ===
@@ -4054,6 +4111,25 @@ export const nights = [
     sources: ['https://www.facebook.com/MesopotamianDarknessIQ']
   },
 
+  // Basra
+  {
+    id: 'iq-basra-shatt-al-arab-gothic',
+    nightName: 'قوطية شط العرب (Shatt al-Arab Gothic)',
+    theme: 'Iraqi Gothic / Marshland Dark / Oil Industrial',
+    venueName: 'Basra International Hotel',
+    address: '14th July Street, Basra',
+    city: 'Basra',
+    region: 'Basra',
+    country: 'IQ',
+    lat: 30.5092,
+    lng: 47.7864,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Shatt al-Arab waterway dark events',
+    notes: 'Basra\'s southern Iraqi dark alternative scene where the Tigris and Euphrates meet, amid ancient marshlands and modern oil industry.',
+    sources: ['https://www.facebook.com/ShattAlArabGothic']
+  },
+
   // === SYRIA ===
   
   // Damascus
@@ -4073,6 +4149,25 @@ export const nights = [
     scheduleDetail: 'Monthly Levantine dark music gatherings',
     notes: 'Damascus\' historic dark alternative scene in one of the world\'s oldest continuously inhabited cities.',
     sources: ['https://www.facebook.com/DamasceneShadows']
+  },
+
+  // Aleppo
+  {
+    id: 'sy-aleppo-citadel-darkness',
+    nightName: 'ظلام القلعة (Citadel Darkness)',
+    theme: 'Syrian Gothic / Ancient Citadel Dark / Silk Road Industrial',
+    venueName: 'Cham Palace Aleppo',
+    address: 'Aleppo Cham Palace, Aleppo',
+    city: 'Aleppo',
+    region: 'Aleppo',
+    country: 'SY',
+    lat: 36.2021,
+    lng: 37.1343,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly ancient citadel dark cultural events',
+    notes: 'Aleppo\'s resilient dark alternative scene in the shadow of the ancient citadel, along the historic Silk Road.',
+    sources: ['https://www.facebook.com/CitadelDarknessAleppo']
   },
 
   // === YEMEN ===
