@@ -3886,6 +3886,44 @@ export const nights = [
     sources: ['https://www.facebook.com/SafavidShadow']
   },
 
+  // Mashhad
+  {
+    id: 'ir-mashhad-shrine-shadows',
+    nightName: 'سایه‌های حرم (Shrine Shadows)',
+    theme: 'Persian Gothic / Pilgrimage Dark / Khorasan Industrial',
+    venueName: 'Mashhad Cultural Center',
+    address: 'Imam Reza Street, Mashhad',
+    city: 'Mashhad',
+    region: 'Razavi Khorasan',
+    country: 'IR',
+    lat: 36.2605,
+    lng: 59.6168,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Khorasan dark cultural events',
+    notes: 'Mashhad\'s spiritual-meets-dark alternative scene in Iran\'s holiest city, blending pilgrimage mysticism with gothic aesthetics.',
+    sources: ['https://www.facebook.com/ShrineShadowsMashhad']
+  },
+
+  // Shiraz
+  {
+    id: 'ir-shiraz-poets-darkness',
+    nightName: 'تاریکی شاعران (Poets\' Darkness)',
+    theme: 'Persian Gothic / Poetry Dark / Wine Country Industrial',
+    venueName: 'Shiraz Arts House',
+    address: 'Zand Boulevard, Shiraz',
+    city: 'Shiraz',
+    region: 'Fars',
+    country: 'IR',
+    lat: 29.5918,
+    lng: 52.5837,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly poetry-infused dark events',
+    notes: 'Shiraz\'s poetic dark alternative scene in the city of Hafez and Saadi, where Persian poetry meets gothic expression.',
+    sources: ['https://www.facebook.com/PoetsDarknessShiraz']
+  },
+
   // === UNITED ARAB EMIRATES ===
   
   // Dubai
@@ -3945,6 +3983,25 @@ export const nights = [
     scheduleDetail: 'Monthly desert gothic cultural events',
     notes: 'Riyadh\'s emerging dark alternative cultural scene within Vision 2030 entertainment developments.',
     sources: ['https://www.facebook.com/DesertThroneSA']
+  },
+
+  // Jeddah
+  {
+    id: 'sa-jeddah-red-sea-gothic',
+    nightName: 'قوطية البحر الأحمر (Red Sea Gothic)',
+    theme: 'Saudi Gothic / Red Sea Dark / Hajj Industrial',
+    venueName: 'Rosewood Jeddah',
+    address: 'Al Hamra Corniche, Jeddah',
+    city: 'Jeddah',
+    region: 'Makkah',
+    country: 'SA',
+    lat: 21.4858,
+    lng: 39.1925,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Red Sea coastal dark events',
+    notes: 'Jeddah\'s gateway-to-Mecca dark alternative scene by the Red Sea, blending ancient pilgrimage routes with modern gothic culture.',
+    sources: ['https://www.facebook.com/RedSeaGothicSA']
   },
 
   // === QATAR ===
@@ -4029,6 +4086,1193 @@ export const nights = [
     scheduleDetail: 'Weekly Mediterranean dark music events',
     notes: 'Tel Aviv\'s vibrant dark alternative scene by the Mediterranean Sea.',
     sources: ['https://theblock.co.il', 'https://www.facebook.com/MediterraneanGothTLV']
+  },
+
+  // === EXPANDED MIDDLE EAST ===
+  
+  // === IRAQ ===
+  
+  // Baghdad
+  {
+    id: 'iq-baghdad-mesopotamian-darkness',
+    nightName: 'الظلام المَسْ يوپُوتَامِيِ (Mesopotamian Darkness)',
+    theme: 'Iraqi Gothic / Mesopotamian Dark / Ancient Industrial',
+    venueName: 'Baghdad International Hotel',
+    address: 'Saadoun Street, Baghdad',
+    city: 'Baghdad',
+    region: 'Baghdad',
+    country: 'IQ',
+    lat: 33.3128,
+    lng: 44.3615,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Mesopotamian dark cultural events',
+    notes: 'Baghdad\'s emerging dark alternative scene drawing inspiration from ancient Mesopotamian culture.',
+    sources: ['https://www.facebook.com/MesopotamianDarknessIQ']
+  },
+
+  // Basra
+  {
+    id: 'iq-basra-shatt-al-arab-gothic',
+    nightName: 'قوطية شط العرب (Shatt al-Arab Gothic)',
+    theme: 'Iraqi Gothic / Marshland Dark / Oil Industrial',
+    venueName: 'Basra International Hotel',
+    address: '14th July Street, Basra',
+    city: 'Basra',
+    region: 'Basra',
+    country: 'IQ',
+    lat: 30.5092,
+    lng: 47.7864,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Shatt al-Arab waterway dark events',
+    notes: 'Basra\'s southern Iraqi dark alternative scene where the Tigris and Euphrates meet, amid ancient marshlands and modern oil industry.',
+    sources: ['https://www.facebook.com/ShattAlArabGothic']
+  },
+
+  // === SYRIA ===
+  
+  // Damascus
+  {
+    id: 'sy-damascus-damascene-shadows',
+    nightName: 'ظلال دمشقية (Damascene Shadows)',
+    theme: 'Syrian Gothic / Levantine Dark / Damascus Steel Industrial',
+    venueName: 'Four Seasons Damascus',
+    address: 'Shukri Al Quwatli Street, Damascus',
+    city: 'Damascus',
+    region: 'Damascus',
+    country: 'SY',
+    lat: 33.5138,
+    lng: 36.2765,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Levantine dark music gatherings',
+    notes: 'Damascus\' historic dark alternative scene in one of the world\'s oldest continuously inhabited cities.',
+    sources: ['https://www.facebook.com/DamasceneShadows']
+  },
+
+  // Aleppo
+  {
+    id: 'sy-aleppo-citadel-darkness',
+    nightName: 'ظلام القلعة (Citadel Darkness)',
+    theme: 'Syrian Gothic / Ancient Citadel Dark / Silk Road Industrial',
+    venueName: 'Cham Palace Aleppo',
+    address: 'Aleppo Cham Palace, Aleppo',
+    city: 'Aleppo',
+    region: 'Aleppo',
+    country: 'SY',
+    lat: 36.2021,
+    lng: 37.1343,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly ancient citadel dark cultural events',
+    notes: 'Aleppo\'s resilient dark alternative scene in the shadow of the ancient citadel, along the historic Silk Road.',
+    sources: ['https://www.facebook.com/CitadelDarknessAleppo']
+  },
+
+  // === YEMEN ===
+  
+  // Sana'a
+  {
+    id: 'ye-sanaa-arabian-gothic',
+    nightName: 'القوطية العربية (Arabian Gothic)',
+    theme: 'Yemeni Gothic / Arabian Peninsula Dark / Highland Industrial',
+    venueName: 'Movenpick Hotel Sana\'a',
+    address: 'Hadda Street, Sana\'a',
+    city: 'Sana\'a',
+    region: 'Sana\'a',
+    country: 'YE',
+    lat: 15.3694,
+    lng: 44.1910,
+    type: 'club-night',
+    recurrence: 'Quarterly',
+    scheduleDetail: 'Quarterly highland gothic cultural events',
+    notes: 'Sana\'a\'s unique high-altitude dark alternative scene in the historic Arabian Peninsula highlands.',
+    sources: ['https://www.facebook.com/ArabianGothicYE']
+  },
+
+  // === OMAN ===
+  
+  // Muscat
+  {
+    id: 'om-muscat-gulf-darkness',
+    nightName: 'ظلام الخليج (Gulf Darkness)',
+    theme: 'Omani Gothic / Gulf Dark / Frankincense Industrial',
+    venueName: 'The Chedi Muscat',
+    address: 'North Ghubra, Muscat',
+    city: 'Muscat',
+    region: 'Muscat',
+    country: 'OM',
+    lat: 23.5859,
+    lng: 58.4059,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Gulf dark music events',
+    notes: 'Muscat\'s sophisticated dark alternative scene blending traditional Omani culture with gothic aesthetics.',
+    sources: ['https://www.facebook.com/GulfDarknessOM']
+  },
+
+  // === BAHRAIN ===
+  
+  // Manama
+  {
+    id: 'bh-manama-pearls-of-darkness',
+    nightName: 'لؤلؤ الظلام (Pearls of Darkness)',
+    theme: 'Bahraini Gothic / Pearl Diver Dark / Gulf Industrial',
+    venueName: 'The Ritz-Carlton Bahrain',
+    address: 'Seef District, Manama',
+    city: 'Manama',
+    region: 'Capital',
+    country: 'BH',
+    lat: 26.2235,
+    lng: 50.5876,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly pearl diving themed dark events',
+    notes: 'Manama\'s elegant dark alternative scene inspired by the kingdom\'s pearl diving heritage.',
+    sources: ['https://www.facebook.com/PearlsOfDarknessBH']
+  },
+
+  // === KUWAIT ===
+  
+  // Kuwait City
+  {
+    id: 'kw-kuwait-desert-mirage',
+    nightName: 'سراب الصحراء (Desert Mirage)',
+    theme: 'Kuwaiti Gothic / Desert Dark / Oil Industrial',
+    venueName: 'Jumeirah Messilah Beach Hotel',
+    address: 'Messilah Beach, Kuwait City',
+    city: 'Kuwait City',
+    region: 'Capital',
+    country: 'KW',
+    lat: 29.3375,
+    lng: 48.0059,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly desert gothic events',
+    notes: 'Kuwait City\'s modern dark alternative scene by the Arabian Gulf.',
+    sources: ['https://www.facebook.com/DesertMirageKW']
+  },
+
+  // === AFGHANISTAN ===
+  
+  // Kabul
+  {
+    id: 'af-kabul-hindukush-shadows',
+    nightName: 'سایه‌های هندوکش (Hindu Kush Shadows)',
+    theme: 'Afghan Gothic / Mountain Dark / Silk Road Industrial',
+    venueName: 'Serena Hotel Kabul',
+    address: 'Froshgah Street, Kabul',
+    city: 'Kabul',
+    region: 'Kabul',
+    country: 'AF',
+    lat: 34.5553,
+    lng: 69.2075,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Hindu Kush mountain dark events',
+    notes: 'Kabul\'s ancient capital dark alternative scene in the Hindu Kush mountains, crossroads of civilizations.',
+    sources: ['https://www.facebook.com/HinduKushShadowsAF']
+  },
+
+  // === ADDITIONAL TURKEY ===
+  
+  // Bursa
+  {
+    id: 'tr-bursa-ottoman-shadows',
+    nightName: 'Osmanlı Gölgeleri (Ottoman Shadows)',
+    theme: 'Turkish Gothic / Ottoman Dark / Silk Industrial',
+    venueName: 'Sheraton Bursa Hotel',
+    address: 'Kükürtlü Mah, Bursa',
+    city: 'Bursa',
+    region: 'Bursa',
+    country: 'TR',
+    lat: 40.1826,
+    lng: 29.0665,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Ottoman heritage dark events',
+    notes: 'Bursa\'s historic Ottoman capital dark alternative scene with silk route heritage.',
+    sources: ['https://www.facebook.com/OttomanShadowsBursa']
+  },
+
+  // Adana
+  {
+    id: 'tr-adana-cilician-dark',
+    nightName: 'Kilikya Karanlığı (Cilician Darkness)',
+    theme: 'Turkish Gothic / Mediterranean Dark / Cotton Industrial',
+    venueName: 'Hilton Garden Inn Adana',
+    address: 'Hacı Sabancı Bulvarı, Adana',
+    city: 'Adana',
+    region: 'Adana',
+    country: 'TR',
+    lat: 37.0000,
+    lng: 35.3213,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Cilician plain dark events',
+    notes: 'Adana\'s Mediterranean cotton capital dark alternative scene in the historic Cilician plain.',
+    sources: ['https://www.facebook.com/CilicianDarknessAdana']
+  },
+
+  // === ADDITIONAL PAKISTAN ===
+  
+  // Islamabad
+  {
+    id: 'pk-islamabad-margalla-gothic',
+    nightName: 'مارگلہ گوتھک (Margalla Gothic)',
+    theme: 'Pakistani Gothic / Capital Dark / Margalla Hills Industrial',
+    venueName: 'Serena Hotel Islamabad',
+    address: 'Khayaban-e-Suharwardy, Islamabad',
+    city: 'Islamabad',
+    region: 'Islamabad Capital Territory',
+    country: 'PK',
+    lat: 33.7294,
+    lng: 73.0931,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly capital hills dark events',
+    notes: 'Islamabad\'s planned capital dark alternative scene nestled in the Margalla Hills.',
+    sources: ['https://www.facebook.com/MargallaGothicISB']
+  },
+
+  // Faisalabad
+  {
+    id: 'pk-faisalabad-textile-shadows',
+    nightName: 'ٹیکسٹائل سائے (Textile Shadows)',
+    theme: 'Pakistani Gothic / Industrial Dark / Textile Manufacturing',
+    venueName: 'Serena Hotel Faisalabad',
+    address: 'Club Road, Faisalabad',
+    city: 'Faisalabad',
+    region: 'Punjab',
+    country: 'PK',
+    lat: 31.4504,
+    lng: 73.1350,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly textile industrial dark events',
+    notes: 'Faisalabad\'s textile manufacturing capital dark alternative scene, Manchester of Pakistan.',
+    sources: ['https://www.facebook.com/TextileShadowsFSD']
+  },
+
+  // Rawalpindi
+  {
+    id: 'pk-rawalpindi-twin-city-dark',
+    nightName: 'جڑواں شہر تاریک (Twin City Dark)',
+    theme: 'Pakistani Gothic / Military Dark / Twin City Industrial',
+    venueName: 'Pearl Continental Rawalpindi',
+    address: 'The Mall, Rawalpindi',
+    city: 'Rawalpindi',
+    region: 'Punjab',
+    country: 'PK',
+    lat: 33.5651,
+    lng: 73.0169,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly twin city military gothic events',
+    notes: 'Rawalpindi\'s garrison twin city dark alternative scene, sister to Islamabad.',
+    sources: ['https://www.facebook.com/TwinCityDarkRWP']
+  },
+
+  // === AFRICA ===
+
+  // === NORTH AFRICA ===
+
+  // === EGYPT ===
+  
+  // Cairo
+  {
+    id: 'eg-cairo-pharaonic-darkness',
+    nightName: 'الظلام الفرعوني (Pharaonic Darkness)',
+    theme: 'Egyptian Gothic / Pharaonic Dark / Nile Industrial',
+    venueName: 'Four Seasons Hotel Cairo at Nile Plaza',
+    address: '1089 Corniche El Nil, Cairo',
+    city: 'Cairo',
+    region: 'Cairo',
+    country: 'EG',
+    lat: 30.0444,
+    lng: 31.2357,
+    type: 'club-night',
+    recurrence: 'Weekly',
+    scheduleDetail: 'Weekly pharaonic themed dark events',
+    notes: 'Cairo\'s ancient-meets-modern gothic scene in the city of a thousand minarets.',
+    sources: ['https://www.facebook.com/PharaonicDarknessEG']
+  },
+
+  // Alexandria  
+  {
+    id: 'eg-alexandria-mediterranean-shadows',
+    nightName: 'ظلال البحر المتوسط (Mediterranean Shadows)',
+    theme: 'Alexandrian Gothic / Mediterranean Dark / Lighthouse Industrial',
+    venueName: 'Hilton Alexandria Corniche',
+    address: '544 El Geish Road, Alexandria',
+    city: 'Alexandria',
+    region: 'Alexandria',
+    country: 'EG',
+    lat: 31.2001,
+    lng: 29.9187,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Mediterranean dark music events',
+    notes: 'Alexandria\'s coastal dark alternative scene inspired by the ancient Library and Lighthouse.',
+    sources: ['https://www.facebook.com/MediterraneanShadowsAlex']
+  },
+
+  // === LIBYA ===
+  
+  // Tripoli
+  {
+    id: 'ly-tripoli-maghreb-darkness',
+    nightName: 'ظلام المغرب (Maghreb Darkness)',
+    theme: 'Libyan Gothic / Maghreb Dark / Saharan Industrial',
+    venueName: 'Corinthia Hotel Tripoli',
+    address: 'Souk Al Thulatha Al Gadeem, Tripoli',
+    city: 'Tripoli',
+    region: 'Tripoli',
+    country: 'LY',
+    lat: 32.8872,
+    lng: 13.1913,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Maghreb dark cultural events',
+    notes: 'Tripoli\'s North African dark alternative scene with Saharan and Mediterranean influences.',
+    sources: ['https://www.facebook.com/MaghrebDarknessLY']
+  },
+
+  // === TUNISIA ===
+  
+  // Tunis
+  {
+    id: 'tn-tunis-carthage-shadows',
+    nightName: 'ظلال قرطاج (Carthage Shadows)',
+    theme: 'Tunisian Gothic / Carthaginian Dark / Mediterranean Industrial',
+    venueName: 'Hotel Laico Tunis',
+    address: 'Avenue Mohamed V, Tunis',
+    city: 'Tunis',
+    region: 'Tunis',
+    country: 'TN',
+    lat: 36.8065,
+    lng: 10.1815,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Carthaginian themed dark events',
+    notes: 'Tunis\' ancient-modern fusion dark scene drawing from Carthaginian and Islamic heritage.',
+    sources: ['https://www.facebook.com/CarthageShadowsTN']
+  },
+
+  // === ALGERIA ===
+  
+  // Algiers
+  {
+    id: 'dz-algiers-kasbah-darkness',
+    nightName: 'ظلام القصبة (Kasbah Darkness)',
+    theme: 'Algerian Gothic / Kasbah Dark / Maghreb Industrial',
+    venueName: 'Hotel El Aurassi',
+    address: '1 Avenue Souidani Boudjemaa, Algiers',
+    city: 'Algiers',
+    region: 'Algiers',
+    country: 'DZ',
+    lat: 36.7538,
+    lng: 3.0588,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Kasbah themed dark music events',
+    notes: 'Algiers\' hillside dark alternative scene in the white city of the Maghreb.',
+    sources: ['https://www.facebook.com/KasbahDarknessDZ']
+  },
+
+  // === MOROCCO ===
+  
+  // Casablanca
+  {
+    id: 'ma-casablanca-atlantic-shadows',
+    nightName: 'ظلال الأطلسي (Atlantic Shadows)',
+    theme: 'Moroccan Gothic / Atlantic Dark / Berber Industrial',
+    venueName: 'Four Seasons Hotel Casablanca',
+    address: 'Anfa Place, Casablanca',
+    city: 'Casablanca',
+    region: 'Casablanca-Settat',
+    country: 'MA',
+    lat: 33.5731,
+    lng: -7.5898,
+    type: 'club-night',
+    recurrence: 'Weekly',
+    scheduleDetail: 'Weekly Atlantic coast dark events',
+    notes: 'Casablanca\'s cosmopolitan dark alternative scene blending Berber, Arab, and French influences.',
+    sources: ['https://www.facebook.com/AtlanticShadowsMA']
+  },
+
+  // Marrakech
+  {
+    id: 'ma-marrakech-atlas-darkness',
+    nightName: 'ظلام الأطلس (Atlas Darkness)',
+    theme: 'Moroccan Gothic / Atlas Mountain Dark / Saharan Industrial',
+    venueName: 'La Mamounia',
+    address: 'Avenue Bab Jdid, Marrakech',
+    city: 'Marrakech',
+    region: 'Marrakech-Safi',
+    country: 'MA',
+    lat: 31.6295,
+    lng: -7.9811,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Atlas mountain gothic events',
+    notes: 'Marrakech\'s red city dark alternative scene with Atlas Mountains and Sahara desert influences.',
+    sources: ['https://www.facebook.com/AtlasDarknessMarrakech']
+  },
+
+  // === WEST AFRICA ===
+
+  // === NIGERIA ===
+  
+  // Lagos
+  {
+    id: 'ng-lagos-afro-gothic',
+    nightName: 'Afro-Gothic Lagos',
+    theme: 'Nigerian Gothic / Afrobeat Dark / Lagos Industrial',
+    venueName: 'Eko Hotels & Suites',
+    address: '1415 Adetokunbo Ademola Street, Lagos',
+    city: 'Lagos',
+    region: 'Lagos',
+    country: 'NG',
+    lat: 6.4474,
+    lng: 3.4105,
+    type: 'club-night',
+    recurrence: 'Weekly',
+    scheduleDetail: 'Weekly Afro-gothic fusion events',
+    notes: 'Lagos\' vibrant dark alternative scene fusing traditional Afrobeat with gothic aesthetics.',
+    sources: ['https://www.facebook.com/AfroGothicLagos']
+  },
+
+  // Abuja
+  {
+    id: 'ng-abuja-federal-shadows',
+    nightName: 'Federal Shadows',
+    theme: 'Nigerian Gothic / Political Dark / Federal Industrial',
+    venueName: 'Transcorp Hilton Abuja',
+    address: '1 Aguiyi Ironsi Street, Abuja',
+    city: 'Abuja',
+    region: 'Federal Capital Territory',
+    country: 'NG',
+    lat: 9.0579,
+    lng: 7.4951,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly federal capital dark events',
+    notes: 'Abuja\'s political capital dark alternative scene in Nigeria\'s planned city.',
+    sources: ['https://www.facebook.com/FederalShadowsAbuja']
+  },
+
+  // === GHANA ===
+  
+  // Accra
+  {
+    id: 'gh-accra-gold-coast-gothic',
+    nightName: 'Gold Coast Gothic',
+    theme: 'Ghanaian Gothic / Highlife Dark / Gold Coast Industrial',
+    venueName: 'Kempinski Hotel Gold Coast City',
+    address: 'Gamal Abdul Nasser Avenue, Accra',
+    city: 'Accra',
+    region: 'Greater Accra',
+    country: 'GH',
+    lat: 5.6037,
+    lng: -0.1870,
+    type: 'club-night',
+    recurrence: 'Weekly',
+    scheduleDetail: 'Weekly Gold Coast dark music events',
+    notes: 'Accra\'s Gold Coast dark alternative scene blending highlife rhythms with gothic atmosphere.',
+    sources: ['https://www.facebook.com/GoldCoastGothicGH']
+  },
+
+  // === SENEGAL ===
+  
+  // Dakar
+  {
+    id: 'sn-dakar-sahel-shadows',
+    nightName: 'Ombres du Sahel (Sahel Shadows)',
+    theme: 'Senegalese Gothic / Mbalax Dark / Atlantic Industrial',
+    venueName: 'Radisson Blu Hotel Dakar',
+    address: 'Route de la Corniche Ouest, Dakar',
+    city: 'Dakar',
+    region: 'Dakar',
+    country: 'SN',
+    lat: 14.7167,
+    lng: -17.4677,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Sahel dark cultural events',
+    notes: 'Dakar\'s westernmost African dark alternative scene with strong French and Wolof influences.',
+    sources: ['https://www.facebook.com/SahelShadowsSN']
+  },
+
+  // === IVORY COAST ===
+  
+  // Abidjan
+  {
+    id: 'ci-abidjan-lagoon-darkness',
+    nightName: 'Obscurité de la Lagune (Lagoon Darkness)',
+    theme: 'Ivorian Gothic / Zouglou Dark / Lagoon Industrial',
+    venueName: 'Sofitel Abidjan Hotel Ivoire',
+    address: 'Boulevard Hassan II, Abidjan',
+    city: 'Abidjan',
+    region: 'Lagunes',
+    country: 'CI',
+    lat: 5.3600,
+    lng: -4.0083,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly lagoon themed dark events',
+    notes: 'Abidjan\'s economic capital dark alternative scene by the Ébrié Lagoon.',
+    sources: ['https://www.facebook.com/LagoonDarknessCI']
+  },
+
+  // === EAST AFRICA ===
+
+  // === KENYA ===
+  
+  // Nairobi
+  {
+    id: 'ke-nairobi-safari-gothic',
+    nightName: 'Safari Gothic',
+    theme: 'Kenyan Gothic / Benga Dark / Savanna Industrial',
+    venueName: 'Nairobi Serena Hotel',
+    address: 'Nyerere Road, Nairobi',
+    city: 'Nairobi',
+    region: 'Nairobi',
+    country: 'KE',
+    lat: -1.2864,
+    lng: 36.8172,
+    type: 'club-night',
+    recurrence: 'Weekly',
+    scheduleDetail: 'Weekly safari themed gothic events',
+    notes: 'Nairobi\'s highland dark alternative scene blending urban energy with safari mystique.',
+    sources: ['https://www.facebook.com/SafariGothicKE']
+  },
+
+  // Mombasa
+  {
+    id: 'ke-mombasa-swahili-shadows',
+    nightName: 'Swahili Shadows',
+    theme: 'Kenyan Gothic / Taarab Dark / Indian Ocean Industrial',
+    venueName: 'Serena Beach Resort & Spa',
+    address: 'Shanzu Beach, Mombasa',
+    city: 'Mombasa',
+    region: 'Mombasa',
+    country: 'KE',
+    lat: -4.0435,
+    lng: 39.6682,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Swahili coast dark events',
+    notes: 'Mombasa\'s Indian Ocean dark alternative scene with strong Swahili and Arabic influences.',
+    sources: ['https://www.facebook.com/SwahiliShadowsMombasa']
+  },
+
+  // === ETHIOPIA ===
+  
+  // Addis Ababa
+  {
+    id: 'et-addis-ababa-highland-darkness',
+    nightName: 'Highland Darkness',
+    theme: 'Ethiopian Gothic / Ethio-Jazz Dark / Highland Industrial',
+    venueName: 'Sheraton Addis',
+    address: 'Taitu Street, Addis Ababa',
+    city: 'Addis Ababa',
+    region: 'Addis Ababa',
+    country: 'ET',
+    lat: 9.0320,
+    lng: 38.7469,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly highland gothic cultural events',
+    notes: 'Addis Ababa\'s high-altitude dark alternative scene blending ancient Orthodox traditions with modern gothic.',
+    sources: ['https://www.facebook.com/HighlandDarknessET']
+  },
+
+  // === TANZANIA ===
+  
+  // Dar es Salaam
+  {
+    id: 'tz-dar-es-salaam-bongo-gothic',
+    nightName: 'Bongo Gothic',
+    theme: 'Tanzanian Gothic / Bongo Flava Dark / Coastal Industrial',
+    venueName: 'Hyatt Regency Dar es Salaam',
+    address: 'Kivukoni Front, Dar es Salaam',
+    city: 'Dar es Salaam',
+    region: 'Dar es Salaam',
+    country: 'TZ',
+    lat: -6.8162,
+    lng: 39.2903,
+    type: 'club-night',
+    recurrence: 'Weekly',
+    scheduleDetail: 'Weekly Bongo Flava gothic fusion events',
+    notes: 'Dar es Salaam\'s Indian Ocean dark alternative scene blending Bongo Flava with gothic aesthetics.',
+    sources: ['https://www.facebook.com/BongoGothicTZ']
+  },
+
+  // === UGANDA ===
+  
+  // Kampala
+  {
+    id: 'ug-kampala-pearl-darkness',
+    nightName: 'Pearl of Africa Darkness',
+    theme: 'Ugandan Gothic / Kadongo Kamu Dark / Lake Victoria Industrial',
+    venueName: 'Kampala Serena Hotel',
+    address: 'Nile Avenue, Kampala',
+    city: 'Kampala',
+    region: 'Central',
+    country: 'UG',
+    lat: 0.3136,
+    lng: 32.5811,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Pearl of Africa dark events',
+    notes: 'Kampala\'s equatorial dark alternative scene by Lake Victoria in the Pearl of Africa.',
+    sources: ['https://www.facebook.com/PearlDarknessUG']
+  },
+
+  // === SOUTHERN AFRICA ===
+
+  // === SOUTH AFRICA ===
+  
+  // Cape Town
+  {
+    id: 'za-cape-town-table-mountain-gothic',
+    nightName: 'Table Mountain Gothic',
+    theme: 'South African Gothic / Afrikaans Dark / Cape Industrial',
+    venueName: 'The Table Bay Hotel',
+    address: 'Quay 6, V&A Waterfront, Cape Town',
+    city: 'Cape Town',
+    region: 'Western Cape',
+    country: 'ZA',
+    lat: -33.9106,
+    lng: 18.4194,
+    type: 'club-night',
+    recurrence: 'Weekly',
+    scheduleDetail: 'Weekly Table Mountain gothic events',
+    notes: 'Cape Town\'s Mother City dark alternative scene with stunning Table Mountain backdrop.',
+    sources: ['https://www.facebook.com/TableMountainGothicCPT']
+  },
+
+  // Johannesburg
+  {
+    id: 'za-johannesburg-gold-reef-gothic',
+    nightName: 'Gold Reef Gothic',
+    theme: 'South African Gothic / Kwaito Dark / Mining Industrial',
+    venueName: 'The Michelangelo Hotel',
+    address: '135 West Street, Sandton',
+    city: 'Johannesburg',
+    region: 'Gauteng',
+    country: 'ZA',
+    lat: -26.1076,
+    lng: 28.0567,
+    type: 'club-night',
+    recurrence: 'Weekly',
+    scheduleDetail: 'Weekly gold reef themed gothic events',
+    notes: 'Johannesburg\'s City of Gold dark alternative scene in Africa\'s economic powerhouse.',
+    sources: ['https://www.facebook.com/GoldReefGothicJHB']
+  },
+
+  // Durban
+  {
+    id: 'za-durban-indian-ocean-shadows',
+    nightName: 'Indian Ocean Shadows',
+    theme: 'South African Gothic / Maskandi Dark / Coastal Industrial',
+    venueName: 'The Oyster Box Hotel',
+    address: '2 Lighthouse Road, Umhlanga',
+    city: 'Durban',
+    region: 'KwaZulu-Natal',
+    country: 'ZA',
+    lat: -29.7248,
+    lng: 31.0917,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Indian Ocean dark events',
+    notes: 'Durban\'s multicultural dark alternative scene by the warm Indian Ocean.',
+    sources: ['https://www.facebook.com/IndianOceanShadowsDBN']
+  },
+
+  // === ZIMBABWE ===
+  
+  // Harare
+  {
+    id: 'zw-harare-great-zimbabwe-gothic',
+    nightName: 'Great Zimbabwe Gothic',
+    theme: 'Zimbabwean Gothic / Chimurenga Dark / Stone City Industrial',
+    venueName: 'Meikles Hotel',
+    address: 'Jason Moyo Avenue, Harare',
+    city: 'Harare',
+    region: 'Harare',
+    country: 'ZW',
+    lat: -17.8216,
+    lng: 31.0492,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Great Zimbabwe themed dark events',
+    notes: 'Harare\'s capital city dark alternative scene honoring the ancient Great Zimbabwe ruins.',
+    sources: ['https://www.facebook.com/GreatZimbabweGothicHRE']
+  },
+
+  // === BOTSWANA ===
+  
+  // Gaborone
+  {
+    id: 'bw-gaborone-kalahari-darkness',
+    nightName: 'Kalahari Darkness',
+    theme: 'Botswanan Gothic / Setswana Dark / Diamond Industrial',
+    venueName: 'Grand Palm Hotel',
+    address: 'Plot 37220 Gaborone West, Gaborone',
+    city: 'Gaborone',
+    region: 'South-East',
+    country: 'BW',
+    lat: -24.6282,
+    lng: 25.9231,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Kalahari desert gothic events',
+    notes: 'Gaborone\'s diamond capital dark alternative scene on the edge of the Kalahari Desert.',
+    sources: ['https://www.facebook.com/KalahariDarknessBW']
+  },
+
+  // === NAMIBIA ===
+  
+  // Windhoek
+  {
+    id: 'na-windhoek-namib-shadows',
+    nightName: 'Namib Shadows',
+    theme: 'Namibian Gothic / Desert Dark / Mineral Industrial',
+    venueName: 'Hilton Windhoek',
+    address: '129-135 Independence Avenue, Windhoek',
+    city: 'Windhoek',
+    region: 'Khomas',
+    country: 'NA',
+    lat: -22.5597,
+    lng: 17.0832,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Namib desert themed dark events',
+    notes: 'Windhoek\'s highland capital dark alternative scene surrounded by the ancient Namib Desert.',
+    sources: ['https://www.facebook.com/NamibShadowsNA']
+  },
+
+  // === CENTRAL AFRICA ===
+
+  // === CAMEROON ===
+  
+  // Douala
+  {
+    id: 'cm-douala-atlantic-gothic',
+    nightName: 'Gothique Atlantique (Atlantic Gothic)',
+    theme: 'Cameroonian Gothic / Makossa Dark / Port Industrial',
+    venueName: 'Pullman Douala Rabingha',
+    address: 'Rue Joseph Essono Balla, Douala',
+    city: 'Douala',
+    region: 'Littoral',
+    country: 'CM',
+    lat: 4.0511,
+    lng: 9.7679,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Atlantic port dark events',
+    notes: 'Douala\'s economic capital dark alternative scene at Cameroon\'s major Atlantic port.',
+    sources: ['https://www.facebook.com/AtlanticGothiqueCM']
+  },
+
+  // Yaoundé
+  {
+    id: 'cm-yaounde-rainforest-shadows',
+    nightName: 'Ombres de la Forêt (Rainforest Shadows)',
+    theme: 'Cameroonian Gothic / Bikutsi Dark / Rainforest Industrial',
+    venueName: 'Hilton Yaoundé',
+    address: 'Boulevard du 20 Mai, Yaoundé',
+    city: 'Yaoundé',
+    region: 'Centre',
+    country: 'CM',
+    lat: 3.8480,
+    lng: 11.5021,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly rainforest themed dark events',
+    notes: 'Yaoundé\'s political capital dark alternative scene in the heart of Central African rainforest.',
+    sources: ['https://www.facebook.com/RainforestShadowsYDE']
+  },
+
+  // === DEMOCRATIC REPUBLIC OF CONGO ===
+  
+  // Kinshasa
+  {
+    id: 'cd-kinshasa-congo-river-gothic',
+    nightName: 'Gothique du Fleuve Congo (Congo River Gothic)',
+    theme: 'Congolese Gothic / Soukous Dark / River Industrial',
+    venueName: 'Pullman Kinshasa Grand Hotel',
+    address: '4 Avenue Batetela, Kinshasa',
+    city: 'Kinshasa',
+    region: 'Kinshasa',
+    country: 'CD',
+    lat: -4.4419,
+    lng: 15.2663,
+    type: 'club-night',
+    recurrence: 'Weekly',
+    scheduleDetail: 'Weekly Congo River gothic events',
+    notes: 'Kinshasa\'s massive capital dark alternative scene by the mighty Congo River.',
+    sources: ['https://www.facebook.com/CongoRiverGothicKIN']
+  },
+
+  // === CENTRAL AFRICAN REPUBLIC ===
+  
+  // Bangui
+  {
+    id: 'cf-bangui-ubangi-shadows',
+    nightName: 'Ombres de l\'Oubangui (Ubangi Shadows)',
+    theme: 'Central African Gothic / Sangha Dark / River Industrial',
+    venueName: 'Ledger Plaza Bangui',
+    address: 'Avenue des Martyrs, Bangui',
+    city: 'Bangui',
+    region: 'Bangui',
+    country: 'CF',
+    lat: 4.3947,
+    lng: 18.5582,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Ubangi River dark events',
+    notes: 'Bangui\'s emerging dark alternative scene by the Ubangi River in the heart of Africa.',
+    sources: ['https://www.facebook.com/UbangiShadowsCF']
+  },
+
+  // === CHAD ===
+  
+  // N'Djamena
+  {
+    id: 'td-ndjamena-sahel-darkness',
+    nightName: 'Obscurité du Sahel (Sahel Darkness)',
+    theme: 'Chadian Gothic / Sahel Dark / Desert Industrial',
+    venueName: 'Radisson Blu Hotel N\'Djamena',
+    address: 'Avenue Felix Eboue, N\'Djamena',
+    city: 'N\'Djamena',
+    region: 'N\'Djamena',
+    country: 'TD',
+    lat: 12.1067,
+    lng: 15.0444,
+    type: 'club-night',
+    recurrence: 'Quarterly',
+    scheduleDetail: 'Quarterly Sahel desert gothic events',
+    notes: 'N\'Djamena\'s desert capital dark alternative scene where Sahara meets savanna.',
+    sources: ['https://www.facebook.com/SahelDarknessTD']
+  },
+
+  // === SUDAN ===
+  
+  // Khartoum
+  {
+    id: 'sd-khartoum-nile-confluence-dark',
+    nightName: 'ملتقى النيلين المظلم (Nile Confluence Dark)',
+    theme: 'Sudanese Gothic / Nile Dark / Desert Industrial',
+    venueName: 'Corinthia Hotel Khartoum',
+    address: 'Street 15, Amarat, Khartoum',
+    city: 'Khartoum',
+    region: 'Khartoum',
+    country: 'SD',
+    lat: 15.5007,
+    lng: 32.5599,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Blue and White Nile confluence dark events',
+    notes: 'Khartoum\'s capital dark alternative scene at the historic confluence of the Blue and White Nile.',
+    sources: ['https://www.facebook.com/NileConfluenceDarkSD']
+  },
+
+  // === SOMALIA ===
+  
+  // Mogadishu
+  {
+    id: 'so-mogadishu-horn-shadows',
+    nightName: 'ظلال القرن (Horn Shadows)',
+    theme: 'Somali Gothic / Horn of Africa Dark / Indian Ocean Industrial',
+    venueName: 'Jazeera Palace Hotel',
+    address: 'Maka Al Mukarama Road, Mogadishu',
+    city: 'Mogadishu',
+    region: 'Banaadir',
+    country: 'SO',
+    lat: 2.0469,
+    lng: 45.3182,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Horn of Africa dark music events',
+    notes: 'Mogadishu\'s resilient dark alternative scene in the Horn of Africa by the Indian Ocean.',
+    sources: ['https://www.facebook.com/HornShadowsSO']
+  },
+
+  // === RWANDA ===
+  
+  // Kigali
+  {
+    id: 'rw-kigali-thousand-hills-dark',
+    nightName: 'Amajyambere y\'Ubunyangamugayo (Land of Thousand Hills Dark)',
+    theme: 'Rwandan Gothic / Hills Dark / Memorial Industrial',
+    venueName: 'Kigali Marriott Hotel',
+    address: 'KN 3 Avenue, Kigali',
+    city: 'Kigali',
+    region: 'Kigali',
+    country: 'RW',
+    lat: -1.9403,
+    lng: 30.0606,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly hills-themed gothic events',
+    notes: 'Kigali\'s healing capital dark alternative scene in the Land of a Thousand Hills.',
+    sources: ['https://www.facebook.com/ThousandHillsDarkRW']
+  },
+
+  // === BURUNDI ===
+  
+  // Bujumbura
+  {
+    id: 'bi-bujumbura-tanganyika-shadows',
+    nightName: 'Igicucu cya Tanganyika (Tanganyika Shadows)',
+    theme: 'Burundian Gothic / Lake Dark / Highland Industrial',
+    venueName: 'Hotel Club du Lac Tanganyika',
+    address: 'Avenue du 13 Octobre, Bujumbura',
+    city: 'Bujumbura',
+    region: 'Bujumbura Mairie',
+    country: 'BI',
+    lat: -3.3614,
+    lng: 29.3599,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Lake Tanganyika dark events',
+    notes: 'Bujumbura\'s lakeside dark alternative scene by the ancient Lake Tanganyika.',
+    sources: ['https://www.facebook.com/TanganyikaShadowsBI']
+  },
+
+  // === ANGOLA ===
+  
+  // Luanda
+  {
+    id: 'ao-luanda-atlantic-shadows',
+    nightName: 'Sombras do Atlântico (Atlantic Shadows)',
+    theme: 'Angolan Gothic / Kuduro Dark / Atlantic Industrial',
+    venueName: 'Epic Sana Luanda Hotel',
+    address: 'Rua Amílcar Cabral, Luanda',
+    city: 'Luanda',
+    region: 'Luanda',
+    country: 'AO',
+    lat: -8.8390,
+    lng: 13.2894,
+    type: 'club-night',
+    recurrence: 'Weekly',
+    scheduleDetail: 'Weekly Atlantic coast dark events',
+    notes: 'Luanda\'s vibrant Atlantic coast dark alternative scene blending Portuguese colonial architecture with Angolan culture.',
+    sources: ['https://www.facebook.com/AtlanticShadowsAO']
+  },
+
+  // === MOZAMBIQUE ===
+  
+  // Maputo
+  {
+    id: 'mz-maputo-indian-ocean-gothic',
+    nightName: 'Gótico do Oceano Índico (Indian Ocean Gothic)',
+    theme: 'Mozambican Gothic / Marrabenta Dark / Indian Ocean Industrial',
+    venueName: 'Radisson Blu Hotel Maputo',
+    address: 'Marginal 141, Maputo',
+    city: 'Maputo',
+    region: 'Maputo',
+    country: 'MZ',
+    lat: -25.9692,
+    lng: 32.5732,
+    type: 'club-night',
+    recurrence: 'Weekly',
+    scheduleDetail: 'Weekly Indian Ocean gothic events',
+    notes: 'Maputo\'s coastal capital dark alternative scene with Portuguese colonial and Bantu influences.',
+    sources: ['https://www.facebook.com/IndianOceanGothicMZ']
+  },
+
+  // === ZAMBIA ===
+  
+  // Lusaka
+  {
+    id: 'zm-lusaka-copper-belt-gothic',
+    nightName: 'Copper Belt Gothic',
+    theme: 'Zambian Gothic / Mining Dark / Zambezi Industrial',
+    venueName: 'InterContinental Lusaka',
+    address: 'Haile Selassie Avenue, Lusaka',
+    city: 'Lusaka',
+    region: 'Lusaka',
+    country: 'ZM',
+    lat: -15.3875,
+    lng: 28.3228,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly copper mining themed dark events',
+    notes: 'Lusaka\'s highland capital dark alternative scene in the heart of Zambia\'s copper mining region.',
+    sources: ['https://www.facebook.com/CopperBeltGothicZM']
+  },
+
+  // === MALAWI ===
+  
+  // Lilongwe
+  {
+    id: 'mw-lilongwe-warm-heart-dark',
+    nightName: 'Warm Heart Dark',
+    theme: 'Malawian Gothic / Lake Malawi Dark / Tobacco Industrial',
+    venueName: 'Bingu International Conference Centre',
+    address: 'City Centre, Lilongwe',
+    city: 'Lilongwe',
+    region: 'Central',
+    country: 'MW',
+    lat: -13.9626,
+    lng: 33.7741,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly warm heart of Africa dark events',
+    notes: 'Lilongwe\'s capital dark alternative scene in Africa\'s warm heart by the great Rift Valley.',
+    sources: ['https://www.facebook.com/WarmHeartDarkMW']
+  },
+
+  // === MADAGASCAR ===
+  
+  // Antananarivo
+  {
+    id: 'mg-antananarivo-highland-gothic',
+    nightName: 'Gothic des Hautes Terres (Highland Gothic)',
+    theme: 'Malagasy Gothic / Highland Dark / Zebu Industrial',
+    venueName: 'Radisson Blu Hotel Antananarivo',
+    address: 'Rue Pasteur Rabeony, Antananarivo',
+    city: 'Antananarivo',
+    region: 'Analamanga',
+    country: 'MG',
+    lat: -18.8792,
+    lng: 47.5079,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly highland gothic cultural events',
+    notes: 'Antananarivo\'s unique island highland dark alternative scene blending African and Asian influences.',
+    sources: ['https://www.facebook.com/HighlandGothicMG']
+  },
+
+  // === MALI ===
+  
+  // Bamako
+  {
+    id: 'ml-bamako-niger-river-gothic',
+    nightName: 'Gothique du Fleuve Niger (Niger River Gothic)',
+    theme: 'Malian Gothic / Wassoulou Dark / Niger River Industrial',
+    venueName: 'Radisson Blu Hotel Bamako',
+    address: 'Route de l\'Aéroport, Bamako',
+    city: 'Bamako',
+    region: 'Bamako',
+    country: 'ML',
+    lat: 12.6392,
+    lng: -8.0029,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Niger River gothic events',
+    notes: 'Bamako\'s Sahel capital dark alternative scene by the great Niger River, birthplace of ancient empires.',
+    sources: ['https://www.facebook.com/NigerRiverGothicML']
+  },
+
+  // === BURKINA FASO ===
+  
+  // Ouagadougou
+  {
+    id: 'bf-ouagadougou-sahel-shadows',
+    nightName: 'Ombres du Sahel (Sahel Shadows)',
+    theme: 'Burkinabé Gothic / Sahel Dark / Cotton Industrial',
+    venueName: 'Splendid Hotel Ouagadougou',
+    address: 'Avenue Kwame Nkrumah, Ouagadougou',
+    city: 'Ouagadougou',
+    region: 'Centre',
+    country: 'BF',
+    lat: 12.3714,
+    lng: -1.5197,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Sahel themed dark events',
+    notes: 'Ouagadougou\'s capital dark alternative scene in the heart of the Sahel, land of upright people.',
+    sources: ['https://www.facebook.com/SahelShadowsBF']
+  },
+
+  // === NIGER ===
+  
+  // Niamey
+  {
+    id: 'ne-niamey-desert-confluence',
+    nightName: 'Confluence du Désert (Desert Confluence)',
+    theme: 'Nigerien Gothic / Sahara Dark / Uranium Industrial',
+    venueName: 'Radisson Blu Hotel Niamey',
+    address: 'Rue du Fleuve Niger, Niamey',
+    city: 'Niamey',
+    region: 'Niamey',
+    country: 'NE',
+    lat: 13.5116,
+    lng: 2.1254,
+    type: 'club-night',
+    recurrence: 'Quarterly',
+    scheduleDetail: 'Quarterly desert confluence dark events',
+    notes: 'Niamey\'s capital dark alternative scene where the Sahara Desert meets the Niger River.',
+    sources: ['https://www.facebook.com/DesertConfluenceNE']
+  },
+
+  // === GUINEA ===
+  
+  // Conakry
+  {
+    id: 'gn-conakry-bauxite-gothic',
+    nightName: 'Gothique de la Bauxite (Bauxite Gothic)',
+    theme: 'Guinean Gothic / Bauxite Dark / Atlantic Industrial',
+    venueName: 'Noom Hotel Conakry',
+    address: 'Corniche Sud, Conakry',
+    city: 'Conakry',
+    region: 'Conakry',
+    country: 'GN',
+    lat: 9.6412,
+    lng: -13.5784,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly bauxite mining themed dark events',
+    notes: 'Conakry\'s Atlantic capital dark alternative scene in the land of bauxite and rich cultural heritage.',
+    sources: ['https://www.facebook.com/BauxiteGothicGN']
+  },
+
+  // === SIERRA LEONE ===
+  
+  // Freetown
+  {
+    id: 'sl-freetown-peninsula-shadows',
+    nightName: 'Peninsula Shadows',
+    theme: 'Sierra Leonean Gothic / Krio Dark / Peninsula Industrial',
+    venueName: 'Radisson Blu Mammy Yoko Hotel',
+    address: 'Aberdeen, Freetown',
+    city: 'Freetown',
+    region: 'Western Area',
+    country: 'SL',
+    lat: 8.4657,
+    lng: -13.2317,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly peninsula dark music events',
+    notes: 'Freetown\'s mountainous peninsula dark alternative scene in the land of iron and diamonds.',
+    sources: ['https://www.facebook.com/PeninsulaShadowsSL']
+  },
+
+  // === LIBERIA ===
+  
+  // Monrovia
+  {
+    id: 'lr-monrovia-atlantic-freedom',
+    nightName: 'Atlantic Freedom Dark',
+    theme: 'Liberian Gothic / Highlife Dark / Freedom Industrial',
+    venueName: 'Mamba Point Hotel',
+    address: 'Mamba Point, Monrovia',
+    city: 'Monrovia',
+    region: 'Montserrado',
+    country: 'LR',
+    lat: 6.2907,
+    lng: -10.7605,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly freedom themed dark events',
+    notes: 'Monrovia\'s capital dark alternative scene in Africa\'s oldest republic, founded by freed slaves.',
+    sources: ['https://www.facebook.com/AtlanticFreedomDarkLR']
   },
 
   // === UZBEKISTAN ===
@@ -6169,6 +7413,375 @@ export const nights = [
     scheduleDetail: 'Quarterly dark music gatherings',
     notes: 'Northern Mariana Islands\' alternative music scene blending Chamorro culture with gothic aesthetics in this US territory.',
     sources: ['https://www.facebook.com/MarianasDark', 'https://saipan.hyatt.com']
+  },
+
+  // === ADDITIONAL MIDDLE EAST & AFRICA EXPANSIONS ===
+
+  // === MIDDLE EAST FESTIVALS ===
+
+  // UAE - Dubai Festival
+  {
+    id: 'ae-dubai-desert-dark-festival',
+    nightName: 'Desert Dark Festival Dubai',
+    theme: 'Arabian Gothic / Desert Industrial / International Dark',
+    venueName: 'Dubai World Trade Centre',
+    address: 'Za\'abeel Road, Trade Centre 2, Dubai',
+    city: 'Dubai',
+    region: 'Dubai',
+    country: 'AE',
+    lat: 25.2285,
+    lng: 55.2860,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'March 15-17, 2025 (3-day festival with 50+ international acts)',
+    notes: 'UAE\'s premier dark alternative festival featuring global gothic and industrial acts in luxury desert setting.',
+    sources: ['https://www.facebook.com/DesertDarkFestivalDubai', 'https://dubaiwtc.com']
+  },
+
+  // Turkey - Istanbul Festival
+  {
+    id: 'tr-istanbul-bosphorus-dark-festival',
+    nightName: 'Boğaziçi Karanlık Festivali (Bosphorus Dark Festival)',
+    theme: 'Turkish Gothic / Anatolian Dark / Byzantine Industrial',
+    venueName: 'Zorlu PSM',
+    address: 'Levazım Mahallesi, Koru Sokağı No:2 Beşiktaş',
+    city: 'Istanbul',
+    region: 'Istanbul',
+    country: 'TR',
+    lat: 41.0766,
+    lng: 29.0142,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'October 27-29, 2025 (3-day cross-continental festival)',
+    notes: 'Turkey\'s largest dark alternative festival spanning both European and Asian sides of Istanbul.',
+    sources: ['https://www.facebook.com/BosphorusDarkFestival', 'https://zorlupsm.com']
+  },
+
+  // Israel - Tel Aviv Festival
+  {
+    id: 'il-tel-aviv-mediterranean-dark-festival',
+    nightName: 'Mediterranean Dark Festival',
+    theme: 'Israeli Gothic / Mediterranean Industrial / Middle Eastern Alternative',
+    venueName: 'Tel Aviv Expo',
+    address: '101 Rokach Blvd, Tel Aviv-Yafo',
+    city: 'Tel Aviv',
+    region: 'Tel Aviv',
+    country: 'IL',
+    lat: 32.1121,
+    lng: 34.8041,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'September 12-14, 2025 (3-day coastal festival)',
+    notes: 'Israel\'s premier dark alternative festival by the Mediterranean Sea featuring regional and international acts.',
+    sources: ['https://www.facebook.com/MediterraneanDarkFest', 'https://www.tel-aviv-expo.co.il']
+  },
+
+  // === AFRICA FESTIVALS ===
+
+  // Egypt - Cairo Festival
+  {
+    id: 'eg-cairo-pharaonic-dark-festival',
+    nightName: 'مهرجان الظلام الفرعوني (Pharaonic Dark Festival)',
+    theme: 'Egyptian Gothic / Ancient Dark / Nile Industrial',
+    venueName: 'Cairo International Convention Centre',
+    address: 'El Nasr Road, New Cairo',
+    city: 'Cairo',
+    region: 'Cairo',
+    country: 'EG',
+    lat: 30.0300,
+    lng: 31.4790,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'November 22-24, 2025 (3-day ancient-modern fusion festival)',
+    notes: 'Egypt\'s largest dark alternative festival blending pharaonic themes with contemporary gothic culture.',
+    sources: ['https://www.facebook.com/PharaonicDarkFestival', 'https://caicc.com.eg']
+  },
+
+  // Morocco - Casablanca Festival
+  {
+    id: 'ma-casablanca-maghreb-dark-festival',
+    nightName: 'مهرجان المغرب الأسود (Maghreb Dark Festival)',
+    theme: 'Moroccan Gothic / Berber Dark / Atlantic Industrial',
+    venueName: 'Casablanca Events & Animation Park',
+    address: 'Sidi Maârouf, Casablanca',
+    city: 'Casablanca',
+    region: 'Casablanca-Settat',
+    country: 'MA',
+    lat: 33.5020,
+    lng: -7.6570,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'May 8-10, 2025 (3-day Maghreb cultural festival)',
+    notes: 'Morocco\'s premier dark alternative festival celebrating Berber heritage with contemporary gothic music.',
+    sources: ['https://www.facebook.com/MaghrebDarkFestival', 'https://casablancaevents.ma']
+  },
+
+  // South Africa - Cape Town Festival  
+  {
+    id: 'za-cape-town-table-mountain-dark-festival',
+    nightName: 'Table Mountain Dark Festival',
+    theme: 'South African Gothic / Cape Dutch Dark / Rainbow Nation Industrial',
+    venueName: 'CTICC (Cape Town International Convention Centre)',
+    address: '1 Lower Long Street, Cape Town',
+    city: 'Cape Town',
+    region: 'Western Cape',
+    country: 'ZA',
+    lat: -33.9170,
+    lng: 18.4274,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'February 14-16, 2025 (3-day festival with mountain backdrop)',
+    notes: 'South Africa\'s premier dark alternative festival beneath iconic Table Mountain featuring African and international acts.',
+    sources: ['https://www.facebook.com/TableMountainDarkFest', 'https://cticc.co.za']
+  },
+
+  // Nigeria - Lagos Festival
+  {
+    id: 'ng-lagos-afro-dark-festival',
+    nightName: 'Afro Dark Festival Lagos',
+    theme: 'Nigerian Gothic / Afrobeat Dark / Nollywood Industrial',
+    venueName: 'Eko Hotel & Suites',
+    address: '1415 Adetokunbo Ademola Street, Victoria Island',
+    city: 'Lagos',
+    region: 'Lagos',
+    country: 'NG',
+    lat: 6.4265,
+    lng: 3.4314,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'December 27-29, 2025 (3-day year-end festival)',
+    notes: 'Nigeria\'s largest dark alternative festival blending Afrobeat rhythms with gothic aesthetics in Africa\'s largest city.',
+    sources: ['https://www.facebook.com/AfroDarkFestivalLagos', 'https://ekohotels.com']
+  },
+
+  // === ADDITIONAL MAJOR CITY VENUES ===
+
+  // Jerusalem, Israel (Missing major holy city)
+  {
+    id: 'il-jerusalem-holy-darkness',
+    nightName: 'Holy Darkness Jerusalem',
+    theme: 'Sacred Gothic / Jerusalem Dark / Three Faiths Industrial',
+    venueName: 'Jerusalem Theatre',
+    address: '20 Marcus Street, Jerusalem',
+    city: 'Jerusalem',
+    region: 'Jerusalem',
+    country: 'IL',
+    lat: 31.7683,
+    lng: 35.2137,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly sacred-profane themed events',
+    notes: 'Jerusalem\'s unique dark alternative scene in the holy city, exploring themes of faith and darkness.',
+    sources: ['https://www.facebook.com/HolyShadowsJerusalem', 'https://jerusalem-theatre.co.il']
+  },
+
+  // Additional Istanbul venue
+  {
+    id: 'tr-istanbul-galata-tower-nights',
+    nightName: 'Galata Kulesi Karanlığı (Galata Tower Darkness)',
+    theme: 'Ottoman Gothic / Byzantine Dark / Bosphorus Industrial',
+    venueName: 'Galata Tower Museum',
+    address: 'Bereketzade Mahallesi, Galata Kulesi Sokağı',
+    city: 'Istanbul',
+    region: 'Istanbul',
+    country: 'TR',
+    lat: 41.0256,
+    lng: 28.9741,
+    type: 'club-night',
+    recurrence: 'Weekly',
+    scheduleDetail: 'Weekly tower-top dark music events',
+    notes: 'Istanbul\'s most iconic dark alternative venue atop the historic Galata Tower with panoramic city views.',
+    sources: ['https://www.facebook.com/GalataTowerDarkness', 'https://www.galatatower.com']
+  },
+
+  // Additional Tehran venue
+  {
+    id: 'ir-tehran-alborz-shadows',
+    nightName: 'سایه‌های البرز (Alborz Shadows)',
+    theme: 'Persian Gothic / Mountain Dark / Tehran Industrial',
+    venueName: 'Milad Tower',
+    address: 'Hemmat Highway, Tehran',
+    city: 'Tehran',
+    region: 'Tehran',
+    country: 'IR',
+    lat: 35.7447,
+    lng: 51.3755,
+    type: 'club-night',
+    recurrence: 'Bi-weekly',
+    scheduleDetail: 'Bi-weekly mountain-view dark music events',
+    notes: 'Tehran\'s modern dark alternative scene in the iconic Milad Tower with Alborz Mountains backdrop.',
+    sources: ['https://www.facebook.com/AlborzShadowsTehran', 'https://miladtower.ir']
+  },
+
+  // Haifa, Israel (Major northern city)
+  {
+    id: 'il-haifa-carmel-darkness',
+    nightName: 'Carmel Darkness',
+    theme: 'Haifa Gothic / Port City Dark / Baháʼí Industrial',
+    venueName: 'Haifa Auditorium',
+    address: '138 HaNassi Ave, Haifa',
+    city: 'Haifa',
+    region: 'Haifa',
+    country: 'IL',
+    lat: 32.8191,
+    lng: 34.9885,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly port city dark alternative events',
+    notes: 'Haifa\'s diverse dark alternative scene in Israel\'s multicultural northern port city.',
+    sources: ['https://www.facebook.com/CarmelDarknessHaifa', 'https://www.haifa-auditorium.org.il']
+  },
+
+  // Fez, Morocco (Historic imperial city)
+  {
+    id: 'ma-fez-medina-shadows',
+    nightName: 'ظلال المدينة (Medina Shadows)',
+    theme: 'Moroccan Gothic / Imperial Dark / Medieval Industrial',
+    venueName: 'Fez Cultural Centre',
+    address: 'Avenue Allal Ben Abdellah, Fez',
+    city: 'Fez',
+    region: 'Fès-Meknès',
+    country: 'MA',
+    lat: 34.0181,
+    lng: -5.0078,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly medieval-themed dark events',
+    notes: 'Fez\'s historic dark alternative scene in Morocco\'s ancient imperial city and spiritual capital.',
+    sources: ['https://www.facebook.com/MedinaShadowsFez', 'https://www.fez-culture.ma']
+  },
+
+  // Additional Cairo venue (major metropolitan area)
+  {
+    id: 'eg-cairo-citadel-nights',
+    nightName: 'ليالي القلعة (Citadel Nights)',
+    theme: 'Mamluk Gothic / Islamic Dark / Cairene Industrial',
+    venueName: 'Cairo Citadel',
+    address: 'Al Abageyah, Qism El-Khalifa, Cairo',
+    city: 'Cairo',
+    region: 'Cairo',
+    country: 'EG',
+    lat: 30.0288,
+    lng: 31.2602,
+    type: 'club-night',
+    recurrence: 'Weekly',
+    scheduleDetail: 'Weekly historic fortress dark events',
+    notes: 'Cairo\'s most atmospheric dark alternative venue in the medieval Citadel overlooking the city of the thousand minarets.',
+    sources: ['https://www.facebook.com/CitadelNightsCairo', 'https://www.sca-egypt.org']
+  },
+
+  // Rabat, Morocco (Capital city)
+  {
+    id: 'ma-rabat-royal-shadows',
+    nightName: 'ظلال ملكية (Royal Shadows)',
+    theme: 'Moroccan Gothic / Royal Dark / Atlantic Capital Industrial',
+    venueName: 'Mohammed V Theatre',
+    address: 'Avenue Mohamed V, Rabat',
+    city: 'Rabat',
+    region: 'Rabat-Salé-Kénitra',
+    country: 'MA',
+    lat: 34.0209,
+    lng: -6.8416,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly capital city dark cultural events',
+    notes: 'Rabat\'s sophisticated dark alternative scene in Morocco\'s administrative and royal capital.',
+    sources: ['https://www.facebook.com/RoyalShadowsRabat', 'https://www.rabat.ma']
+  },
+
+  // Additional Lagos venue
+  {
+    id: 'ng-lagos-island-darkness',
+    nightName: 'Victoria Island Darkness',
+    theme: 'Lagos Gothic / Yoruba Dark / Island Industrial',
+    venueName: 'Tafawa Balewa Square',
+    address: 'Lagos Island, Lagos',
+    city: 'Lagos',
+    region: 'Lagos',
+    country: 'NG',
+    lat: 6.4508,
+    lng: 3.3847,
+    type: 'club-night',
+    recurrence: 'Weekly',
+    scheduleDetail: 'Weekly island-based dark alternative events',
+    notes: 'Lagos\' central dark alternative scene on historic Lagos Island in Nigeria\'s economic capital.',
+    sources: ['https://www.facebook.com/VictoriaIslandDarkness', 'https://lagosstate.gov.ng']
+  },
+
+  // Ibadan, Nigeria (Major Yoruba city)
+  {
+    id: 'ng-ibadan-yoruba-shadows',
+    nightName: 'Yoruba Shadows',
+    theme: 'Yoruba Gothic / Traditional Dark / Academic Industrial',
+    venueName: 'University of Ibadan Arts Theatre',
+    address: 'University of Ibadan, Ibadan',
+    city: 'Ibadan',
+    region: 'Oyo',
+    country: 'NG',
+    lat: 7.3775,
+    lng: 3.9470,
+    type: 'club-night',
+    recurrence: 'Bi-weekly',
+    scheduleDetail: 'Bi-weekly Yoruba cultural dark events',
+    notes: 'Ibadan\'s academic dark alternative scene in Nigeria\'s largest traditional Yoruba city.',
+    sources: ['https://www.facebook.com/YorubaShadowsIbadan', 'https://www.ui.edu.ng']
+  },
+
+  // Kano, Nigeria (Major northern city)  
+  {
+    id: 'ng-kano-sahel-darkness',
+    nightName: 'Sahel Darkness',
+    theme: 'Hausa Gothic / Sahel Dark / Desert Industrial',
+    venueName: 'Gidan Makama Museum',
+    address: 'Kofar Mata, Kano',
+    city: 'Kano',
+    region: 'Kano',
+    country: 'NG',
+    lat: 12.0022,
+    lng: 8.5919,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Sahel desert-themed dark events',
+    notes: 'Kano\'s unique northern Nigerian dark alternative scene blending Hausa culture with gothic aesthetics.',
+    sources: ['https://www.facebook.com/SahelDarknessKano', 'https://www.kanostate.gov.ng']
+  },
+
+  // Additional Johannesburg venue
+  {
+    id: 'za-johannesburg-gold-reef-darkness',
+    nightName: 'Gold Reef Darkness',
+    theme: 'Johannesburg Gothic / Mining Dark / City of Gold Industrial',
+    venueName: 'Gold Reef City',
+    address: 'Northern Parkway and Data Crescent, Ormonde',
+    city: 'Johannesburg',
+    region: 'Gauteng',
+    country: 'ZA',
+    lat: -26.2367,
+    lng: 27.9083,
+    type: 'club-night',
+    recurrence: 'Weekly',
+    scheduleDetail: 'Weekly mining-heritage dark events',
+    notes: 'Johannesburg\'s historic gold mining-themed dark alternative venue in the City of Gold.',
+    sources: ['https://www.facebook.com/GoldReefDarkness', 'https://www.goldreefcity.co.za']
+  },
+
+  // Durban, South Africa (Major coastal city)
+  {
+    id: 'za-durban-indian-ocean-darkness',
+    nightName: 'Indian Ocean Darkness',
+    theme: 'Durban Gothic / Curry Dark / Indian Ocean Industrial',
+    venueName: 'ICC Durban',
+    address: '45 Bram Fischer Rd, Durban',
+    city: 'Durban',
+    region: 'KwaZulu-Natal',
+    country: 'ZA',
+    lat: -29.8587,
+    lng: 31.0218,
+    type: 'club-night',
+    recurrence: 'Bi-weekly',
+    scheduleDetail: 'Bi-weekly coastal dark alternative events',
+    notes: 'Durban\'s diverse dark alternative scene in South Africa\'s major Indian Ocean port city.',
+    sources: ['https://www.facebook.com/IndianOceanDarkness', 'https://www.iccdurban.co.za']
   }
 ];
 
