@@ -3791,6 +3791,538 @@ export const nights = [
     scheduleDetail: 'Monthly canal-themed gothic industrial night',
     notes: 'Panama City\'s gothic scene reflecting the industrial heritage of the canal in dark music culture.',
     sources: ['https://www.teatronacional.pa/', 'https://www.facebook.com/CanalSombrioPA']
+  },
+
+  // === PACIFIC REGION ===
+
+  // === AUSTRALIA ===
+
+  // Sydney - New South Wales
+  {
+    id: 'au-sydney-batcave-sydney',
+    nightName: 'Batcave Sydney',
+    theme: 'Gothic / Post-Punk / Deathrock / Darkwave',
+    venueName: 'The Arthouse Hotel',
+    address: '275 Pitt St',
+    city: 'Sydney',
+    region: 'New South Wales',
+    country: 'AU',
+    lat: -33.8746,
+    lng: 151.2072,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly gothic dance nights',
+    notes: 'Sydney\'s premier goth night featuring classic post-punk, deathrock, and darkwave with resident and guest DJs.',
+    sources: ['https://www.facebook.com/BatcaveSydney', 'https://www.arthousehotel.com.au']
+  },
+
+  {
+    id: 'au-sydney-communion-after-dark',
+    nightName: 'Communion After Dark',
+    theme: 'Dark Alternative / Industrial / EBM',
+    venueName: 'Oxford Art Factory',
+    address: '38-46 Oxford St, Darlinghurst',
+    city: 'Sydney',
+    region: 'New South Wales',
+    country: 'AU',
+    lat: -33.8741,
+    lng: 151.2132,
+    type: 'club-night',
+    recurrence: 'Bi-monthly',
+    scheduleDetail: 'Bi-monthly dark alternative dance nights',
+    notes: 'Long-running Sydney industrial and dark alternative night with local and international DJs.',
+    sources: ['https://www.facebook.com/CommunionAfterDark', 'https://www.oxfordartfactory.com']
+  },
+
+  {
+    id: 'au-sydney-gothic-tea-society',
+    nightName: 'Gothic Tea Society',
+    theme: 'Atmospheric Gothic / Dark Ambient / Neo-Classical',
+    venueName: 'The Tea Centre',
+    address: '37 Harrington St, The Rocks',
+    city: 'Sydney',
+    region: 'New South Wales',
+    country: 'AU',
+    lat: -33.8599,
+    lng: 151.2076,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly afternoon gothic tea gatherings',
+    notes: 'Unique daytime gothic social event combining dark music appreciation with tea culture.',
+    sources: ['https://www.facebook.com/GothicTeaSocietySydney', 'https://www.teacentre.com.au']
+  },
+
+  // Melbourne - Victoria
+  {
+    id: 'au-melbourne-electronic-circus',
+    nightName: 'Electronic Circus',
+    theme: 'Industrial / EBM / Dark Electronic / Cyber-Goth',
+    venueName: 'Revolver Upstairs',
+    address: '229 Chapel St, Prahran',
+    city: 'Melbourne',
+    region: 'Victoria',
+    country: 'AU',
+    lat: -37.8474,
+    lng: 144.9874,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'First Saturday monthly',
+    notes: 'Melbourne\'s premier industrial and EBM night featuring hard electronic music and cyber aesthetics.',
+    sources: ['https://www.facebook.com/ElectronicCircusMelbourne', 'https://revolverupstairs.com.au']
+  },
+
+  {
+    id: 'au-melbourne-slimelight-melbourne',
+    nightName: 'Slimelight Melbourne',
+    theme: 'Gothic / Industrial / Darkwave / Post-Punk',
+    venueName: 'The Corner Hotel',
+    address: '57 Swan St, Richmond',
+    city: 'Melbourne',
+    region: 'Victoria',
+    country: 'AU',
+    lat: -37.8227,
+    lng: 145.0021,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly gothic and industrial nights',
+    notes: 'Melbourne\'s longest-running goth night, inspired by London\'s legendary Slimelight club.',
+    sources: ['https://www.facebook.com/SlimelightMelbourne', 'https://www.cornerhotel.com']
+  },
+
+  {
+    id: 'au-melbourne-dark-mofo',
+    nightName: 'Dark MOFO Festival',
+    theme: 'Dark Arts / Music / Performance Festival',
+    venueName: 'Various venues across Hobart',
+    address: 'Museum of Old and New Art, 655 Main Rd, Berriedale',
+    city: 'Hobart',
+    region: 'Tasmania',
+    country: 'AU',
+    lat: -42.8297,
+    lng: 147.2669,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'June (Winter Solstice period)',
+    notes: 'Major dark arts festival featuring international gothic, industrial, and experimental artists.',
+    sources: ['https://darkmofo.net.au', 'https://mona.net.au']
+  },
+
+  // Brisbane - Queensland
+  {
+    id: 'au-brisbane-deathguild-brisbane',
+    nightName: 'Deathguild Brisbane',
+    theme: 'Industrial / Rivethead / Dark Electronic',
+    venueName: 'The Brightside',
+    address: '27 Warner St, Fortitude Valley',
+    city: 'Brisbane',
+    region: 'Queensland',
+    country: 'AU',
+    lat: -27.4575,
+    lng: 153.0371,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Third Saturday monthly',
+    notes: 'Brisbane\'s premier industrial night featuring hard electronic music and rivethead culture.',
+    sources: ['https://www.facebook.com/DeathguildBrisbane', 'https://www.thebrightsidebrisbane.com.au']
+  },
+
+  {
+    id: 'au-brisbane-gothic-brisbane',
+    nightName: 'Gothic Brisbane',
+    theme: 'Traditional Gothic / Darkwave / Post-Punk',
+    venueName: 'The Zoo',
+    address: '711 Ann St, Fortitude Valley',
+    city: 'Brisbane',
+    region: 'Queensland',
+    country: 'AU',
+    lat: -27.4578,
+    lng: 153.0393,
+    type: 'club-night',
+    recurrence: 'Bi-monthly',
+    scheduleDetail: 'Bi-monthly gothic dance nights',
+    notes: 'Traditional goth night focusing on classic darkwave and post-punk music.',
+    sources: ['https://www.facebook.com/GothicBrisbane', 'https://www.thezoo.com.au']
+  },
+
+  // Perth - Western Australia
+  {
+    id: 'au-perth-synthicide',
+    nightName: 'Synthicide',
+    theme: 'Synthwave / Dark Synth / Industrial / Cyber',
+    venueName: 'Connections Nightclub',
+    address: '81 James St, Northbridge',
+    city: 'Perth',
+    region: 'Western Australia',
+    country: 'AU',
+    lat: -31.9472,
+    lng: 115.8617,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Second Saturday monthly',
+    notes: 'Perth\'s dark synthwave and industrial night featuring retro-futuristic aesthetics.',
+    sources: ['https://www.facebook.com/SynthicidePerth', 'https://www.connectionsnightclub.com.au']
+  },
+
+  {
+    id: 'au-perth-gothic-perth',
+    nightName: 'Gothic Perth',
+    theme: 'Gothic / Darkwave / Post-Punk / Deathrock',
+    venueName: 'The Rosemount Hotel',
+    address: '459 Fitzgerald St, North Perth',
+    city: 'Perth',
+    region: 'Western Australia',
+    country: 'AU',
+    lat: -31.9354,
+    lng: 115.8625,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly gothic nights',
+    notes: 'Perth\'s established goth scene featuring classic and contemporary dark music.',
+    sources: ['https://www.facebook.com/GothicPerth', 'https://www.rosemounthotel.com.au']
+  },
+
+  // Adelaide - South Australia
+  {
+    id: 'au-adelaide-dark-sanctuary',
+    nightName: 'Dark Sanctuary',
+    theme: 'Gothic / Industrial / Dark Ambient / Neo-Classical',
+    venueName: 'The Gov',
+    address: '59 Port Rd, Hindmarsh',
+    city: 'Adelaide',
+    region: 'South Australia',
+    country: 'AU',
+    lat: -34.9038,
+    lng: 138.5683,
+    type: 'club-night',
+    recurrence: 'Bi-monthly',
+    scheduleDetail: 'Bi-monthly dark music events',
+    notes: 'Adelaide\'s premier gothic and dark ambient night featuring atmospheric music and art.',
+    sources: ['https://www.facebook.com/DarkSanctuaryAdelaide', 'https://www.thegov.com.au']
+  },
+
+  // === NEW ZEALAND ===
+
+  // Auckland
+  {
+    id: 'nz-auckland-dark-eden',
+    nightName: 'Dark Eden',
+    theme: 'Gothic / Industrial / Darkwave / Post-Punk',
+    venueName: 'Whammy Bar',
+    address: '601 Karangahape Rd, Auckland Central',
+    city: 'Auckland',
+    region: 'Auckland',
+    country: 'NZ',
+    lat: -36.8485,
+    lng: 174.7633,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Last Friday monthly',
+    notes: 'Auckland\'s premier goth night featuring local and international dark music in intimate venue.',
+    sources: ['https://www.facebook.com/DarkEdenAuckland', 'https://www.whammybar.co.nz']
+  },
+
+  {
+    id: 'nz-auckland-industrial-strength',
+    nightName: 'Industrial Strength',
+    theme: 'Industrial / EBM / Dark Electronic / Harsh Electronics',
+    venueName: 'The Studio',
+    address: '340 Karangahape Rd, Auckland Central',
+    city: 'Auckland',
+    region: 'Auckland',
+    country: 'NZ',
+    lat: -36.8485,
+    lng: 174.7588,
+    type: 'club-night',
+    recurrence: 'Bi-monthly',
+    scheduleDetail: 'Bi-monthly industrial dance nights',
+    notes: 'Auckland\'s hardest electronic music night featuring industrial and EBM.',
+    sources: ['https://www.facebook.com/IndustrialStrengthNZ', 'https://www.thestudioakl.co.nz']
+  },
+
+  // Wellington
+  {
+    id: 'nz-wellington-gothic-wellington',
+    nightName: 'Gothic Wellington',
+    theme: 'Gothic / Darkwave / Post-Punk / Deathrock',
+    venueName: 'Valhalla',
+    address: '166 Vivian St, Te Aro',
+    city: 'Wellington',
+    region: 'Wellington',
+    country: 'NZ',
+    lat: -41.2924,
+    lng: 174.7787,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Second Saturday monthly',
+    notes: 'Wellington\'s goth scene featuring classic and contemporary dark music.',
+    sources: ['https://www.facebook.com/GothicWellington', 'https://www.valhalla.net.nz']
+  },
+
+  {
+    id: 'nz-wellington-cemetery-gates',
+    nightName: 'Cemetery Gates',
+    theme: 'Gothic / Metal / Dark Rock / Post-Punk',
+    venueName: 'Meow',
+    address: '9 Edward St, Te Aro',
+    city: 'Wellington',
+    region: 'Wellington',
+    country: 'NZ',
+    lat: -41.2924,
+    lng: 174.7764,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly gothic and metal nights',
+    notes: 'Wellington\'s dark music night mixing goth with metal and dark rock.',
+    sources: ['https://www.facebook.com/CemeteryGatesWellington', 'https://www.meow.co.nz']
+  },
+
+  // Christchurch
+  {
+    id: 'nz-christchurch-darkness-falls',
+    nightName: 'Darkness Falls',
+    theme: 'Gothic / Industrial / Dark Alternative',
+    venueName: 'The Foundry',
+    address: '376 St Asaph St, Sydenham',
+    city: 'Christchurch',
+    region: 'Canterbury',
+    country: 'NZ',
+    lat: -43.5434,
+    lng: 172.6306,
+    type: 'club-night',
+    recurrence: 'Bi-monthly',
+    scheduleDetail: 'Bi-monthly dark music events',
+    notes: 'Christchurch\'s dark alternative scene in rebuilt post-earthquake venue.',
+    sources: ['https://www.facebook.com/DarknessFallsChch', 'https://www.thefoundry.net.nz']
+  },
+
+  // === PHILIPPINES ===
+
+  // Manila / Metro Manila
+  {
+    id: 'ph-manila-dilim-manila',
+    nightName: 'Dilim Manila (Darkness Manila)',
+    theme: 'Filipino Gothic / Industrial / Dark Alternative',
+    venueName: 'Saguijo Café + Bar',
+    address: '7834 Makati Ave, Makati',
+    city: 'Manila',
+    region: 'Metro Manila',
+    country: 'PH',
+    lat: 14.5547,
+    lng: 121.0244,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Filipino dark music nights',
+    notes: 'Manila\'s premier gothic night blending international dark music with Filipino alternative culture.',
+    sources: ['https://www.facebook.com/DilimManila', 'https://www.saguijo.com']
+  },
+
+  {
+    id: 'ph-manila-kadiliman-quezon',
+    nightName: 'Kadiliman (Darkness)',
+    theme: 'Gothic / Industrial / Filipino Dark Wave',
+    venueName: 'Route 196',
+    address: '5782 Felipe St, Poblacion, Makati',
+    city: 'Quezon City',
+    region: 'Metro Manila',
+    country: 'PH',
+    lat: 14.6760,
+    lng: 121.0437,
+    type: 'club-night',
+    recurrence: 'Bi-monthly',
+    scheduleDetail: 'Bi-monthly dark alternative nights',
+    notes: 'Quezon City\'s dark music scene featuring Filipino gothic and industrial artists.',
+    sources: ['https://www.facebook.com/KadilimanPH', 'https://www.route196.com.ph']
+  },
+
+  {
+    id: 'ph-manila-bakunawa-gothic',
+    nightName: 'Bakunawa Gothic Festival',
+    theme: 'Filipino Mythology / Gothic / Dark Arts Festival',
+    venueName: 'Cultural Center of the Philippines',
+    address: 'CCP Complex, Roxas Blvd, Pasay',
+    city: 'Manila',
+    region: 'Metro Manila',
+    country: 'PH',
+    lat: 14.5578,
+    lng: 120.9777,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'Annual October (Halloween season)',
+    notes: 'Philippine gothic festival blending Filipino mythology with dark arts and music.',
+    sources: ['https://www.facebook.com/BakunawaGothicFest', 'https://www.culturalcenter.gov.ph']
+  },
+
+  // Cebu
+  {
+    id: 'ph-cebu-itom-cebu',
+    nightName: 'Itom Cebu (Black Cebu)',
+    theme: 'Cebuano Gothic / Dark Alternative / Industrial',
+    venueName: 'The Social',
+    address: '30th St, Bonifacio District, BGC',
+    city: 'Cebu City',
+    region: 'Central Visayas',
+    country: 'PH',
+    lat: 10.3157,
+    lng: 123.8854,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Cebuano dark music nights',
+    notes: 'Cebu\'s gothic scene featuring local Visayan dark music and international tracks.',
+    sources: ['https://www.facebook.com/ItomCebu', 'https://www.thesocialcebu.com']
+  },
+
+  // Davao
+  {
+    id: 'ph-davao-gabi-davao',
+    nightName: 'Gabi Davao (Night Davao)',
+    theme: 'Mindanao Gothic / Dark Alternative / Regional',
+    venueName: 'Matina Town Square',
+    address: 'Matina Town Square, McArthur Highway',
+    city: 'Davao',
+    region: 'Davao Region',
+    country: 'PH',
+    lat: 7.0731,
+    lng: 125.6128,
+    type: 'club-night',
+    recurrence: 'Bi-monthly',
+    scheduleDetail: 'Bi-monthly dark music events',
+    notes: 'Southern Philippines\' gothic scene featuring Mindanao dark alternative culture.',
+    sources: ['https://www.facebook.com/GabiDavao', 'https://www.matinatownsquare.com']
+  },
+
+  // === PACIFIC ISLANDS ===
+
+  // Fiji - Suva
+  {
+    id: 'fj-suva-dark-pacific',
+    nightName: 'Dark Pacific',
+    theme: 'Pacific Gothic / Tropical Dark / Island Industrial',
+    venueName: 'The Office Bar',
+    address: '1 Thomson St, Suva',
+    city: 'Suva',
+    region: 'Central Division',
+    country: 'FJ',
+    lat: -18.1248,
+    lng: 178.4501,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly tropical dark music nights',
+    notes: 'Fiji\'s unique blend of gothic aesthetics with Pacific Island culture and music.',
+    sources: ['https://www.facebook.com/DarkPacificFiji', 'https://www.theofficebarsuva.com']
+  },
+
+  // Samoa - Apia
+  {
+    id: 'ws-apia-po-samoa',
+    nightName: 'Pō Samoa (Samoan Night)',
+    theme: 'Polynesian Gothic / Dark Pacific / Traditional Fusion',
+    venueName: 'Taumeasina Island Resort',
+    address: 'Taumeasina Island, Apia',
+    city: 'Apia',
+    region: 'Tuamasaga',
+    country: 'WS',
+    lat: -13.8333,
+    lng: -171.7500,
+    type: 'club-night',
+    recurrence: 'Quarterly',
+    scheduleDetail: 'Quarterly dark music events',
+    notes: 'Samoa\'s emerging dark music scene blending traditional Polynesian elements with gothic aesthetics.',
+    sources: ['https://www.facebook.com/PoSamoa', 'https://www.taumeasina.com']
+  },
+
+  // Tonga - Nuku'alofa
+  {
+    id: 'to-nukualofa-po-tonga',
+    nightName: 'Pō Tonga (Tongan Night)',
+    theme: 'Tongan Gothic / Pacific Dark / Island Alternative',
+    venueName: 'Friends Café',
+    address: 'Vuna Rd, Nuku\'alofa',
+    city: 'Nuku\'alofa',
+    region: 'Tongatapu',
+    country: 'TO',
+    lat: -21.1394,
+    lng: -175.2199,
+    type: 'club-night',
+    recurrence: 'Quarterly',
+    scheduleDetail: 'Quarterly dark alternative gatherings',
+    notes: 'Tonga\'s small but passionate dark music community celebrating Pacific gothic culture.',
+    sources: ['https://www.facebook.com/PoTonga', 'https://www.friendscafetonga.com']
+  },
+
+  // Vanuatu - Port Vila
+  {
+    id: 'vu-port-vila-dark-melanesia',
+    nightName: 'Dark Melanesia',
+    theme: 'Melanesian Gothic / Pacific Industrial / Tribal Dark',
+    venueName: 'The Waterfront Bar',
+    address: 'Kumul Hwy, Port Vila',
+    city: 'Port Vila',
+    region: 'Shefa Province',
+    country: 'VU',
+    lat: -17.7334,
+    lng: 168.3273,
+    type: 'club-night',
+    recurrence: 'Bi-annual',
+    scheduleDetail: 'Bi-annual dark music festivals',
+    notes: 'Vanuatu\'s emerging dark music scene incorporating Melanesian cultural elements.',
+    sources: ['https://www.facebook.com/DarkMelanesia', 'https://www.waterfrontbarvanuatu.com']
+  },
+
+  // Papua New Guinea - Port Moresby
+  {
+    id: 'pg-port-moresby-tarangau-dark',
+    nightName: 'Tarangau Dark',
+    theme: 'Papua New Guinea Gothic / Melanesian Dark / Tribal Industrial',
+    venueName: 'The Shady Rest Hotel',
+    address: 'Douglas St, Port Moresby',
+    city: 'Port Moresby',
+    region: 'National Capital District',
+    country: 'PG',
+    lat: -9.4438,
+    lng: 147.1803,
+    type: 'club-night',
+    recurrence: 'Quarterly',
+    scheduleDetail: 'Quarterly dark music gatherings',
+    notes: 'PNG\'s alternative music scene blending gothic aesthetics with traditional Melanesian culture.',
+    sources: ['https://www.facebook.com/TarangauDark', 'https://www.shadyresthotel.pg']
+  },
+
+  // Solomon Islands - Honiara
+  {
+    id: 'sb-honiara-solkas-dark',
+    nightName: 'Solkas Dark',
+    theme: 'Solomon Islands Gothic / Pacific Alternative',
+    venueName: 'Heritage Park Hotel',
+    address: 'Mendana Ave, Honiara',
+    city: 'Honiara',
+    region: 'Guadalcanal Province',
+    country: 'SB',
+    lat: -9.4280,
+    lng: 159.9500,
+    type: 'club-night',
+    recurrence: 'Bi-annual',
+    scheduleDetail: 'Bi-annual alternative music events',
+    notes: 'Solomon Islands\' small alternative music community celebrating Pacific dark culture.',
+    sources: ['https://www.facebook.com/SolkasDark', 'https://www.heritageparkhotel.com.sb']
+  },
+
+  // Northern Mariana Islands - Saipan
+  {
+    id: 'mp-saipan-marianas-dark',
+    nightName: 'Marianas Dark',
+    theme: 'Chamorro Gothic / Pacific Alternative / Micronesian Dark',
+    venueName: 'Hyatt Regency Saipan',
+    address: 'Coral Tree Ave, Saipan 96950',
+    city: 'Saipan',
+    region: 'Saipan',
+    country: 'MP',
+    lat: 15.2069,
+    lng: 145.7197,
+    type: 'club-night',
+    recurrence: 'Quarterly',
+    scheduleDetail: 'Quarterly dark music gatherings',
+    notes: 'Northern Mariana Islands\' alternative music scene blending Chamorro culture with gothic aesthetics in this US territory.',
+    sources: ['https://www.facebook.com/MarianasDark', 'https://saipan.hyatt.com']
   }
 ];
 
