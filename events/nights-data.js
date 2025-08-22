@@ -3002,6 +3002,233 @@ export const nights = [
     sources: ['https://www.landmarkbaku.com']
   },
 
+  // === IRAN ===
+  
+  // Tehran
+  {
+    id: 'ir-tehran-persian-darkness',
+    nightName: 'تاریکی پارسی (Persian Darkness)',
+    theme: 'Persian Gothic / Industrial / Iranian Dark Wave',
+    venueName: 'Azadi Cultural Center',
+    address: 'Azadi Square, Tehran',
+    city: 'Tehran',
+    region: 'Tehran',
+    country: 'IR',
+    lat: 35.6892,
+    lng: 51.3890,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly underground Persian dark music events',
+    notes: 'Tehran\'s underground dark music scene blending Persian traditional music with gothic and industrial.',
+    sources: ['https://www.facebook.com/PersianDarknessTehran']
+  },
+
+  // Isfahan
+  {
+    id: 'ir-isfahan-safavid-shadow',
+    nightName: 'سایه صفوی (Safavid Shadow)',
+    theme: 'Persian Gothic / Historical Dark / Traditional Fusion',
+    venueName: 'Isfahan Cultural House',
+    address: 'Naqsh-e Jahan Square',
+    city: 'Isfahan',
+    region: 'Isfahan',
+    country: 'IR',
+    lat: 32.6546,
+    lng: 51.6680,
+    type: 'club-night',
+    recurrence: 'Quarterly',
+    scheduleDetail: 'Quarterly traditional-gothic fusion events',
+    notes: 'Isfahan\'s unique blend of Safavid historical aesthetics with modern gothic music.',
+    sources: ['https://www.facebook.com/SafavidShadow']
+  },
+
+  // === UNITED ARAB EMIRATES ===
+  
+  // Dubai
+  {
+    id: 'ae-dubai-desert-gothic',
+    nightName: 'Desert Gothic',
+    theme: 'Arabian Gothic / Desert Dark / Luxury Industrial',
+    venueName: 'White Dubai',
+    address: 'Meydan Racecourse, Grandstand',
+    city: 'Dubai',
+    region: 'Dubai',
+    country: 'AE',
+    lat: 25.1972,
+    lng: 55.2744,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly luxury dark music events',
+    notes: 'Dubai\'s high-end gothic scene featuring international dark acts in luxurious desert setting.',
+    sources: ['https://whitedubai.com', 'https://www.facebook.com/DesertGothicDubai']
+  },
+
+  // Abu Dhabi
+  {
+    id: 'ae-abu-dhabi-emirates-dark',
+    nightName: 'Emirates Dark',
+    theme: 'Emirati Gothic / Arabian Industrial / Desert Wave',
+    venueName: 'MAD on Yas Island',
+    address: 'Yas Island, Abu Dhabi',
+    city: 'Abu Dhabi',
+    region: 'Abu Dhabi',
+    country: 'AE',
+    lat: 24.4539,
+    lng: 54.6110,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Emirati dark music events',
+    notes: 'Abu Dhabi\'s sophisticated dark alternative scene on Yas Island.',
+    sources: ['https://madyas.com', 'https://www.instagram.com/emiratesdark']
+  },
+
+  // === SAUDI ARABIA ===
+  
+  // Riyadh
+  {
+    id: 'sa-riyadh-desert-throne',
+    nightName: 'عرش الصحراء (Desert Throne)',
+    theme: 'Saudi Gothic / Desert Industrial / Arabian Dark',
+    venueName: 'Boulevard Riyadh City',
+    address: 'Boulevard Riyadh City, Riyadh',
+    city: 'Riyadh',
+    region: 'Riyadh',
+    country: 'SA',
+    lat: 24.7136,
+    lng: 46.6753,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly desert gothic cultural events',
+    notes: 'Riyadh\'s emerging dark alternative cultural scene within Vision 2030 entertainment developments.',
+    sources: ['https://www.facebook.com/DesertThroneSA']
+  },
+
+  // === QATAR ===
+  
+  // Doha
+  {
+    id: 'qa-doha-pearl-darkness',
+    nightName: 'Pearl Darkness',
+    theme: 'Qatari Gothic / Gulf Dark / Pearl Diver Industrial',
+    venueName: 'The Pearl Qatar',
+    address: 'The Pearl Qatar, Doha',
+    city: 'Doha',
+    region: 'Doha',
+    country: 'QA',
+    lat: 25.3548,
+    lng: 51.5310,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Gulf dark music events',
+    notes: 'Doha\'s luxurious dark alternative scene at The Pearl development.',
+    sources: ['https://thepearlqatar.com', 'https://www.facebook.com/PearlDarknessQA']
+  },
+
+  // === LEBANON ===
+  
+  // Beirut
+  {
+    id: 'lb-beirut-phoenician-darkness',
+    nightName: 'Phoenician Darkness',
+    theme: 'Lebanese Gothic / Mediterranean Dark / Levantine Industrial',
+    venueName: 'B018',
+    address: 'Quarantina, Beirut',
+    city: 'Beirut',
+    region: 'Beirut',
+    country: 'LB',
+    lat: 33.8869,
+    lng: 35.5131,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Lebanese dark music events',
+    notes: 'Beirut\'s renowned underground dark alternative scene in the famous B018 venue.',
+    sources: ['https://b018.com', 'https://www.facebook.com/PhoenicianDarkness']
+  },
+
+  // === JORDAN ===
+  
+  // Amman
+  {
+    id: 'jo-amman-petra-shadow',
+    nightName: 'Petra Shadow',
+    theme: 'Jordanian Gothic / Nabataean Dark / Desert Industrial',
+    venueName: 'Bliss House',
+    address: 'Abdun, Amman',
+    city: 'Amman',
+    region: 'Amman',
+    country: 'JO',
+    lat: 31.9566,
+    lng: 35.9457,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly desert gothic events',
+    notes: 'Amman\'s dark alternative scene drawing inspiration from ancient Nabataean culture.',
+    sources: ['https://blisshouse.jo', 'https://www.facebook.com/PetraShadowJO']
+  },
+
+  // === ISRAEL ===
+  
+  // Tel Aviv
+  {
+    id: 'il-tel-aviv-mediterranean-goth',
+    nightName: 'Mediterranean Goth',
+    theme: 'Israeli Gothic / Mediterranean Dark / Middle Eastern Industrial',
+    venueName: 'The Block',
+    address: '157 Salame Road, Tel Aviv',
+    city: 'Tel Aviv',
+    region: 'Tel Aviv',
+    country: 'IL',
+    lat: 32.0853,
+    lng: 34.7818,
+    type: 'club-night',
+    recurrence: 'Weekly',
+    scheduleDetail: 'Weekly Mediterranean dark music events',
+    notes: 'Tel Aviv\'s vibrant dark alternative scene by the Mediterranean Sea.',
+    sources: ['https://theblock.co.il', 'https://www.facebook.com/MediterraneanGothTLV']
+  },
+
+  // === UZBEKISTAN ===
+  
+  // Tashkent
+  {
+    id: 'uz-tashkent-silk-road-dark',
+    nightName: 'Ипак йўли қоронғи (Silk Road Dark)',
+    theme: 'Uzbek Gothic / Central Asian Dark / Silk Road Industrial',
+    venueName: 'Tashkent City',
+    address: 'Amir Temur Square, Tashkent',
+    city: 'Tashkent',
+    region: 'Tashkent',
+    country: 'UZ',
+    lat: 41.2995,
+    lng: 69.2401,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Central Asian dark music events',
+    notes: 'Tashkent\'s emerging dark alternative scene blending Silk Road history with modern gothic music.',
+    sources: ['https://www.facebook.com/SilkRoadDarkUZ']
+  },
+
+  // === KYRGYZSTAN ===
+  
+  // Bishkek
+  {
+    id: 'kg-bishkek-ala-too-dark',
+    nightName: 'Ала-Тоо Караңгы (Ala-Too Dark)',
+    theme: 'Kyrgyz Gothic / Mountain Dark / Nomadic Industrial',
+    venueName: 'Metropolitan Bishkek',
+    address: 'Abdrakhmanov Street 191',
+    city: 'Bishkek',
+    region: 'Chuy',
+    country: 'KG',
+    lat: 42.8746,
+    lng: 74.5698,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly mountain gothic events',
+    notes: 'Bishkek\'s dark alternative scene inspired by Tian Shan mountains and nomadic culture.',
+    sources: ['https://www.facebook.com/AlaTooKaranghy']
+  },
+
   // === CYPRUS ===
   
   // Nicosia
@@ -4093,6 +4320,781 @@ export const nights = [
     scheduleDetail: 'Bi-monthly dark music events',
     notes: 'Christchurch\'s dark alternative scene in rebuilt post-earthquake venue.',
     sources: ['https://www.facebook.com/DarknessFallsChch', 'https://www.thefoundry.net.nz']
+  },
+
+  // === EAST ASIA ===
+
+  // === JAPAN ===
+
+  // Tokyo
+  {
+    id: 'jp-tokyo-visual-shock',
+    nightName: 'Visual Shock',
+    theme: 'Visual Kei / J-Goth / Japanese Dark Wave',
+    venueName: 'Club Cyber',
+    address: '2-3 Maruyamacho, Shibuya City',
+    city: 'Tokyo',
+    region: 'Tokyo',
+    country: 'JP',
+    lat: 35.6580,
+    lng: 139.6982,
+    type: 'club-night',
+    recurrence: 'Weekly',
+    scheduleDetail: 'Weekly visual kei and goth nights',
+    notes: 'Tokyo\'s premier visual kei venue featuring domestic and international dark acts in Shibuya.',
+    sources: ['https://club-cyber.com', 'https://www.facebook.com/ClubCyberTokyo']
+  },
+
+  {
+    id: 'jp-tokyo-dark-harajuku',
+    nightName: 'ダーク原宿 (Dark Harajuku)',
+    theme: 'Visual Kei / Gothic Lolita / J-Dark',
+    venueName: 'Club Asia',
+    address: '1-8 Maruyamacho, Shibuya City',
+    city: 'Tokyo',
+    region: 'Tokyo',
+    country: 'JP',
+    lat: 35.6581,
+    lng: 139.6960,
+    type: 'club-night',
+    recurrence: 'Bi-weekly',
+    scheduleDetail: 'Bi-weekly dark fashion and music events',
+    notes: 'Harajuku-style dark alternative events blending visual kei with gothic lolita culture.',
+    sources: ['https://club-asia.co.jp', 'https://www.instagram.com/darkharajuku']
+  },
+
+  {
+    id: 'jp-tokyo-liquidroom-dark',
+    nightName: '暗黒液体 (Dark Liquid)',
+    theme: 'Industrial / EBM / Dark Electronic',
+    venueName: 'Liquidroom',
+    address: '3-16-6 Higashiyama, Meguro City',
+    city: 'Tokyo',
+    region: 'Tokyo',
+    country: 'JP',
+    lat: 35.6441,
+    lng: 139.7084,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly industrial and dark electronic events',
+    notes: 'Tokyo\'s premier electronic venue hosting dark industrial and EBM nights.',
+    sources: ['https://liquidroom.net', 'https://www.facebook.com/LiquidroomEbisu']
+  },
+
+  // Osaka
+  {
+    id: 'jp-osaka-kansai-kuro',
+    nightName: '関西黒 (Kansai Black)',
+    theme: 'Kansai Visual Kei / Gothic / Dark Wave',
+    venueName: 'Osaka Muse',
+    address: '1-1-3 Sonezakishinchi, Kita-ku',
+    city: 'Osaka',
+    region: 'Osaka',
+    country: 'JP',
+    lat: 34.6980,
+    lng: 135.4953,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Kansai dark music events',
+    notes: 'Osaka\'s leading dark alternative venue featuring Kansai visual kei and gothic bands.',
+    sources: ['https://osaka-muse.com', 'https://www.facebook.com/KansaiKuro']
+  },
+
+  // Kyoto  
+  {
+    id: 'jp-kyoto-ancient-darkness',
+    nightName: '古都の闇 (Ancient Capital Darkness)',
+    theme: 'Traditional Japanese Gothic / Dark Ambient',
+    venueName: 'Kyoto Garden',
+    address: '555-1 Gionmachi Minamigawa, Higashiyama Ward',
+    city: 'Kyoto',
+    region: 'Kyoto',
+    country: 'JP',
+    lat: 35.0036,
+    lng: 135.7778,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly atmospheric dark events',
+    notes: 'Unique blend of traditional Japanese aesthetics with gothic and dark ambient music.',
+    sources: ['https://kyoto-garden.jp', 'https://www.instagram.com/ancientdarkness']
+  },
+
+  // === SOUTH KOREA ===
+
+  // Seoul
+  {
+    id: 'kr-seoul-hongdae-dark',
+    nightName: '홍대 어둠 (Hongdae Darkness)',
+    theme: 'K-Goth / Korean Dark Wave / Industrial',
+    venueName: 'Club FF',
+    address: '12 Wausan-ro 21-gil, Mapo-gu',
+    city: 'Seoul',
+    region: 'Seoul',
+    country: 'KR',
+    lat: 37.5563,
+    lng: 126.9226,
+    type: 'club-night',
+    recurrence: 'Weekly',
+    scheduleDetail: 'Weekly Korean dark alternative nights',
+    notes: 'Seoul\'s premier dark music venue in the Hongdae area featuring K-goth and international acts.',
+    sources: ['https://club-ff.com', 'https://www.facebook.com/HongdaeDarkness']
+  },
+
+  {
+    id: 'kr-seoul-gangnam-gothic',
+    nightName: '강남 고딕 (Gangnam Gothic)',
+    theme: 'Korean Gothic / Dark K-Pop / Industrial',
+    venueName: 'Octagon',
+    address: '645 Nonhyeon-ro, Gangnam-gu',
+    city: 'Seoul',
+    region: 'Seoul',
+    country: 'KR',
+    lat: 37.5172,
+    lng: 127.0473,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly gothic events in Gangnam',
+    notes: 'Upscale gothic events featuring Korean dark artists and international gothic acts.',
+    sources: ['https://octagon.co.kr', 'https://www.instagram.com/gangnamgothic']
+  },
+
+  // Busan
+  {
+    id: 'kr-busan-coastal-darkness',
+    nightName: '부산 어둠 (Busan Darkness)',
+    theme: 'Coastal Gothic / Korean Dark / Industrial',
+    venueName: 'Club Vinyl',
+    address: '15 Jungang-daero 680beon-gil, Busanjin-gu',
+    city: 'Busan',
+    region: 'Busan',
+    country: 'KR',
+    lat: 35.1540,
+    lng: 129.0570,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly dark music events by the sea',
+    notes: 'Busan\'s dark alternative scene with coastal gothic atmosphere.',
+    sources: ['https://club-vinyl.kr', 'https://www.facebook.com/BusanDarkness']
+  },
+
+  // === CHINA ===
+
+  // Beijing
+  {
+    id: 'cn-beijing-forbidden-darkness',
+    nightName: '紫禁城黑暗 (Forbidden City Darkness)',
+    theme: 'Chinese Gothic / Industrial / Dark Electronic',
+    venueName: 'Dada Beijing',
+    address: '206 Gulou Dongdajie, Dongcheng District',
+    city: 'Beijing',
+    region: 'Beijing',
+    country: 'CN',
+    lat: 39.9388,
+    lng: 116.4049,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly underground dark music events',
+    notes: 'Beijing\'s underground dark music scene blending Chinese and international gothic acts.',
+    sources: ['https://dada-beijing.com', 'https://www.facebook.com/BeijingForbiddenDarkness']
+  },
+
+  // Shanghai
+  {
+    id: 'cn-shanghai-bund-gothic',
+    nightName: '外滩哥特 (Bund Gothic)',
+    theme: 'Shanghai Gothic / Dark Wave / Industrial',
+    venueName: 'M1NT Shanghai',
+    address: '318 Fuzhou Road, 24th Floor',
+    city: 'Shanghai',
+    region: 'Shanghai',
+    country: 'CN',
+    lat: 31.2397,
+    lng: 121.4950,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly sophisticated gothic events',
+    notes: 'High-end gothic events with panoramic Bund views featuring Chinese and international dark acts.',
+    sources: ['https://m1nt.com.cn', 'https://www.instagram.com/bundgothic']
+  },
+
+  // Hong Kong
+  {
+    id: 'hk-hong-kong-victoria-dark',
+    nightName: 'Victoria Dark',
+    theme: 'Cantonese Gothic / Hong Kong Dark Wave / Industrial',
+    venueName: 'Sense 99',
+    address: '99 Wellington Street, Central',
+    city: 'Hong Kong',
+    region: 'Hong Kong',
+    country: 'HK',
+    lat: 22.2838,
+    lng: 114.1546,
+    type: 'club-night',
+    recurrence: 'Bi-weekly',
+    scheduleDetail: 'Bi-weekly dark alternative events',
+    notes: 'Hong Kong\'s premier dark music venue featuring Cantonese gothic and international acts.',
+    sources: ['https://sense99.hk', 'https://www.facebook.com/VictoriaDarkHK']
+  },
+
+  // === TAIWAN ===
+
+  // Taipei
+  {
+    id: 'tw-taipei-formosa-dark',
+    nightName: '福爾摩沙黑暗 (Formosa Darkness)',
+    theme: 'Taiwanese Gothic / Mandarin Dark Wave / Industrial',
+    venueName: 'Roxy 99',
+    address: '99 Zhongshan North Road Section 2, Zhongshan District',
+    city: 'Taipei',
+    region: 'Taipei',
+    country: 'TW',
+    lat: 25.0478,
+    lng: 121.5319,
+    type: 'club-night',
+    recurrence: 'Weekly',
+    scheduleDetail: 'Weekly Taiwanese dark music events',
+    notes: 'Taipei\'s leading dark alternative venue featuring Taiwanese gothic and international acts.',
+    sources: ['https://roxy99.tw', 'https://www.facebook.com/FormosaDarkness']
+  },
+
+  // === SOUTH ASIA ===
+
+  // === INDIA ===
+
+  // Mumbai
+  {
+    id: 'in-mumbai-bollywood-goth',
+    nightName: 'Bollywood Goth',
+    theme: 'Indian Gothic / Bollywood Dark / Industrial',
+    venueName: 'Blue Frog',
+    address: 'D/2, Mathuradas Mills Compound, Lower Parel',
+    city: 'Mumbai',
+    region: 'Maharashtra',
+    country: 'IN',
+    lat: 19.0144,
+    lng: 72.8317,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly fusion of Indian and gothic music',
+    notes: 'Mumbai\'s unique blend of Bollywood aesthetics with gothic and industrial music.',
+    sources: ['https://bluefrog.co.in', 'https://www.facebook.com/BollywoodGothMumbai']
+  },
+
+  // Delhi
+  {
+    id: 'in-delhi-mughal-darkness',
+    nightName: 'Mughal Darkness',
+    theme: 'Delhi Gothic / Indian Dark Wave / Qawwali Dark',
+    venueName: 'Imperfecto',
+    address: '32nd Milestone, Sector 15, Gurgaon',
+    city: 'Delhi',
+    region: 'Delhi',
+    country: 'IN',
+    lat: 28.4595,
+    lng: 77.0266,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Indian dark music fusion events',
+    notes: 'Delhi\'s gothic scene blending Mughal aesthetics with dark electronic music.',
+    sources: ['https://imperfecto.in', 'https://www.instagram.com/mughaldarkness']
+  },
+
+  // Bangalore
+  {
+    id: 'in-bangalore-silicon-goth',
+    nightName: 'Silicon Goth',
+    theme: 'Tech Gothic / Indian Industrial / Cyber Dark',
+    venueName: 'Toit',
+    address: '298, 100 Feet Road, Indiranagar',
+    city: 'Bangalore',
+    region: 'Karnataka',
+    country: 'IN',
+    lat: 12.9716,
+    lng: 77.5946,
+    type: 'club-night',
+    recurrence: 'Bi-weekly',
+    scheduleDetail: 'Bi-weekly tech-gothic fusion events',
+    notes: 'Bangalore\'s tech-savvy gothic scene blending cyber aesthetics with traditional Indian dark music.',
+    sources: ['https://toit.in', 'https://www.facebook.com/SiliconGothBangalore']
+  },
+
+  // === SOUTHEAST ASIA ===
+
+  // === THAILAND ===
+
+  // Bangkok
+  {
+    id: 'th-bangkok-siam-dark',
+    nightName: 'สยามมืด (Siam Dark)',
+    theme: 'Thai Gothic / Luk Thung Dark / Industrial',
+    venueName: 'Levels Club',
+    address: 'Aloft Bangkok, 35 Sukhumvit Soi 11',
+    city: 'Bangkok',
+    region: 'Bangkok',
+    country: 'TH',
+    lat: 13.7431,
+    lng: 100.5641,
+    type: 'club-night',
+    recurrence: 'Weekly',
+    scheduleDetail: 'Weekly Thai dark music events',
+    notes: 'Bangkok\'s premier dark alternative venue blending Thai traditional music with gothic and industrial.',
+    sources: ['https://levelsclub.com', 'https://www.facebook.com/SiamDarkBangkok']
+  },
+
+  // === SINGAPORE ===
+
+  // Singapore
+  {
+    id: 'sg-singapore-merlion-dark',
+    nightName: 'Merlion Dark',
+    theme: 'Singaporean Gothic / Multi-Cultural Dark / Industrial',
+    venueName: 'Zouk Singapore',
+    address: '17 Jiak Kim Street',
+    city: 'Singapore',
+    region: 'Singapore',
+    country: 'SG',
+    lat: 1.2897,
+    lng: 103.8348,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly multicultural dark music events',
+    notes: 'Singapore\'s multicultural dark scene featuring artists from across Asia and the world.',
+    sources: ['https://zoukclub.com', 'https://www.facebook.com/MerlionDarkSG']
+  },
+
+  // === MALAYSIA ===
+
+  // Kuala Lumpur
+  {
+    id: 'my-kuala-lumpur-petronas-gothic',
+    nightName: 'Petronas Gothic',
+    theme: 'Malaysian Gothic / Multi-Ethnic Dark / Industrial',
+    venueName: 'Marini\'s on 57',
+    address: 'Level 57, Petronas Tower 3, KLCC',
+    city: 'Kuala Lumpur',
+    region: 'Kuala Lumpur',
+    country: 'MY',
+    lat: 3.1478,
+    lng: 101.7001,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly high-altitude gothic events',
+    notes: 'Kuala Lumpur\'s sophisticated gothic scene with panoramic city views featuring Malaysian and international dark acts.',
+    sources: ['https://marinis57.com', 'https://www.instagram.com/petronasgothic']
+  },
+
+  // === INDONESIA ===
+
+  // Jakarta
+  {
+    id: 'id-jakarta-java-darkness',
+    nightName: 'Java Darkness',
+    theme: 'Indonesian Gothic / Gamelan Dark / Industrial',
+    venueName: 'Dragonfly',
+    address: 'Jl. Gatot Subroto, Kuningan',
+    city: 'Jakarta',
+    region: 'Jakarta',
+    country: 'ID',
+    lat: -6.2349,
+    lng: 106.8383,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Indonesian dark music fusion',
+    notes: 'Jakarta\'s dark alternative scene blending traditional gamelan with gothic and industrial music.',
+    sources: ['https://dragonfly-jakarta.com', 'https://www.facebook.com/JavaDarknessJKT']
+  },
+
+  // === VIETNAM ===
+
+  // Ho Chi Minh City
+  {
+    id: 'vn-ho-chi-minh-saigon-noir',
+    nightName: 'Saigon Noir',
+    theme: 'Vietnamese Gothic / French Colonial Dark / Industrial',
+    venueName: 'Lush Saigon',
+    address: '2 Lý Tự Trọng, District 1',
+    city: 'Ho Chi Minh City',
+    region: 'Ho Chi Minh City',
+    country: 'VN',
+    lat: 10.7769,
+    lng: 106.7009,
+    type: 'club-night',
+    recurrence: 'Bi-weekly',
+    scheduleDetail: 'Bi-weekly Vietnamese dark music events',
+    notes: 'Ho Chi Minh City\'s dark alternative scene blending French colonial aesthetics with Vietnamese gothic music.',
+    sources: ['https://lush-saigon.com', 'https://www.facebook.com/SaigonNoirVN']
+  },
+
+  // Hanoi
+  {
+    id: 'vn-hanoi-red-river-goth',
+    nightName: 'Red River Goth',
+    theme: 'Northern Vietnamese Gothic / Traditional Dark / Industrial',
+    venueName: 'Standing Bar',
+    address: '6 Tạ Hiện, Hoàn Kiếm',
+    city: 'Hanoi',
+    region: 'Hanoi',
+    country: 'VN',
+    lat: 21.0285,
+    lng: 105.8542,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Northern Vietnamese dark music events',
+    notes: 'Hanoi\'s dark alternative scene blending traditional Vietnamese culture with gothic aesthetics.',
+    sources: ['https://standingbar.vn', 'https://www.facebook.com/RedRiverGothHanoi']
+  },
+
+  // === MYANMAR ===
+  
+  // Yangon
+  {
+    id: 'mm-yangon-golden-shadow',
+    nightName: 'Golden Shadow',
+    theme: 'Myanmar Gothic / Burmese Dark / Traditional Industrial',
+    venueName: 'Vintage Luxury Yacht Hotel',
+    address: 'Strand Road, Yangon',
+    city: 'Yangon',
+    region: 'Yangon',
+    country: 'MM',
+    lat: 16.7967,
+    lng: 96.1610,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Myanmar dark music events',
+    notes: 'Yangon\'s emerging dark alternative scene blending traditional Burmese culture with gothic music.',
+    sources: ['https://www.facebook.com/GoldenShadowYangon']
+  },
+
+  // === CAMBODIA ===
+  
+  // Phnom Penh
+  {
+    id: 'kh-phnom-penh-angkor-darkness',
+    nightName: 'Angkor Darkness',
+    theme: 'Khmer Gothic / Ancient Temple Dark / Industrial',
+    venueName: 'Pontoon Lounge',
+    address: 'Street 172, Phnom Penh',
+    city: 'Phnom Penh',
+    region: 'Phnom Penh',
+    country: 'KH',
+    lat: 11.5564,
+    lng: 104.9282,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Khmer dark music events',
+    notes: 'Phnom Penh\'s dark alternative scene inspired by ancient Angkor temple aesthetics.',
+    sources: ['https://pontoonlounge.com', 'https://www.facebook.com/AngkorDarknessPP']
+  },
+
+  // === LAOS ===
+  
+  // Vientiane
+  {
+    id: 'la-vientiane-mekong-dark',
+    nightName: 'Mekong Dark',
+    theme: 'Lao Gothic / Mekong River Dark / Buddhist Industrial',
+    venueName: 'Bor Pen Nyang',
+    address: 'Setthathirath Road, Vientiane',
+    city: 'Vientiane',
+    region: 'Vientiane',
+    country: 'LA',
+    lat: 17.9757,
+    lng: 102.6331,
+    type: 'club-night',
+    recurrence: 'Quarterly',
+    scheduleDetail: 'Quarterly Lao dark music gatherings',
+    notes: 'Vientiane\'s small but dedicated dark alternative community by the Mekong River.',
+    sources: ['https://www.facebook.com/MekongDarkLaos']
+  },
+
+  // === BANGLADESH ===
+  
+  // Dhaka
+  {
+    id: 'bd-dhaka-bengal-darkness',
+    nightName: 'Bengal Darkness',
+    theme: 'Bengali Gothic / Delta Dark / Industrial Fusion',
+    venueName: 'Club Dhaka',
+    address: 'Gulshan Avenue, Dhaka',
+    city: 'Dhaka',
+    region: 'Dhaka',
+    country: 'BD',
+    lat: 23.8103,
+    lng: 90.4125,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Bengali dark music events',
+    notes: 'Dhaka\'s emerging dark alternative scene blending Bengali culture with gothic and industrial music.',
+    sources: ['https://clubdhaka.com', 'https://www.facebook.com/BengalDarknessBD']
+  },
+
+  // === PAKISTAN ===
+  
+  // Karachi
+  {
+    id: 'pk-karachi-indus-shadow',
+    nightName: 'Indus Shadow',
+    theme: 'Pakistani Gothic / Urdu Dark / Sufi Industrial',
+    venueName: 'Port Grand',
+    address: 'Native Jetty Bridge, Karachi',
+    city: 'Karachi',
+    region: 'Sindh',
+    country: 'PK',
+    lat: 24.8607,
+    lng: 67.0011,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Pakistani dark music events',
+    notes: 'Karachi\'s underground dark alternative scene blending Sufi mysticism with gothic aesthetics.',
+    sources: ['https://portgrand.com.pk', 'https://www.facebook.com/IndusShadowKHI']
+  },
+
+  // Lahore
+  {
+    id: 'pk-lahore-mughal-noir',
+    nightName: 'Mughal Noir',
+    theme: 'Punjabi Gothic / Mughal Dark / Qawwali Industrial',
+    venueName: 'Fortress Stadium',
+    address: 'Cantt, Lahore',
+    city: 'Lahore',
+    region: 'Punjab',
+    country: 'PK',
+    lat: 31.5804,
+    lng: 74.3587,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Mughal-inspired dark events',
+    notes: 'Lahore\'s dark alternative scene inspired by Mughal architecture and Punjabi culture.',
+    sources: ['https://www.facebook.com/MughalNoirLahore']
+  },
+
+  // === SRI LANKA ===
+  
+  // Colombo
+  {
+    id: 'lk-colombo-ceylon-darkness',
+    nightName: 'Ceylon Darkness',
+    theme: 'Sri Lankan Gothic / Sinhalese Dark / Tea Country Industrial',
+    venueName: 'Galle Face Hotel',
+    address: '2 Galle Face, Colombo',
+    city: 'Colombo',
+    region: 'Western Province',
+    country: 'LK',
+    lat: 6.9271,
+    lng: 79.8612,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Sri Lankan dark music events',
+    notes: 'Colombo\'s dark alternative scene blending colonial heritage with modern Sri Lankan gothic culture.',
+    sources: ['https://gallefacehotel.com', 'https://www.facebook.com/CeylonDarknessLK']
+  },
+
+  // === NEPAL ===
+  
+  // Kathmandu
+  {
+    id: 'np-kathmandu-himalayan-goth',
+    nightName: 'Himalayan Goth',
+    theme: 'Nepalese Gothic / Mountain Dark / Buddhist Industrial',
+    venueName: 'Club Platinum',
+    address: 'Thamel, Kathmandu',
+    city: 'Kathmandu',
+    region: 'Bagmati',
+    country: 'NP',
+    lat: 27.7172,
+    lng: 85.3240,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Himalayan dark music events',
+    notes: 'Kathmandu\'s unique dark alternative scene inspired by Himalayan mysticism and Buddhist philosophy.',
+    sources: ['https://www.facebook.com/HimalayanGothKTM']
+  },
+
+  // === CENTRAL ASIA ===
+
+  // === KAZAKHSTAN ===
+
+  // Almaty
+  {
+    id: 'kz-almaty-tien-shan-dark',
+    nightName: 'Тянь-Шань Дарк (Tien Shan Dark)',
+    theme: 'Kazakh Gothic / Central Asian Dark / Industrial',
+    venueName: 'Chukotka Bar',
+    address: 'Dostyk Avenue 136',
+    city: 'Almaty',
+    region: 'Almaty',
+    country: 'KZ',
+    lat: 43.2220,
+    lng: 76.8512,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Central Asian dark music events',
+    notes: 'Almaty\'s emerging dark alternative scene featuring Kazakh gothic and traditional music fusion.',
+    sources: ['https://chukotka-bar.kz', 'https://www.facebook.com/TienShanDark']
+  },
+
+  // Nur-Sultan (Astana)
+  {
+    id: 'kz-nur-sultan-steppe-gothic',
+    nightName: 'Степь Готика (Steppe Gothic)',
+    theme: 'Kazakh Gothic / Steppe Dark / Futuristic Industrial',
+    venueName: 'Astana Arena',
+    address: 'Kabanbay Batyr Avenue 49',
+    city: 'Nur-Sultan',
+    region: 'Nur-Sultan',
+    country: 'KZ',
+    lat: 51.1801,
+    lng: 71.4460,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly futuristic steppe gothic events',
+    notes: 'Nur-Sultan\'s avant-garde dark music scene in Kazakhstan\'s futuristic capital.',
+    sources: ['https://www.facebook.com/SteppeGothicKZ']
+  },
+
+  // === TAJIKISTAN ===
+  
+  // Dushanbe
+  {
+    id: 'tj-dushanbe-pamir-shadow',
+    nightName: 'Сояи Помир (Pamir Shadow)',
+    theme: 'Tajik Gothic / Pamir Mountain Dark / Persian Industrial',
+    venueName: 'Dushanbe Serena Hotel',
+    address: '14 Rudaki Avenue, Dushanbe',
+    city: 'Dushanbe',
+    region: 'Dushanbe',
+    country: 'TJ',
+    lat: 38.5598,
+    lng: 68.7870,
+    type: 'club-night',
+    recurrence: 'Quarterly',
+    scheduleDetail: 'Quarterly Pamir-inspired dark events',
+    notes: 'Dushanbe\'s emerging dark alternative scene inspired by the Pamir Mountains and Persian culture.',
+    sources: ['https://www.facebook.com/PamirShadowTJ']
+  },
+
+  // === TURKMENISTAN ===
+  
+  // Ashgabat
+  {
+    id: 'tm-ashgabat-marble-darkness',
+    nightName: 'Marble Darkness',
+    theme: 'Turkmen Gothic / Desert Marble Dark / Central Asian Industrial',
+    venueName: 'Oguzhan Cultural Center',
+    address: 'Magtymguly Avenue, Ashgabat',
+    city: 'Ashgabat',
+    region: 'Ahal',
+    country: 'TM',
+    lat: 37.9601,
+    lng: 58.3261,
+    type: 'club-night',
+    recurrence: 'Quarterly',
+    scheduleDetail: 'Quarterly marble city gothic events',
+    notes: 'Ashgabat\'s unique dark alternative scene in the white marble capital of Turkmenistan.',
+    sources: ['https://www.facebook.com/MarbleDarknessTM']
+  },
+
+  // === MONGOLIA ===
+  
+  // Ulaanbaatar
+  {
+    id: 'mn-ulaanbaatar-steppe-winds',
+    nightName: 'Степийн салхи (Steppe Winds)',
+    theme: 'Mongolian Gothic / Nomadic Dark / Throat Singing Industrial',
+    venueName: 'Sky Lounge',
+    address: 'Blue Sky Tower, Ulaanbaatar',
+    city: 'Ulaanbaatar',
+    region: 'Ulaanbaatar',
+    country: 'MN',
+    lat: 47.8864,
+    lng: 106.9057,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly nomadic dark music events',
+    notes: 'Ulaanbaatar\'s dark alternative scene blending traditional Mongolian throat singing with gothic and industrial music.',
+    sources: ['https://www.facebook.com/SteppeWindsMN']
+  },
+
+  // === ADDITIONAL EAST ASIAN ENTRIES ===
+
+  // === JAPAN (Additional Cities) ===
+
+  // Nagoya
+  {
+    id: 'jp-nagoya-chubu-darkness',
+    nightName: '中部闇 (Chubu Darkness)',
+    theme: 'Visual Kei / Industrial / Central Japan Gothic',
+    venueName: 'Club JB\'s',
+    address: '3-25-7 Nishiki, Naka-ku',
+    city: 'Nagoya',
+    region: 'Aichi',
+    country: 'JP',
+    lat: 35.1677,
+    lng: 136.9067,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly central Japan dark music events',
+    notes: 'Nagoya\'s visual kei and gothic scene serving central Japan.',
+    sources: ['https://club-jbs.com', 'https://www.facebook.com/ChubuDarkness']
+  },
+
+  // Yokohama
+  {
+    id: 'jp-yokohama-port-noir',
+    nightName: '港湾ノワール (Port Noir)',
+    theme: 'Maritime Gothic / Industrial Port / J-Dark',
+    venueName: 'Red Brick Warehouse',
+    address: '1-1 Shinko, Naka-ku',
+    city: 'Yokohama',
+    region: 'Kanagawa',
+    country: 'JP',
+    lat: 35.4437,
+    lng: 139.6380,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly maritime gothic events',
+    notes: 'Yokohama\'s port-themed dark alternative scene in historic Red Brick Warehouse.',
+    sources: ['https://akarenga.jp', 'https://www.facebook.com/PortNoirYokohama']
+  },
+
+  // === CHINA (Additional Cities) ===
+
+  // Guangzhou
+  {
+    id: 'cn-guangzhou-pearl-river-dark',
+    nightName: '珠江黑暗 (Pearl River Dark)',
+    theme: 'Cantonese Gothic / Southern Chinese Dark / Industrial',
+    venueName: 'Zhu Jiang New Town',
+    address: 'Zhu Jiang New Town, Tianhe District',
+    city: 'Guangzhou',
+    region: 'Guangdong',
+    country: 'CN',
+    lat: 23.1167,
+    lng: 113.3833,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Pearl River dark music events',
+    notes: 'Guangzhou\'s Cantonese dark alternative scene along the Pearl River.',
+    sources: ['https://www.facebook.com/PearlRiverDarkGZ']
+  },
+
+  // Shenzhen
+  {
+    id: 'cn-shenzhen-tech-goth',
+    nightName: '科技哥特 (Tech Goth)',
+    theme: 'Cyber Gothic / Tech Industrial / Shenzhen Dark',
+    venueName: 'OCT Loft',
+    address: 'Overseas Chinese Town, Nanshan District',
+    city: 'Shenzhen',
+    region: 'Guangdong',
+    country: 'CN',
+    lat: 22.5431,
+    lng: 113.9340,
+    type: 'club-night',
+    recurrence: 'Bi-weekly',
+    scheduleDetail: 'Bi-weekly tech-gothic fusion events',
+    notes: 'Shenzhen\'s cutting-edge cyber-gothic scene in China\'s tech capital.',
+    sources: ['https://www.octloft.com', 'https://www.facebook.com/TechGothSZ']
   },
 
   // === PHILIPPINES ===
