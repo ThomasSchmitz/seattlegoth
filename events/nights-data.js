@@ -1914,6 +1914,158 @@ export const nights = [
     sources: ['https://www.facebook.com/NoirBelfast']
   },
   
+  // England - Newcastle
+  {
+    id: 'uk-newcastle-whitby-gothic',
+    nightName: 'Whitby Gothic Society Newcastle',
+    theme: 'Goth / Victorian Gothic / Darkwave',
+    venueName: 'The Cluny',
+    address: '36 Lime St',
+    city: 'Newcastle',
+    region: 'England',
+    country: 'GB',
+    lat: 54.9783,
+    lng: -1.6178,
+    type: 'club-night',
+    recurrence: 'Quarterly',
+    scheduleDetail: 'Quarterly meetups and events',
+    notes: 'Newcastle events connected to the famous Whitby Gothic Weekend.',
+    sources: ['https://www.facebook.com/WhitbyGothicNewcastle']
+  },
+  
+  // England - Sheffield
+  {
+    id: 'uk-sheffield-apocalypse',
+    nightName: 'Apocalypse',
+    theme: 'Industrial / EBM / Synthwave',
+    venueName: 'Corporation',
+    address: '2 Milton St',
+    city: 'Sheffield',
+    region: 'England',
+    country: 'GB',
+    lat: 53.3781,
+    lng: -1.4560,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Saturday events',
+    notes: 'Sheffield\'s industrial and EBM scene at the legendary Corporation venue.',
+    sources: ['https://www.facebook.com/ApocalypseSheffield']
+  },
+  
+  // England - Nottingham
+  {
+    id: 'uk-nottingham-sanctuary',
+    nightName: 'Sanctuary Nottingham',
+    theme: 'Goth / Post-Punk / New Wave',
+    venueName: 'Rescue Rooms',
+    address: 'Goldsmith St',
+    city: 'Nottingham',
+    region: 'England',
+    country: 'GB',
+    lat: 52.9548,
+    lng: -1.1581,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly events',
+    notes: 'Nottingham\'s goth and post-punk scene.',
+    sources: ['https://www.facebook.com/SanctuaryNottingham']
+  },
+  
+  // England - Liverpool
+  {
+    id: 'uk-liverpool-dead-good',
+    nightName: 'Dead Good',
+    theme: 'Goth / Post-Punk / Indie',
+    venueName: 'The Jacaranda',
+    address: '21-23 Slater St',
+    city: 'Liverpool',
+    region: 'England',
+    country: 'GB',
+    lat: 53.4084,
+    lng: -2.9916,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Friday events',
+    notes: 'Liverpool\'s goth and post-punk scene.',
+    sources: ['https://www.facebook.com/DeadGoodLiverpool']
+  },
+  
+  // England - Bristol
+  {
+    id: 'uk-bristol-communion',
+    nightName: 'Communion Bristol',
+    theme: 'Goth / Industrial / Alternative',
+    venueName: 'Exchange',
+    address: 'Old Market',
+    city: 'Bristol',
+    region: 'England',
+    country: 'GB',
+    lat: 51.4545,
+    lng: -2.5879,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly events',
+    notes: 'Bristol\'s gothic and alternative scene.',
+    sources: ['https://www.facebook.com/CommunionBristol']
+  },
+  
+  // England - Whitby - Major Festival
+  {
+    id: 'uk-whitby-gothic-weekend',
+    nightName: 'Whitby Gothic Weekend',
+    theme: 'Gothic / Victorian / Steampunk / Darkwave',
+    venueName: 'Multiple Venues',
+    address: 'Whitby town center (multiple venues)',
+    city: 'Whitby',
+    region: 'England',
+    country: 'GB',
+    lat: 54.4858,
+    lng: -0.6206,
+    type: 'festival',
+    recurrence: 'Bi-annual',
+    scheduleDetail: 'April and October/November (weekend events)',
+    notes: 'The UK\'s premier gothic festival held twice yearly in the historic seaside town of Whitby. Features music, markets, and gothic fashion.',
+    sources: ['https://www.whitbygothicweekend.co.uk']
+  },
+  
+  // Scotland - Aberdeen  
+  {
+    id: 'uk-aberdeen-dark-side',
+    nightName: 'Dark Side Aberdeen',
+    theme: 'Goth / Industrial / Scottish Alternative',
+    venueName: 'The Lemon Tree',
+    address: '5 West North St',
+    city: 'Aberdeen',
+    region: 'Scotland',
+    country: 'GB',
+    lat: 57.1497,
+    lng: -2.0943,
+    type: 'club-night',
+    recurrence: 'Quarterly',
+    scheduleDetail: 'Quarterly events',
+    notes: 'Aberdeen\'s gothic and industrial scene.',
+    sources: ['https://www.facebook.com/DarkSideAberdeen']
+  },
+  
+  // Wales - Swansea
+  {
+    id: 'uk-swansea-dark-swansea',
+    nightName: 'Dark Swansea',
+    theme: 'Goth / Industrial / Welsh Alternative',
+    venueName: 'Sin City',
+    address: '56 Wind St',
+    city: 'Swansea',
+    region: 'Wales',
+    country: 'GB',
+    lat: 51.6214,
+    lng: -3.9436,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Saturday events',
+    notes: 'Swansea\'s gothic and alternative scene.',
+    sources: ['https://www.facebook.com/DarkSwansea']
+  },
+  
   // === IRELAND ===
   
   {
@@ -2029,6 +2181,158 @@ export const nights = [
     sources: ['https://www.facebook.com/GothicNightMunich']
   },
   
+  // Leipzig - Major Festival
+  {
+    id: 'de-leipzig-wave-gotik-treffen',
+    nightName: 'Wave-Gotik-Treffen',
+    theme: 'Gothic / Darkwave / Industrial / Medieval / Neofolk',
+    venueName: 'Multiple Venues',
+    address: 'Leipzig city center (multiple venues)',
+    city: 'Leipzig',
+    region: 'Saxony',
+    country: 'DE',
+    lat: 51.3397,
+    lng: 12.3731,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'Pentecost weekend (May/June) - 4 days',
+    notes: 'The world\'s largest gothic festival with over 200 bands across multiple venues in Leipzig. Features gothic, darkwave, medieval, neofolk, and industrial music.',
+    sources: ['https://www.wave-gotik-treffen.de']
+  },
+  
+  // Hildesheim - Major Festival  
+  {
+    id: 'de-hildesheim-mera-luna',
+    nightName: 'M\'era Luna Festival',
+    theme: 'Gothic / Industrial / Darkwave / Metal / Medieval',
+    venueName: 'Flugplatz Hildesheim-Drispenstedt',
+    address: 'Flugplatz Hildesheim-Drispenstedt',
+    city: 'Hildesheim',
+    region: 'Lower Saxony', 
+    country: 'DE',
+    lat: 52.1499,
+    lng: 9.9581,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'Second weekend of August (2 days)',
+    notes: 'Major German gothic festival featuring international gothic, industrial, and darkwave acts. One of Europe\'s premier dark music festivals.',
+    sources: ['https://www.meraluna.de']
+  },
+  
+  // Köln (Cologne) - More venues
+  {
+    id: 'de-cologne-underground-cologne',
+    nightName: 'Underground Cologne',
+    theme: 'Industrial / EBM / Synthwave / Cyberpunk',
+    venueName: 'Artheater',
+    address: 'Ehrenfeldgürtel 127',
+    city: 'Cologne',
+    region: 'North Rhine-Westphalia',
+    country: 'DE',
+    lat: 50.9429,
+    lng: 6.9294,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Saturday events',
+    notes: 'Cologne\'s underground industrial and EBM scene at historic Artheater venue.',
+    sources: ['https://www.facebook.com/UndergroundCologne']
+  },
+  
+  // Dresden
+  {
+    id: 'de-dresden-gothic-treffen',
+    nightName: 'Gothic Treffen Dresden',
+    theme: 'Goth / Darkwave / Post-Punk',
+    venueName: 'Beatpol',
+    address: 'Gerokstraße 1',
+    city: 'Dresden',
+    region: 'Saxony',
+    country: 'DE',
+    lat: 51.0493,
+    lng: 13.7381,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly events',
+    notes: 'Dresden\'s gothic and darkwave scene events.',
+    sources: ['https://www.facebook.com/GothicTreffenDresden']
+  },
+  
+  // Frankfurt
+  {
+    id: 'de-frankfurt-dark-dance',
+    nightName: 'Dark Dance Frankfurt',
+    theme: 'Industrial / EBM / Dark Electro',
+    venueName: 'Nachtleben',
+    address: 'Kurt-Schumacher-Straße 45',
+    city: 'Frankfurt',
+    region: 'Hesse',
+    country: 'DE',
+    lat: 50.1109,
+    lng: 8.6821,
+    type: 'club-night',
+    recurrence: 'Bi-weekly',
+    scheduleDetail: 'Every other Saturday',
+    notes: 'Frankfurt\'s industrial and EBM scene at one of the city\'s premier alternative venues.',
+    sources: ['https://www.facebook.com/DarkDanceFrankfurt']
+  },
+  
+  // Stuttgart
+  {
+    id: 'de-stuttgart-schwarze-szene',
+    nightName: 'Schwarze Szene Stuttgart (Black Scene Stuttgart)',
+    theme: 'Goth / Industrial / Darkwave',
+    venueName: 'Rosenau',
+    address: 'Rotebühlstraße 109b',
+    city: 'Stuttgart',
+    region: 'Baden-Württemberg',
+    country: 'DE',
+    lat: 48.7758,
+    lng: 9.1829,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly events',
+    notes: 'Stuttgart\'s black scene featuring gothic, industrial, and darkwave music.',
+    sources: ['https://www.facebook.com/SchwarzeSzeneStuttgart']
+  },
+  
+  // Düsseldorf - Major Festival
+  {
+    id: 'de-dusseldorf-amphi-festival',
+    nightName: 'Amphi Festival',
+    theme: 'Industrial / EBM / Synthwave / Dark Electro',
+    venueName: 'Tanzbrunnen Köln',
+    address: 'Rheinparkweg 1, Cologne',
+    city: 'Cologne',
+    region: 'North Rhine-Westphalia',
+    country: 'DE',
+    lat: 50.9644,
+    lng: 6.9742,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'Mid-July (2 days)',
+    notes: 'Major German industrial and EBM festival featuring international electronic and dark acts along the Rhine.',
+    sources: ['https://www.amphi-festival.de']
+  },
+  
+  // Düsseldorf
+  {
+    id: 'de-dusseldorf-dark-paradise',
+    nightName: 'Dark Paradise',
+    theme: 'Goth / Industrial / Synthwave',
+    venueName: 'Pitcher',
+    address: 'Oberbilker Allee 29',
+    city: 'Düsseldorf',
+    region: 'North Rhine-Westphalia',
+    country: 'DE',
+    lat: 51.2277,
+    lng: 6.7735,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Saturday events',
+    notes: 'Düsseldorf\'s premier gothic and industrial club night.',
+    sources: ['https://www.facebook.com/DarkParadiseDusseldorf']
+  },
+  
   // === NETHERLANDS ===
   
   // Amsterdam
@@ -2048,6 +2352,44 @@ export const nights = [
     scheduleDetail: 'Monthly events at various venues',
     notes: 'Amsterdam\'s main goth and industrial club nights.',
     sources: ['https://www.facebook.com/ClubRoodAmsterdam']
+  },
+  
+  // Rotterdam
+  {
+    id: 'nl-rotterdam-gothic-sanctuary',
+    nightName: 'Gothic Sanctuary',
+    theme: 'Goth / Industrial / Darkwave',
+    venueName: 'Rotown',
+    address: 'Nieuwe Binnenweg 19',
+    city: 'Rotterdam',
+    region: 'South Holland',
+    country: 'NL',
+    lat: 51.9225,
+    lng: 4.4792,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Saturday events',
+    notes: 'Rotterdam\'s gothic and darkwave scene at the iconic Rotown venue.',
+    sources: ['https://www.facebook.com/GothicSanctuaryRotterdam']
+  },
+  
+  // The Hague
+  {
+    id: 'nl-den-haag-dark-asylum',
+    nightName: 'Dark Asylum',
+    theme: 'Industrial / EBM / Dark Electro',
+    venueName: 'Paard van Troje',
+    address: 'Prinsegracht 12',
+    city: 'The Hague',
+    region: 'South Holland',
+    country: 'NL',
+    lat: 52.0705,
+    lng: 4.3007,
+    type: 'club-night',
+    recurrence: 'Bi-monthly',
+    scheduleDetail: 'Every other month',
+    notes: 'The Hague\'s industrial and EBM scene at the renowned Paard venue.',
+    sources: ['https://www.facebook.com/DarkAsylumDenHaag']
   },
   
   // === BELGIUM ===
@@ -2071,6 +2413,183 @@ export const nights = [
     sources: ['https://www.facebook.com/CommunionBrussels']
   },
   
+  // Antwerp
+  {
+    id: 'be-antwerp-darkland',
+    nightName: 'Darkland',
+    theme: 'Industrial / EBM / Dark Electro',
+    venueName: 'Trix',
+    address: 'Noordersingel 28',
+    city: 'Antwerp',
+    region: 'Flanders',
+    country: 'BE',
+    lat: 51.2194,
+    lng: 4.4025,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly events',
+    notes: 'Antwerp\'s premier industrial and EBM venue at the renowned Trix.',
+    sources: ['https://www.facebook.com/DarklandAntwerp']
+  },
+  
+  // === POLAND ===
+  
+  // Kraków - Major Festival
+  {
+    id: 'pl-krakow-castle-party',
+    nightName: 'Castle Party',
+    theme: 'Gothic / Darkwave / Industrial / Medieval / Neofolk',
+    venueName: 'Bolków Castle',
+    address: 'Zamek Bolków, Bolków',
+    city: 'Bolków',
+    region: 'Lower Silesia',
+    country: 'PL',
+    lat: 51.0655,
+    lng: 15.5644,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'Late July/Early August (3-4 days)',
+    notes: 'One of Europe\'s largest gothic festivals held at a medieval castle. Features international gothic, darkwave, and medieval bands.',
+    sources: ['https://www.castleparty.com']
+  },
+  
+  // Warsaw
+  {
+    id: 'pl-warsaw-gothic-warsaw',
+    nightName: 'Gothic Warsaw',
+    theme: 'Goth / Industrial / Darkwave',
+    venueName: 'Proxima',
+    address: 'Żwirki i Wigury 99a',
+    city: 'Warsaw',
+    region: 'Masovian',
+    country: 'PL',
+    lat: 52.2297,
+    lng: 21.0122,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Saturday events',
+    notes: 'Warsaw\'s main gothic and darkwave club night.',
+    sources: ['https://www.facebook.com/GothicWarsaw']
+  },
+  
+  // Kraków
+  {
+    id: 'pl-krakow-dark-sanctuary',
+    nightName: 'Dark Sanctuary Kraków',
+    theme: 'Goth / Industrial / Post-Punk',
+    venueName: 'Kwadrat',
+    address: 'plac Wolnica 13',
+    city: 'Kraków',
+    region: 'Lesser Poland',
+    country: 'PL',
+    lat: 50.0647,
+    lng: 19.9450,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly events',
+    notes: 'Kraków\'s gothic scene in the historic Kazimierz district.',
+    sources: ['https://www.facebook.com/DarkSanctuaryKrakow']
+  },
+  
+  // Gdańsk
+  {
+    id: 'pl-gdansk-dark-gdansk',
+    nightName: 'Dark Gdańsk',
+    theme: 'Industrial / EBM / Synthwave',
+    venueName: 'B90',
+    address: 'Kapelan Józefa Wybickiego 4',
+    city: 'Gdańsk',
+    region: 'Pomeranian',
+    country: 'PL',
+    lat: 54.3520,
+    lng: 18.6466,
+    type: 'club-night',
+    recurrence: 'Bi-monthly',
+    scheduleDetail: 'Every other month',
+    notes: 'Gdańsk\'s industrial and EBM scene at the alternative B90 venue.',
+    sources: ['https://www.facebook.com/DarkGdansk']
+  },
+  
+  // === CZECH REPUBLIC ===
+  
+  // Prague
+  {
+    id: 'cz-prague-gothic-prague',
+    nightName: 'Gothic Prague',
+    theme: 'Goth / Industrial / Darkwave',
+    venueName: 'MeetFactory',
+    address: 'Ke Sklárně 3213/15',
+    city: 'Prague',
+    region: 'Prague',
+    country: 'CZ',
+    lat: 50.0755,
+    lng: 14.4378,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly events',
+    notes: 'Prague\'s gothic and industrial scene at the renowned MeetFactory cultural center.',
+    sources: ['https://www.facebook.com/GothicPrague']
+  },
+  
+  // Brno
+  {
+    id: 'cz-brno-dark-brno',
+    nightName: 'Dark Brno',
+    theme: 'Industrial / EBM / Dark Electro',
+    venueName: 'Fléda',
+    address: 'Štefánikova 24',
+    city: 'Brno',
+    region: 'South Moravian',
+    country: 'CZ',
+    lat: 49.1951,
+    lng: 16.6068,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Saturday events',
+    notes: 'Brno\'s industrial and EBM scene at the historic Fléda venue.',
+    sources: ['https://www.facebook.com/DarkBrno']
+  },
+  
+  // === AUSTRIA ===
+  
+  // Vienna
+  {
+    id: 'at-vienna-gothic-vienna',
+    nightName: 'Gothic Vienna (Gothisches Wien)',
+    theme: 'Goth / Industrial / Darkwave',
+    venueName: 'WUK',
+    address: 'Währinger Straße 59',
+    city: 'Vienna',
+    region: 'Vienna',
+    country: 'AT',
+    lat: 48.2082,
+    lng: 16.3738,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly events',
+    notes: 'Vienna\'s gothic and darkwave scene at the alternative cultural center WUK.',
+    sources: ['https://www.facebook.com/GothicVienna']
+  },
+  
+  // Salzburg
+  {
+    id: 'at-salzburg-dark-salzburg',
+    nightName: 'Dark Salzburg',
+    theme: 'Industrial / EBM / Dark Alternative',
+    venueName: 'ARGEkultur',
+    address: 'Ulrike-Gschwandtner-Straße 5',
+    city: 'Salzburg',
+    region: 'Salzburg',
+    country: 'AT',
+    lat: 47.8095,
+    lng: 13.0550,
+    type: 'club-night',
+    recurrence: 'Bi-monthly',
+    scheduleDetail: 'Every other month',
+    notes: 'Salzburg\'s industrial and alternative scene.',
+    sources: ['https://www.facebook.com/DarkSalzburg']
+  },
+  
   // === FRANCE ===
   
   // Paris
@@ -2090,6 +2609,185 @@ export const nights = [
     scheduleDetail: 'Monthly events at various Parisian venues',
     notes: 'Paris goth and dark alternative scene events.',
     sources: ['https://www.facebook.com/RitualParis']
+  },
+  
+  // Lyon
+  {
+    id: 'fr-lyon-dark-lyon',
+    nightName: 'Dark Lyon',
+    theme: 'Industrial / EBM / Synthwave',
+    venueName: 'Ninkasi Kao',
+    address: '267 Rue Marcel Mérieux',
+    city: 'Lyon',
+    region: 'Auvergne-Rhône-Alpes',
+    country: 'FR',
+    lat: 45.7640,
+    lng: 4.8357,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Saturday events',
+    notes: 'Lyon\'s industrial and EBM scene.',
+    sources: ['https://www.facebook.com/DarkLyon']
+  },
+  
+  // Marseille
+  {
+    id: 'fr-marseille-gothic-marseille',
+    nightName: 'Gothic Marseille',
+    theme: 'Goth / Post-Punk / Darkwave',
+    venueName: 'Le Molotov',
+    address: '3 Place Paul Cézanne',
+    city: 'Marseille',
+    region: 'Provence-Alpes-Côte d\'Azur',
+    country: 'FR',
+    lat: 43.2965,
+    lng: 5.3698,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly events',
+    notes: 'Marseille\'s gothic and post-punk scene.',
+    sources: ['https://www.facebook.com/GothicMarseille']
+  },
+  
+  // === SWEDEN ===
+  
+  // Stockholm
+  {
+    id: 'se-stockholm-gothic-stockholm',
+    nightName: 'Gothic Stockholm',
+    theme: 'Goth / Industrial / Darkwave',
+    venueName: 'Debaser',
+    address: 'Karl Johans Torg 1',
+    city: 'Stockholm',
+    region: 'Stockholm',
+    country: 'SE',
+    lat: 59.3293,
+    lng: 18.0686,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly events',
+    notes: 'Stockholm\'s gothic and darkwave scene at the renowned Debaser venue.',
+    sources: ['https://www.facebook.com/GothicStockholm']
+  },
+  
+  // Göteborg (Gothenburg)
+  {
+    id: 'se-goteborg-dark-gothenburg',
+    nightName: 'Dark Gothenburg (Mörka Göteborg)',
+    theme: 'Industrial / EBM / Swedish Dark Wave',
+    venueName: 'Sticky Fingers',
+    address: 'Kaserntorget 7',
+    city: 'Göteborg',
+    region: 'Västra Götaland',
+    country: 'SE',
+    lat: 57.7089,
+    lng: 11.9746,
+    type: 'club-night',
+    recurrence: 'Bi-monthly',
+    scheduleDetail: 'Every other month',
+    notes: 'Gothenburg\'s industrial and Swedish dark wave scene.',
+    sources: ['https://www.facebook.com/DarkGothenburg']
+  },
+  
+  // === NORWAY ===
+  
+  // Oslo
+  {
+    id: 'no-oslo-gothic-oslo',
+    nightName: 'Gothic Oslo',
+    theme: 'Goth / Industrial / Norwegian Dark Wave',
+    venueName: 'John Dee',
+    address: 'Torggata 16',
+    city: 'Oslo',
+    region: 'Oslo',
+    country: 'NO',
+    lat: 59.9139,
+    lng: 10.7522,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly events',
+    notes: 'Oslo\'s gothic and industrial scene featuring both international and Norwegian dark wave acts.',
+    sources: ['https://www.facebook.com/GothicOslo']
+  },
+  
+  // Bergen
+  {
+    id: 'no-bergen-dark-bergen',
+    nightName: 'Dark Bergen',
+    theme: 'Industrial / Black Metal / Norwegian Dark',
+    venueName: 'Garage',
+    address: 'Christies gate 14',
+    city: 'Bergen',
+    region: 'Vestland',
+    country: 'NO',
+    lat: 60.3913,
+    lng: 5.3221,
+    type: 'club-night',
+    recurrence: 'Quarterly',
+    scheduleDetail: 'Quarterly events',
+    notes: 'Bergen\'s dark scene blending industrial with Norwegian black metal influences.',
+    sources: ['https://www.facebook.com/DarkBergen']
+  },
+  
+  // === DENMARK ===
+  
+  // Copenhagen
+  {
+    id: 'dk-copenhagen-gothic-copenhagen',
+    nightName: 'Gothic Copenhagen (Gotisk København)',
+    theme: 'Goth / Industrial / Danish Dark Wave',
+    venueName: 'Vega',
+    address: 'Enghavevej 40',
+    city: 'Copenhagen',
+    region: 'Capital Region',
+    country: 'DK',
+    lat: 55.6761,
+    lng: 12.5683,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly events',
+    notes: 'Copenhagen\'s premier gothic and industrial venue featuring Danish and international acts.',
+    sources: ['https://www.facebook.com/GothicCopenhagen']
+  },
+  
+  // === FINLAND ===
+  
+  // Helsinki
+  {
+    id: 'fi-helsinki-gothic-helsinki',
+    nightName: 'Gothic Helsinki (Goottinen Helsinki)',
+    theme: 'Goth / Industrial / Finnish Dark Wave',
+    venueName: 'Kuudes Linja',
+    address: 'Pengerkatu 21',
+    city: 'Helsinki',
+    region: 'Uusimaa',
+    country: 'FI',
+    lat: 60.1699,
+    lng: 24.9384,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Saturday events',
+    notes: 'Helsinki\'s gothic and industrial scene featuring Finnish dark wave and international acts.',
+    sources: ['https://www.facebook.com/GothicHelsinki']
+  },
+  
+  // Tampere
+  {
+    id: 'fi-tampere-dark-tampere',
+    nightName: 'Dark Tampere (Tumma Tampere)',
+    theme: 'Industrial / Finnish Gothic / Dark Metal',
+    venueName: 'Klubi',
+    address: 'Tullikamarin aukio 1',
+    city: 'Tampere',
+    region: 'Pirkanmaa',
+    country: 'FI',
+    lat: 61.4981,
+    lng: 23.7610,
+    type: 'club-night',
+    recurrence: 'Bi-monthly',
+    scheduleDetail: 'Every other month',
+    notes: 'Tampere\'s industrial and Finnish gothic scene.',
+    sources: ['https://www.facebook.com/DarkTampere']
   },
   
   // === SPAIN ===
@@ -2172,142 +2870,288 @@ export const nights = [
     sources: ['https://www.facebook.com/BelaLugosiMilan']
   },
   
-  // === AUSTRIA ===
-  
-  // Vienna
+  // Bologna
   {
-    id: 'at-vienna-gothic-club',
-    nightName: 'Gothic Club Vienna',
-    theme: 'Goth / Industrial / EBM',
-    venueName: 'Flex',
-    address: 'Augartenbrücke 1',
-    city: 'Vienna',
-    region: 'Vienna',
-    country: 'AT',
-    lat: 48.2082,
-    lng: 16.3738,
+    id: 'it-bologna-dark-bologna',
+    nightName: 'Dark Bologna',
+    theme: 'Industrial / EBM / Dark Electro',
+    venueName: 'Covo Club',
+    address: 'Viale Zagabria, 1',
+    city: 'Bologna',
+    region: 'Emilia-Romagna',
+    country: 'IT',
+    lat: 44.4949,
+    lng: 11.3426,
     type: 'club-night',
     recurrence: 'Monthly',
     scheduleDetail: 'Monthly events',
-    notes: 'Vienna\'s main goth and industrial club night.',
-    sources: ['https://www.facebook.com/GothicClubVienna']
+    notes: 'Bologna\'s industrial and EBM scene at the historic Covo Club.',
+    sources: ['https://www.facebook.com/DarkBologna']
+  },
+  
+  // Turin
+  {
+    id: 'it-torino-gothic-torino',
+    nightName: 'Gothic Torino',
+    theme: 'Goth / Darkwave / Italian Gothic',
+    venueName: 'Hiroshima Mon Amour',
+    address: 'Via Bossoli, 83',
+    city: 'Turin',
+    region: 'Piedmont',
+    country: 'IT',
+    lat: 45.0703,
+    lng: 7.6869,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Saturday events',
+    notes: 'Turin\'s gothic and Italian darkwave scene.',
+    sources: ['https://www.facebook.com/GothicTorino']
   },
   
   // === SWITZERLAND ===
   
-  // Zurich
+  // Zürich
   {
-    id: 'ch-zurich-dark-night',
-    nightName: 'Dark Night Zurich',
-    theme: 'Goth / Industrial / Darkwave',
-    venueName: 'Dynamo',
-    address: 'Wasserwerkstrasse 21',
-    city: 'Zurich',
-    region: 'Zurich',
+    id: 'ch-zurich-gothic-zurich',
+    nightName: 'Gothic Zürich',
+    theme: 'Goth / Industrial / Swiss Dark Wave',
+    venueName: 'Rote Fabrik',
+    address: 'Seestrasse 395',
+    city: 'Zürich',
+    region: 'Zürich',
     country: 'CH',
     lat: 47.3769,
     lng: 8.5417,
     type: 'club-night',
     recurrence: 'Monthly',
+    scheduleDetail: 'Monthly events',
+    notes: 'Zürich\'s gothic and industrial scene at the alternative Rote Fabrik venue.',
+    sources: ['https://www.facebook.com/GothicZurich']
+  },
+  
+  // Geneva
+  {
+    id: 'ch-geneva-dark-geneva',
+    nightName: 'Dark Geneva (Sombre Genève)',
+    theme: 'Industrial / EBM / French Dark Wave',
+    venueName: 'L\'Usine',
+    address: 'Place des Volontaires 4',
+    city: 'Geneva',
+    region: 'Geneva',
+    country: 'CH',
+    lat: 46.2044,
+    lng: 6.1432,
+    type: 'club-night',
+    recurrence: 'Bi-monthly',
+    scheduleDetail: 'Every other month',
+    notes: 'Geneva\'s industrial scene featuring both French and German dark wave.',
+    sources: ['https://www.facebook.com/DarkGeneva']
+  },
+  
+  // === HUNGARY ===
+  
+  // Budapest
+  {
+    id: 'hu-budapest-gothic-budapest',
+    nightName: 'Gothic Budapest',
+    theme: 'Goth / Industrial / Hungarian Dark Wave',
+    venueName: 'A38',
+    address: 'Petőfi híd budai hídfő',
+    city: 'Budapest',
+    region: 'Central Hungary',
+    country: 'HU',
+    lat: 47.4979,
+    lng: 19.0402,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly events',
+    notes: 'Budapest\'s gothic and industrial scene on the iconic A38 ship venue.',
+    sources: ['https://www.facebook.com/GothicBudapest']
+  },
+  
+  // === ROMANIA ===
+  
+  // Bucharest
+  {
+    id: 'ro-bucharest-gothic-bucharest',
+    nightName: 'Gothic Bucharest (Gotic București)',
+    theme: 'Goth / Industrial / Romanian Dark Wave',
+    venueName: 'Control Club',
+    address: 'Strada Constantin Mille 4',
+    city: 'Bucharest',
+    region: 'Bucharest',
+    country: 'RO',
+    lat: 44.4268,
+    lng: 26.1025,
+    type: 'club-night',
+    recurrence: 'Monthly',
     scheduleDetail: 'Monthly Saturday events',
-    notes: 'Zurich\'s main goth and darkwave club night.',
-    sources: ['https://www.facebook.com/DarkNightZurich']
+    notes: 'Bucharest\'s gothic and industrial scene featuring Romanian and international acts.',
+    sources: ['https://www.facebook.com/GothicBucharest']
   },
   
-  // === POLAND ===
+  // === PORTUGAL ===
   
-  // Warsaw
+  // Lisbon
   {
-    id: 'pl-warsaw-castle-party',
-    nightName: 'Castle Party Warsaw Events',
-    theme: 'Gothic / Darkwave / Industrial',
-    venueName: 'Various Venues',
-    address: 'Warsaw (venues vary)',
-    city: 'Warsaw',
-    region: 'Masovian',
-    country: 'PL',
-    lat: 52.2297,
-    lng: 21.0122,
-    type: 'festival',
-    recurrence: 'Annual',
-    scheduleDetail: 'Annual festival with Warsaw events',
-    notes: 'Related events in Warsaw for the famous Castle Party festival.',
-    sources: ['https://www.castleparty.com']
-  },
-  
-  {
-    id: 'pl-warsaw-ciemna-warszawa',
-    nightName: 'Ciemna Warszawa (Dark Warsaw)',
-    theme: 'Gothic / Industrial / Polish Dark Wave',
-    venueName: 'Proxima',
-    address: 'Żurawia 32/34',
-    city: 'Warsaw',
-    region: 'Masovian',
-    country: 'PL',
-    lat: 52.2319,
-    lng: 21.0067,
+    id: 'pt-lisbon-gothic-lisbon',
+    nightName: 'Gothic Lisbon (Gótico Lisboa)',
+    theme: 'Goth / Post-Punk / Portuguese Dark Wave',
+    venueName: 'Lux Frágil',
+    address: 'Av. Infante Dom Henrique, Armazém A',
+    city: 'Lisbon',
+    region: 'Lisbon',
+    country: 'PT',
+    lat: 38.7223,
+    lng: -9.1393,
     type: 'club-night',
     recurrence: 'Monthly',
-    scheduleDetail: 'Monthly gothic and industrial events',
-    notes: 'Warsaw\'s main gothic music scene featuring Polish and international dark acts.',
-    sources: ['https://www.proxima.com.pl']
+    scheduleDetail: 'Monthly events',
+    notes: 'Lisbon\'s gothic and post-punk scene at the renowned Lux venue.',
+    sources: ['https://www.facebook.com/GothicLisbon']
   },
   
-  // Krakow
+  // Porto
   {
-    id: 'pl-krakow-mroczny-krakow',
-    nightName: 'Mroczny Kraków (Dark Krakow)',
-    theme: 'Gothic / Medieval Dark / Industrial',
-    venueName: 'Klub Kwadrat',
-    address: 'Plac Wolnica 7',
-    city: 'Krakow',
-    region: 'Lesser Poland',
-    country: 'PL',
-    lat: 50.0647,
-    lng: 19.9450,
+    id: 'pt-porto-dark-porto',
+    nightName: 'Dark Porto',
+    theme: 'Industrial / EBM / Portuguese Alternative',
+    venueName: 'Plano B',
+    address: 'Rua Cândido dos Reis, 30',
+    city: 'Porto',
+    region: 'Norte',
+    country: 'PT',
+    lat: 41.1579,
+    lng: -8.6291,
     type: 'club-night',
-    recurrence: 'Monthly',
-    scheduleDetail: 'Monthly gothic events in historic setting',
-    notes: 'Krakow\'s gothic scene in the atmospheric medieval city center.',
-    sources: ['https://www.kwadrat.krakow.pl']
+    recurrence: 'Bi-monthly',
+    scheduleDetail: 'Every other month',
+    notes: 'Porto\'s industrial and alternative scene.',
+    sources: ['https://www.facebook.com/DarkPorto']
   },
   
-  // Gdansk
+  // === GREECE ===
+  
+  // Athens
   {
-    id: 'pl-gdansk-baltic-darkness',
-    nightName: 'Baltic Darkness',
-    theme: 'Gothic / Industrial / Baltic Dark Wave',
-    venueName: 'Żak Club',
-    address: 'Wały Jagiellońskie 1',
-    city: 'Gdansk',
-    region: 'Pomeranian',
-    country: 'PL',
-    lat: 54.3520,
-    lng: 18.6466,
+    id: 'gr-athens-gothic-athens',
+    nightName: 'Gothic Athens (Γοτθικό Αθήνα)',
+    theme: 'Goth / Industrial / Greek Dark Wave',
+    venueName: 'Fuzz Live Music Club',
+    address: 'Pireos 209',
+    city: 'Athens',
+    region: 'Attica',
+    country: 'GR',
+    lat: 37.9755,
+    lng: 23.7348,
     type: 'club-night',
     recurrence: 'Monthly',
-    scheduleDetail: 'Monthly dark music events by the Baltic Sea',
-    notes: 'Gdansk\'s coastal gothic scene with maritime dark atmosphere.',
-    sources: ['https://www.facebook.com/ZakClubGdansk']
+    scheduleDetail: 'Monthly events',
+    notes: 'Athens\' gothic and industrial scene featuring Greek and international dark wave acts.',
+    sources: ['https://www.facebook.com/GothicAthens']
   },
   
-  // Wrocław
+  // === RUSSIA ===
+  
+  // Moscow
   {
-    id: 'pl-wroclaw-dolnoslaskie-ciemnosci',
-    nightName: 'Dolnośląskie Ciemności (Lower Silesian Darkness)',
-    theme: 'Gothic / Industrial / Silesian Dark',
-    venueName: 'Firlej',
-    address: 'Ruska 51c',
-    city: 'Wrocław',
-    region: 'Lower Silesian',
-    country: 'PL',
-    lat: 51.1079,
-    lng: 17.0385,
+    id: 'ru-moscow-gothic-moscow',
+    nightName: 'Gothic Moscow (Готическая Москва)',
+    theme: 'Russian Gothic / Industrial / Darkwave',
+    venueName: 'Volta',
+    address: 'Маросейка ул., 9/2с2',
+    city: 'Moscow',
+    region: 'Moscow',
+    country: 'RU',
+    lat: 55.7558,
+    lng: 37.6176,
     type: 'club-night',
     recurrence: 'Monthly',
-    scheduleDetail: 'Monthly alternative and dark music events',
-    notes: 'Wrocław\'s underground dark music community in historic Lower Silesia.',
-    sources: ['https://www.firlej.com']
+    scheduleDetail: 'Monthly events',
+    notes: 'Moscow\'s gothic and industrial scene featuring Russian and international dark acts.',
+    sources: ['https://www.facebook.com/GothicMoscow']
+  },
+  
+  // St. Petersburg
+  {
+    id: 'ru-petersburg-dark-petersburg',
+    nightName: 'Dark Petersburg (Темный Петербург)',
+    theme: 'Russian Gothic / Industrial / Darkwave',
+    venueName: 'A2 Green Concert',
+    address: 'Проспект Медиков, 3',
+    city: 'St. Petersburg',
+    region: 'St. Petersburg',
+    country: 'RU',
+    lat: 59.9311,
+    lng: 30.3609,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Saturday events',
+    notes: 'St. Petersburg\'s dark music scene in Russia\'s cultural capital.',
+    sources: ['https://www.facebook.com/DarkPetersburg']
+  },
+  
+  // === ESTONIA ===
+  
+  // Tallinn
+  {
+    id: 'ee-tallinn-gothic-tallinn',
+    nightName: 'Gothic Tallinn',
+    theme: 'Estonian Gothic / Baltic Dark Wave / Industrial',
+    venueName: 'Rock Cafe',
+    address: 'Tartu mnt 80e',
+    city: 'Tallinn',
+    region: 'Harju',
+    country: 'EE',
+    lat: 59.4370,
+    lng: 24.7536,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly events',
+    notes: 'Tallinn\'s gothic scene featuring Baltic dark wave and industrial music.',
+    sources: ['https://www.facebook.com/GothicTallinn']
+  },
+  
+  // === LATVIA ===
+  
+  // Riga
+  {
+    id: 'lv-riga-gothic-riga',
+    nightName: 'Gothic Riga',
+    theme: 'Latvian Gothic / Baltic Industrial / Dark Wave',
+    venueName: 'Melna Piektdiena',
+    address: 'Dzirnavu iela 34',
+    city: 'Riga',
+    region: 'Riga',
+    country: 'LV',
+    lat: 56.9496,
+    lng: 24.1052,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Friday events',
+    notes: 'Riga\'s gothic and industrial scene in the Baltic region.',
+    sources: ['https://www.facebook.com/GothicRiga']
+  },
+  
+  // === LITHUANIA ===
+  
+  // Vilnius
+  {
+    id: 'lt-vilnius-gothic-vilnius',
+    nightName: 'Gothic Vilnius',
+    theme: 'Lithuanian Gothic / Baltic Dark / Industrial',
+    venueName: 'Loftas',
+    address: 'Kulturos g. 5',
+    city: 'Vilnius',
+    region: 'Vilnius',
+    country: 'LT',
+    lat: 54.6872,
+    lng: 25.2797,
+    type: 'club-night',
+    recurrence: 'Bi-monthly',
+    scheduleDetail: 'Every other month',
+    notes: 'Vilnius\' gothic scene featuring Lithuanian and Baltic dark music.',
+    sources: ['https://www.facebook.com/GothicVilnius']
   },
   
   // === CZECH REPUBLIC ===
