@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>North American Goth / Industrial Nights Map</title>
+  <meta name="description" content="Interactive map of goth, industrial, and dark alternative club nights across North America." />
+  <style>
+    :root { color-scheme: dark light; }
+  body { font-family: system-ui, Arial, sans-serif; margin:0; background:#101015; color:#e0e0e0; line-height:1.6; }
+  header { padding:2rem 1.5rem 1.2rem 1.5rem; background:#191922; border-bottom:1px solid #333; box-shadow:0 2px 12px #0003; }
+  h1 { margin:0 0 .5rem; font-size:2.1rem; font-weight:700; letter-spacing:-1px; color:#e6e6ff; }
+  #stats-blade { margin-bottom:1.5rem; }
+  .controls { margin-top:1.2rem; display:flex; gap:1rem; flex-wrap:wrap; align-items:center; }
+  .controls input[type="search"] { padding:.5rem .8rem; border:1px solid #444; border-radius:6px; background:#222233; color:#eee; min-width:260px; font-size:1rem; }
+  .controls small { font-size:.7rem; opacity:.7; }
+  #map { width:100%; height:60vh; margin-bottom:2.5rem; border-radius:12px; box-shadow:0 4px 24px #0005; border:1px solid #222; background:#181825; }
+  .legend { background:#181825; padding:.7rem 1rem; border:1px solid #333; border-radius:8px; font-size:.8rem; line-height:1.3; box-shadow:0 2px 8px #0002; }
+  .legend span.swatch { display:inline-block; width:12px; height:12px; border-radius:50%; margin-right:6px; vertical-align:middle; }
+  .leaflet-marker-icon.club-night-marker { filter:hue-rotate(190deg) saturate(1.4); }
+  .leaflet-marker-icon.festival-marker { filter:hue-rotate(300deg) saturate(1.6); }
+  .filters-inline { display:flex; gap:1.1rem; align-items:center; flex-wrap:wrap; }
+  main { padding:2rem 1.5rem 3.5rem; max-width:900px; margin:0 auto; }
+  section.list { margin-top:2.2rem; }
+  .group { margin-bottom:2.2rem; background:#181825; border-radius:10px; box-shadow:0 2px 8px #0002; padding:1.2rem 1.2rem .7rem 1.2rem; border:1px solid #222; }
+  .night { padding:.7rem 1.1rem; border:1px solid #333; border-radius:8px; margin:.7rem 0; background:#222233; box-shadow:0 1px 4px #0002; }
+  .night h3 { margin:.1rem 0 .4rem; font-size:1.15rem; font-weight:600; color:#e6e6ff; }
+  a { color:#80c6ff; text-decoration:underline; }
+  a:hover { color:#c3e6ff; text-decoration:none; }
+  .tags { font-size:.9rem; opacity:.85; color:#b6b6ff; margin-bottom:.3rem; }
+  footer { padding:2rem 1.5rem; font-size:.85rem; background:#191922; color:#aaa; border-top:1px solid #333; }
+  .disclaimer { font-size:.85rem; margin-top:1.1rem; color:#bbb; max-width:900px; }
+  @media (min-width: 900px) { #map { height:65vh; } main { padding:2.5rem 2.5rem 4rem; } }
+  </style>
+  <!-- Leaflet 2.0.0-alpha.1 global build -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@2.0.0-alpha.1/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@2.0.0-alpha.1/dist/leaflet-global.js" defer></script>
+  <script type="module" defer>
+    import { nights, groupByLocation } from './nights-data.js';
+
+    let leafletMap;
+    const markerIndex = new Map();
+
+    function initMap() {
+      leafletMap = new L.Map('map').setView([39.5, -98.35], 4);
+      new L.TileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 18,
+        attribution: '&copy; OpenStreetMap contributors'
+      }).addTo(leafletMap);
+      buildMarkers();
+      fitAll();
+    }
+
+    const activeTypes = () => {
+      const boxes = document.querySelectorAll('input[name="type-filter"]');
+      const chosen = new Set();
+      boxes.forEach(b=> { if (b.checked) chosen.add(b.value); });
+      return chosen;
+    };
+
+    function buildMarkers() {
+      markerIndex.clear();
+      const types = activeTypes();
+      nights.forEach(n => {
+        if (types.size && !types.has(n.type)) return;
+        if (typeof n.lat === 'number' && typeof n.lng === 'number') {
+          const marker = new L.Marker([n.lat, n.lng], { alt: n.nightName });
+          marker.on('add', () => {
+            const el = marker.getElement();
+            if (el) el.classList.add(n.type === 'festival' ? 'festival-marker' : 'club-night-marker');
+          });
+          marker.bindPopup(`
+            <strong>${n.nightName}</strong><br/>
+            <em>${n.theme}</em><br/>
+            ${n.venueName}<br/>
+            ${n.city}, ${n.region} ${n.country}<br/>
+            <small>${n.recurrence} – ${n.scheduleDetail}</small><br/>
+            <small><a href="#${n.id}" style="color:#80c6ff">Jump to details</a></small>
+          `);
+          marker.addTo(leafletMap);
+          markerIndex.set(n.id, marker);
+        }
+      });
+    }
+
+    function fitAll() {
+      const arr = Array.from(markerIndex.values());
+      if (arr.length > 1) {
+        const g = new L.FeatureGroup(arr);
+        leafletMap.fitBounds(g.getBounds().pad(0.1));
+      }
+    }
+
+    function renderList(filter = '') {
+      const container = document.getElementById('nights-list');
+      container.innerHTML = '';
+      const f = filter.trim().toLowerCase();
+      const types = activeTypes();
+      // Flatten all nights for stats
+      const filteredNights = nights.filter(n => {
+        if (types.size && !types.has(n.type)) return false;
+        if (!f) return true;
+        return [n.nightName, n.theme, n.venueName, n.city, n.region, n.country].some(v => v.toLowerCase().includes(f));
+      });
+      renderStats(filteredNights);
+      // Group for display
+      const groups = groupByLocation();
+      let total = 0;
+      groups.forEach(g => {
+        const filtered = g.nights.filter(n => {
+          if (types.size && !types.has(n.type)) return false;
+          if (!f) return true;
+          return [n.nightName, n.theme, n.venueName, n.city, n.region, n.country].some(v => v.toLowerCase().includes(f));
+        });
+        if (!filtered.length) return;
+        const wrap = document.createElement('div');
+        wrap.className = 'group';
+        const heading = document.createElement('h2');
+        heading.textContent = `${g.city}, ${g.region}, ${g.country}`;
+        wrap.appendChild(heading);
+        filtered.forEach(n => {
+          total++;
+          const div = document.createElement('article');
+          div.className = 'night';
+          div.id = n.id;
+          div.innerHTML = `
+            <h3><button data-pan="${n.id}" style="all:unset;cursor:pointer;color:#80c6ff;">${n.nightName}</button></h3>
+            <div class=\"tags\">${n.theme} | ${n.recurrence}</div>
+            <p><strong>Venue:</strong> ${n.venueName}<br>
+            <strong>Address:</strong> ${n.address}<br>
+            <strong>Schedule:</strong> ${n.scheduleDetail}<br>
+            <strong>Notes:</strong> ${n.notes || ''}</p>
+            <p><strong>Sources:</strong> ${n.sources.map(s=>`<a href=\"${s}\" target=\"_blank\" rel=\"noopener\">${new URL(s).hostname}</a>`).join(', ')}</p>
+            <p style=\"font-size:.7rem;opacity:.7;\">ID: ${n.id}</p>
+          `;
+          wrap.appendChild(div);
+        });
+        container.appendChild(wrap);
+      });
+      const countEl = document.getElementById('count');
+      if (countEl) countEl.textContent = `${total} night(s) shown`;
+      container.querySelectorAll('button[data-pan]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const id = btn.getAttribute('data-pan');
+          const marker = markerIndex.get(id);
+          if (marker) {
+            leafletMap.setView(marker.getLatLng(), 10, { animate: true });
+            marker.openPopup();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }
+        });
+      });
+    }
+
+    function renderStats(filteredNights) {
+      const countEl = document.getElementById('stats-count');
+      const regionsEl = document.getElementById('stats-regions');
+      if (!countEl || !regionsEl) return;
+      const total = filteredNights.length;
+      // Unique region-country combos
+      const regionSet = new Set();
+      filteredNights.forEach(n => {
+        regionSet.add(`${n.region},${n.country}`);
+      });
+      const regionCount = regionSet.size;
+      countEl.textContent = `${total} night${total === 1 ? '' : 's'} or festival${total === 1 ? '' : 's'}`;
+      regionsEl.textContent = `in ${regionCount} state${regionCount === 1 ? '' : 's'}/province${regionCount === 1 ? '' : 's'}/territor${regionCount === 1 ? 'y' : 'ies'}`;
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      renderList();
+      const check = () => {
+        if (window.L && L.Map) { initMap(); } else { setTimeout(check, 60); }
+      };
+      check();
+      const filterInput = document.getElementById('filter');
+      if (filterInput) filterInput.addEventListener('input', () => { buildMarkers(); fitAll(); renderList(filterInput.value); });
+      document.querySelectorAll('input[name="type-filter"]').forEach(cb => {
+        cb.addEventListener('change', () => { buildMarkers(); fitAll(); renderList(filterInput.value); });
+      });
+    });
+  </script>
+</head>
+<body>
+  <header>
+    <h1>North American Goth / Industrial / Dark Alternative Nights</h1>
+    <div id="stats-blade" style="margin-bottom:1.2rem; padding:.75rem 1.25rem; background:#222; border-radius:8px; border:1px solid #333; box-shadow:0 2px 8px #0002; display:flex; gap:2.5rem; align-items:center; flex-wrap:wrap; font-size:1.05rem;">
+      <span id="stats-count" style="font-weight:600; color:#4aa3ff;"></span>
+      <span id="stats-regions" style="font-weight:500; color:#d164ff;"></span>
+      <span id="stats-note" style="font-size:.85rem; color:#aaa;">Live stats update as you filter!</span>
+    </div>
+    <p style="margin:0;font-size:.9rem;max-width:900px;">Interactive map and directory of recurring and special-event nights featuring goth, industrial, darkwave, post-punk, EBM, and related alternative subculture music across the U.S. & Canada. This is an evolving community-maintained seed list (Aug 2025 initial version).</p>
+    <p class="disclaimer">Always verify event dates & recurrence via linked sources before traveling. Some nights are monthly, seasonal, or festival-based rather than weekly.</p>
+    <div class="controls">
+      <div class="filters-inline">
+        <label for="filter" style="font-size:.8rem;">Filter:</label>
+        <input id="filter" type="search" placeholder="Type to filter (city, night, venue, theme)" aria-label="Filter nights" />
+        <label style="font-size:.7rem;display:inline-flex;align-items:center;gap:.25rem;">
+          <input type="checkbox" name="type-filter" value="club-night" checked /> Club Nights
+        </label>
+        <label style="font-size:.7rem;display:inline-flex;align-items:center;gap:.25rem;">
+          <input type="checkbox" name="type-filter" value="festival" checked /> Festivals
+        </label>
+        <small id="count"></small>
+      </div>
+    </div>
+  </header>
+  <div id="map" role="region" aria-label="Map of goth and industrial nights"></div>
+  <div style="position:relative;">
+    <div class="legend" style="position:absolute; top:-56px; right:12px;">
+      <div><span class="swatch" style="background:#4aa3ff;"></span>Club Night</div>
+      <div><span class="swatch" style="background:#d164ff;"></span>Festival / Multi-Day</div>
+    </div>
+  </div>
+  <main>
+    <section class="list" id="nights-list" aria-label="List of nights"></section>
+  </main>
+  <footer>
+    <p>&copy; 2025 seattlegoth (community list). Data sources: official event / venue sites, Google listings, event platforms. Leaflet 2.0.0-alpha.1 & OpenStreetMap.</p>
+    <p>Contribute additions / corrections: submit PR or open issue with source links and geo coordinates.</p>
+  </footer>
+</body>
+</html>
