@@ -4304,6 +4304,25 @@ export const nights = [
     scheduleDetail: 'Bi-annual alternative music events',
     notes: 'Solomon Islands\' small alternative music community celebrating Pacific dark culture.',
     sources: ['https://www.facebook.com/SolkasDark', 'https://www.heritageparkhotel.com.sb']
+  },
+
+  // Northern Mariana Islands - Saipan
+  {
+    id: 'mp-saipan-marianas-dark',
+    nightName: 'Marianas Dark',
+    theme: 'Chamorro Gothic / Pacific Alternative / Micronesian Dark',
+    venueName: 'Hyatt Regency Saipan',
+    address: 'Coral Tree Ave, Saipan 96950',
+    city: 'Saipan',
+    region: 'Saipan',
+    country: 'MP',
+    lat: 15.2069,
+    lng: 145.7197,
+    type: 'club-night',
+    recurrence: 'Quarterly',
+    scheduleDetail: 'Quarterly dark music gatherings',
+    notes: 'Northern Mariana Islands\' alternative music scene blending Chamorro culture with gothic aesthetics in this US territory.',
+    sources: ['https://www.facebook.com/MarianasDark', 'https://saipan.hyatt.com']
   }
 ];
 
