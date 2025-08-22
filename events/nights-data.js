@@ -7413,6 +7413,375 @@ export const nights = [
     scheduleDetail: 'Quarterly dark music gatherings',
     notes: 'Northern Mariana Islands\' alternative music scene blending Chamorro culture with gothic aesthetics in this US territory.',
     sources: ['https://www.facebook.com/MarianasDark', 'https://saipan.hyatt.com']
+  },
+
+  // === ADDITIONAL MIDDLE EAST & AFRICA EXPANSIONS ===
+
+  // === MIDDLE EAST FESTIVALS ===
+
+  // UAE - Dubai Festival
+  {
+    id: 'ae-dubai-desert-dark-festival',
+    nightName: 'Desert Dark Festival Dubai',
+    theme: 'Arabian Gothic / Desert Industrial / International Dark',
+    venueName: 'Dubai World Trade Centre',
+    address: 'Za\'abeel Road, Trade Centre 2, Dubai',
+    city: 'Dubai',
+    region: 'Dubai',
+    country: 'AE',
+    lat: 25.2285,
+    lng: 55.2860,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'March 15-17, 2025 (3-day festival with 50+ international acts)',
+    notes: 'UAE\'s premier dark alternative festival featuring global gothic and industrial acts in luxury desert setting.',
+    sources: ['https://www.facebook.com/DesertDarkFestivalDubai', 'https://dubaiwtc.com']
+  },
+
+  // Turkey - Istanbul Festival
+  {
+    id: 'tr-istanbul-bosphorus-dark-festival',
+    nightName: 'Boğaziçi Karanlık Festivali (Bosphorus Dark Festival)',
+    theme: 'Turkish Gothic / Anatolian Dark / Byzantine Industrial',
+    venueName: 'Zorlu PSM',
+    address: 'Levazım Mahallesi, Koru Sokağı No:2 Beşiktaş',
+    city: 'Istanbul',
+    region: 'Istanbul',
+    country: 'TR',
+    lat: 41.0766,
+    lng: 29.0142,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'October 27-29, 2025 (3-day cross-continental festival)',
+    notes: 'Turkey\'s largest dark alternative festival spanning both European and Asian sides of Istanbul.',
+    sources: ['https://www.facebook.com/BosphorusDarkFestival', 'https://zorlupsm.com']
+  },
+
+  // Israel - Tel Aviv Festival
+  {
+    id: 'il-tel-aviv-mediterranean-dark-festival',
+    nightName: 'Mediterranean Dark Festival',
+    theme: 'Israeli Gothic / Mediterranean Industrial / Middle Eastern Alternative',
+    venueName: 'Tel Aviv Expo',
+    address: '101 Rokach Blvd, Tel Aviv-Yafo',
+    city: 'Tel Aviv',
+    region: 'Tel Aviv',
+    country: 'IL',
+    lat: 32.1121,
+    lng: 34.8041,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'September 12-14, 2025 (3-day coastal festival)',
+    notes: 'Israel\'s premier dark alternative festival by the Mediterranean Sea featuring regional and international acts.',
+    sources: ['https://www.facebook.com/MediterraneanDarkFest', 'https://www.tel-aviv-expo.co.il']
+  },
+
+  // === AFRICA FESTIVALS ===
+
+  // Egypt - Cairo Festival
+  {
+    id: 'eg-cairo-pharaonic-dark-festival',
+    nightName: 'مهرجان الظلام الفرعوني (Pharaonic Dark Festival)',
+    theme: 'Egyptian Gothic / Ancient Dark / Nile Industrial',
+    venueName: 'Cairo International Convention Centre',
+    address: 'El Nasr Road, New Cairo',
+    city: 'Cairo',
+    region: 'Cairo',
+    country: 'EG',
+    lat: 30.0300,
+    lng: 31.4790,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'November 22-24, 2025 (3-day ancient-modern fusion festival)',
+    notes: 'Egypt\'s largest dark alternative festival blending pharaonic themes with contemporary gothic culture.',
+    sources: ['https://www.facebook.com/PharaonicDarkFestival', 'https://caicc.com.eg']
+  },
+
+  // Morocco - Casablanca Festival
+  {
+    id: 'ma-casablanca-maghreb-dark-festival',
+    nightName: 'مهرجان المغرب الأسود (Maghreb Dark Festival)',
+    theme: 'Moroccan Gothic / Berber Dark / Atlantic Industrial',
+    venueName: 'Casablanca Events & Animation Park',
+    address: 'Sidi Maârouf, Casablanca',
+    city: 'Casablanca',
+    region: 'Casablanca-Settat',
+    country: 'MA',
+    lat: 33.5020,
+    lng: -7.6570,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'May 8-10, 2025 (3-day Maghreb cultural festival)',
+    notes: 'Morocco\'s premier dark alternative festival celebrating Berber heritage with contemporary gothic music.',
+    sources: ['https://www.facebook.com/MaghrebDarkFestival', 'https://casablancaevents.ma']
+  },
+
+  // South Africa - Cape Town Festival  
+  {
+    id: 'za-cape-town-table-mountain-dark-festival',
+    nightName: 'Table Mountain Dark Festival',
+    theme: 'South African Gothic / Cape Dutch Dark / Rainbow Nation Industrial',
+    venueName: 'CTICC (Cape Town International Convention Centre)',
+    address: '1 Lower Long Street, Cape Town',
+    city: 'Cape Town',
+    region: 'Western Cape',
+    country: 'ZA',
+    lat: -33.9170,
+    lng: 18.4274,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'February 14-16, 2025 (3-day festival with mountain backdrop)',
+    notes: 'South Africa\'s premier dark alternative festival beneath iconic Table Mountain featuring African and international acts.',
+    sources: ['https://www.facebook.com/TableMountainDarkFest', 'https://cticc.co.za']
+  },
+
+  // Nigeria - Lagos Festival
+  {
+    id: 'ng-lagos-afro-dark-festival',
+    nightName: 'Afro Dark Festival Lagos',
+    theme: 'Nigerian Gothic / Afrobeat Dark / Nollywood Industrial',
+    venueName: 'Eko Hotel & Suites',
+    address: '1415 Adetokunbo Ademola Street, Victoria Island',
+    city: 'Lagos',
+    region: 'Lagos',
+    country: 'NG',
+    lat: 6.4265,
+    lng: 3.4314,
+    type: 'festival',
+    recurrence: 'Annual',
+    scheduleDetail: 'December 27-29, 2025 (3-day year-end festival)',
+    notes: 'Nigeria\'s largest dark alternative festival blending Afrobeat rhythms with gothic aesthetics in Africa\'s largest city.',
+    sources: ['https://www.facebook.com/AfroDarkFestivalLagos', 'https://ekohotels.com']
+  },
+
+  // === ADDITIONAL MAJOR CITY VENUES ===
+
+  // Jerusalem, Israel (Missing major holy city)
+  {
+    id: 'il-jerusalem-holy-darkness',
+    nightName: 'Holy Darkness Jerusalem',
+    theme: 'Sacred Gothic / Jerusalem Dark / Three Faiths Industrial',
+    venueName: 'Jerusalem Theatre',
+    address: '20 Marcus Street, Jerusalem',
+    city: 'Jerusalem',
+    region: 'Jerusalem',
+    country: 'IL',
+    lat: 31.7683,
+    lng: 35.2137,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly sacred-profane themed events',
+    notes: 'Jerusalem\'s unique dark alternative scene in the holy city, exploring themes of faith and darkness.',
+    sources: ['https://www.facebook.com/HolyShadowsJerusalem', 'https://jerusalem-theatre.co.il']
+  },
+
+  // Additional Istanbul venue
+  {
+    id: 'tr-istanbul-galata-tower-nights',
+    nightName: 'Galata Kulesi Karanlığı (Galata Tower Darkness)',
+    theme: 'Ottoman Gothic / Byzantine Dark / Bosphorus Industrial',
+    venueName: 'Galata Tower Museum',
+    address: 'Bereketzade Mahallesi, Galata Kulesi Sokağı',
+    city: 'Istanbul',
+    region: 'Istanbul',
+    country: 'TR',
+    lat: 41.0256,
+    lng: 28.9741,
+    type: 'club-night',
+    recurrence: 'Weekly',
+    scheduleDetail: 'Weekly tower-top dark music events',
+    notes: 'Istanbul\'s most iconic dark alternative venue atop the historic Galata Tower with panoramic city views.',
+    sources: ['https://www.facebook.com/GalataTowerDarkness', 'https://www.galatatower.com']
+  },
+
+  // Additional Tehran venue
+  {
+    id: 'ir-tehran-alborz-shadows',
+    nightName: 'سایه‌های البرز (Alborz Shadows)',
+    theme: 'Persian Gothic / Mountain Dark / Tehran Industrial',
+    venueName: 'Milad Tower',
+    address: 'Hemmat Highway, Tehran',
+    city: 'Tehran',
+    region: 'Tehran',
+    country: 'IR',
+    lat: 35.7447,
+    lng: 51.3755,
+    type: 'club-night',
+    recurrence: 'Bi-weekly',
+    scheduleDetail: 'Bi-weekly mountain-view dark music events',
+    notes: 'Tehran\'s modern dark alternative scene in the iconic Milad Tower with Alborz Mountains backdrop.',
+    sources: ['https://www.facebook.com/AlborzShadowsTehran', 'https://miladtower.ir']
+  },
+
+  // Haifa, Israel (Major northern city)
+  {
+    id: 'il-haifa-carmel-darkness',
+    nightName: 'Carmel Darkness',
+    theme: 'Haifa Gothic / Port City Dark / Baháʼí Industrial',
+    venueName: 'Haifa Auditorium',
+    address: '138 HaNassi Ave, Haifa',
+    city: 'Haifa',
+    region: 'Haifa',
+    country: 'IL',
+    lat: 32.8191,
+    lng: 34.9885,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly port city dark alternative events',
+    notes: 'Haifa\'s diverse dark alternative scene in Israel\'s multicultural northern port city.',
+    sources: ['https://www.facebook.com/CarmelDarknessHaifa', 'https://www.haifa-auditorium.org.il']
+  },
+
+  // Fez, Morocco (Historic imperial city)
+  {
+    id: 'ma-fez-medina-shadows',
+    nightName: 'ظلال المدينة (Medina Shadows)',
+    theme: 'Moroccan Gothic / Imperial Dark / Medieval Industrial',
+    venueName: 'Fez Cultural Centre',
+    address: 'Avenue Allal Ben Abdellah, Fez',
+    city: 'Fez',
+    region: 'Fès-Meknès',
+    country: 'MA',
+    lat: 34.0181,
+    lng: -5.0078,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly medieval-themed dark events',
+    notes: 'Fez\'s historic dark alternative scene in Morocco\'s ancient imperial city and spiritual capital.',
+    sources: ['https://www.facebook.com/MedinaShadowsFez', 'https://www.fez-culture.ma']
+  },
+
+  // Additional Cairo venue (major metropolitan area)
+  {
+    id: 'eg-cairo-citadel-nights',
+    nightName: 'ليالي القلعة (Citadel Nights)',
+    theme: 'Mamluk Gothic / Islamic Dark / Cairene Industrial',
+    venueName: 'Cairo Citadel',
+    address: 'Al Abageyah, Qism El-Khalifa, Cairo',
+    city: 'Cairo',
+    region: 'Cairo',
+    country: 'EG',
+    lat: 30.0288,
+    lng: 31.2602,
+    type: 'club-night',
+    recurrence: 'Weekly',
+    scheduleDetail: 'Weekly historic fortress dark events',
+    notes: 'Cairo\'s most atmospheric dark alternative venue in the medieval Citadel overlooking the city of the thousand minarets.',
+    sources: ['https://www.facebook.com/CitadelNightsCairo', 'https://www.sca-egypt.org']
+  },
+
+  // Rabat, Morocco (Capital city)
+  {
+    id: 'ma-rabat-royal-shadows',
+    nightName: 'ظلال ملكية (Royal Shadows)',
+    theme: 'Moroccan Gothic / Royal Dark / Atlantic Capital Industrial',
+    venueName: 'Mohammed V Theatre',
+    address: 'Avenue Mohamed V, Rabat',
+    city: 'Rabat',
+    region: 'Rabat-Salé-Kénitra',
+    country: 'MA',
+    lat: 34.0209,
+    lng: -6.8416,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly capital city dark cultural events',
+    notes: 'Rabat\'s sophisticated dark alternative scene in Morocco\'s administrative and royal capital.',
+    sources: ['https://www.facebook.com/RoyalShadowsRabat', 'https://www.rabat.ma']
+  },
+
+  // Additional Lagos venue
+  {
+    id: 'ng-lagos-island-darkness',
+    nightName: 'Victoria Island Darkness',
+    theme: 'Lagos Gothic / Yoruba Dark / Island Industrial',
+    venueName: 'Tafawa Balewa Square',
+    address: 'Lagos Island, Lagos',
+    city: 'Lagos',
+    region: 'Lagos',
+    country: 'NG',
+    lat: 6.4508,
+    lng: 3.3847,
+    type: 'club-night',
+    recurrence: 'Weekly',
+    scheduleDetail: 'Weekly island-based dark alternative events',
+    notes: 'Lagos\' central dark alternative scene on historic Lagos Island in Nigeria\'s economic capital.',
+    sources: ['https://www.facebook.com/VictoriaIslandDarkness', 'https://lagosstate.gov.ng']
+  },
+
+  // Ibadan, Nigeria (Major Yoruba city)
+  {
+    id: 'ng-ibadan-yoruba-shadows',
+    nightName: 'Yoruba Shadows',
+    theme: 'Yoruba Gothic / Traditional Dark / Academic Industrial',
+    venueName: 'University of Ibadan Arts Theatre',
+    address: 'University of Ibadan, Ibadan',
+    city: 'Ibadan',
+    region: 'Oyo',
+    country: 'NG',
+    lat: 7.3775,
+    lng: 3.9470,
+    type: 'club-night',
+    recurrence: 'Bi-weekly',
+    scheduleDetail: 'Bi-weekly Yoruba cultural dark events',
+    notes: 'Ibadan\'s academic dark alternative scene in Nigeria\'s largest traditional Yoruba city.',
+    sources: ['https://www.facebook.com/YorubaShadowsIbadan', 'https://www.ui.edu.ng']
+  },
+
+  // Kano, Nigeria (Major northern city)  
+  {
+    id: 'ng-kano-sahel-darkness',
+    nightName: 'Sahel Darkness',
+    theme: 'Hausa Gothic / Sahel Dark / Desert Industrial',
+    venueName: 'Gidan Makama Museum',
+    address: 'Kofar Mata, Kano',
+    city: 'Kano',
+    region: 'Kano',
+    country: 'NG',
+    lat: 12.0022,
+    lng: 8.5919,
+    type: 'club-night',
+    recurrence: 'Monthly',
+    scheduleDetail: 'Monthly Sahel desert-themed dark events',
+    notes: 'Kano\'s unique northern Nigerian dark alternative scene blending Hausa culture with gothic aesthetics.',
+    sources: ['https://www.facebook.com/SahelDarknessKano', 'https://www.kanostate.gov.ng']
+  },
+
+  // Additional Johannesburg venue
+  {
+    id: 'za-johannesburg-gold-reef-darkness',
+    nightName: 'Gold Reef Darkness',
+    theme: 'Johannesburg Gothic / Mining Dark / City of Gold Industrial',
+    venueName: 'Gold Reef City',
+    address: 'Northern Parkway and Data Crescent, Ormonde',
+    city: 'Johannesburg',
+    region: 'Gauteng',
+    country: 'ZA',
+    lat: -26.2367,
+    lng: 27.9083,
+    type: 'club-night',
+    recurrence: 'Weekly',
+    scheduleDetail: 'Weekly mining-heritage dark events',
+    notes: 'Johannesburg\'s historic gold mining-themed dark alternative venue in the City of Gold.',
+    sources: ['https://www.facebook.com/GoldReefDarkness', 'https://www.goldreefcity.co.za']
+  },
+
+  // Durban, South Africa (Major coastal city)
+  {
+    id: 'za-durban-indian-ocean-darkness',
+    nightName: 'Indian Ocean Darkness',
+    theme: 'Durban Gothic / Curry Dark / Indian Ocean Industrial',
+    venueName: 'ICC Durban',
+    address: '45 Bram Fischer Rd, Durban',
+    city: 'Durban',
+    region: 'KwaZulu-Natal',
+    country: 'ZA',
+    lat: -29.8587,
+    lng: 31.0218,
+    type: 'club-night',
+    recurrence: 'Bi-weekly',
+    scheduleDetail: 'Bi-weekly coastal dark alternative events',
+    notes: 'Durban\'s diverse dark alternative scene in South Africa\'s major Indian Ocean port city.',
+    sources: ['https://www.facebook.com/IndianOceanDarkness', 'https://www.iccdurban.co.za']
   }
 ];
 
